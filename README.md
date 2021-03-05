@@ -1,5 +1,5 @@
 # ScrN-RUS
-## Русификатор модов, включенных в ScrN Brutal KF Bundle
+###### Русификатор модов, включенных в ScrN Brutal KF Bundle
 
 * Ссылка на группу [ScrN Balance Fans](https://steamcommunity.com/groups/ScrNBalance) в Steam
 
