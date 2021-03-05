@@ -1,8 +1,8 @@
 ﻿[KFVetEarnedMessagePL]
-EarnedString="%s повысил уровень перка %v до %l!"
+EarnedString="%s получил %1-й уровень перка %v!"
 
 [KFVetEarnedMessageSR]
-EarnedString="Вы повысили уровень перка %v до %l!"
+EarnedString="Вы получили %l-й уровень перка %v!"
 
 [SRBuyMenuSaleList]
 WeaponGroupText="Группа оружия"
