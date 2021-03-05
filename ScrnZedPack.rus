@@ -1,5 +1,5 @@
 ﻿[DamTypeEMP]
-DeathString="%o слишком близко наблюдал за самоуничтожением %k."
+DeathString="%o слишком близко наблюдал за самоуничтожением %k./"
 
 [DamTypeTesla]
 DeathString="%o accepts %k's shaft."
