@@ -6,4 +6,4 @@
 * Ссылка на страницу [ScrN Brutal KF Bundle](https://steamcommunity.com/groups/ScrNBalance/discussions/2/483368526570475472/) в Steam
 
 * Автор русификатора [ivanmagadan](https://steamcommunity.com/id/ivanmagadan/)
-----
+--
