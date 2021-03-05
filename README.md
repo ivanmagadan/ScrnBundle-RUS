@@ -1,6 +1,5 @@
 # ScrN-RUS
 Русификатор модов, включенных в ScrN Brutal KF Bundle
-
 Автор русификатора [ivanmagadan](https://steamcommunity.com/id/ivanmagadan/)
 ---
 * Ссылка на группу [ScrN Balance Fans](https://steamcommunity.com/groups/ScrNBalance) в Steam
