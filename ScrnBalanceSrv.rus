@@ -42,7 +42,7 @@ Description="Non-competitive TSC version for single team."
 
 [FtgHUD]
 titleStinkyClot="ВОНЮЧИЙ КЛОТ"
-hintStinkyClot="OMG это вонючий клот! You cannot kill them but those things are really nasty."
+hintStinkyClot="OMG это вонючий клот! Вы не можете убить их, но это действительно противно."
 titleWelcome="FOLLOW THE GUARDIAN"
 titleBaseLost="FAILED TO FOLLOW THE GUARDIAN"
 hintWelcome=" Добро пожаловать в FTG! Watch this place for useful hints. "
