@@ -45,7 +45,7 @@ DeathString="%k уничтожил игрока %o."
 DeathString="%k хакнул игрока %o."
 
 [DamTypeGuardianShockWave]
-DeathString="%o had their legs shattered by %k."
+DeathString="%k сломал ноги игроку %o."
 
 [DamTypeHellKnightProj]
 DeathString="%k пустил в расход игрока %o."
@@ -66,7 +66,7 @@ DeathString="%k стер с лица земли игрока %o."
 DeathString="%k подорвал игрока %o."
 
 [DamTypeRevenantProjectile]
-DeathString="%o rode %k's rocket into oblivion."
+DeathString="%o улетел на ракете %k's в небытие."
 
 [DamTypeSabaothProj]
 DeathString="%k стер с лица земли игрока %o из BFG (Big Fucking Gun)."
@@ -80,7 +80,7 @@ DeathString="%k сжег дотла игрока %o."
 [Doom3Mutator]
 strVersion="v%m.%n.%p"
 FriendlyName="Doom 3 Monsters Mode - ScrN Edition"
-Description="Do invasion of doom 3 creatures. Mod altered by [ScrN]PooSH. Original authors: Marco, INIQUITOUS."
+Description="Вторжение существ из doom 3. Мод изменил [ScrN]PooSH. Оригинальные авторы: Marco, INIQUITOUS."
 RulesGroup="DoomIII"
 
 [DoomMonster]
