@@ -174,19 +174,19 @@ ItemShortName="Hunter R."
 PickupMessage="Вы получили Hunting Rifle"
 
 [MTS255Ammo]
-ItemName="Explosive 12-gauge Shells"
+ItemName="Разрывные снаряды 12-го калибра"
 
 [MTS255AmmoPickup]
-PickupMessage="Explosive 12-gauge Shells"
+PickupMessage="Разрывные снаряды 12-го калибра"
 
 [MTS255Pickup]
-ItemName="MTs-255 Shotgun"
+ItemName="Дробовик MTs-255"
 ItemShortName="MTs-255"
-PickupMessage="Вы получили MTs-255 Explosive Shotgun"
+PickupMessage="Вы получили Взрывной дробовик MTs-255"
 
 [MTS255Shotgun]
 Description="The MTs-255 is a 12-gauge shotgun fed by a 5-round internal revolving cylinder. Holds up to 5 explosive slugs."
-ItemName="MTs-255 Shotgun"
+ItemName="Дробовик MTs-255"
 
 [MedicPistol]
 Description="Первичный огонь стреляет целебными дротиками. Дротики так же лечат и мобов, но это не очень помогает им, если титановая игла сначала разрушает их череп. Выстрел несколькими дротиками в одного и то же моба может вызвать передозировку. Альтернативный огонь переключает между лазером и фонариком."
@@ -265,7 +265,7 @@ ItemShortName="СВДС"
 PickupMessage="Вы получили снайперскую винтовку Драгунова (СВДС)"
 
 [SWPAch]
-GroupInfo=((Caption="ВСЕ"),(Caption="Пользовательские Оружие"))
+GroupInfo=((Caption="ВСЕ"),(Caption="Пользовательское Оружие"))
 ProgressName="Достижния (оружие ScrN)"
 
 [SWPMut]
@@ -277,7 +277,7 @@ Description="Боевой дробовик 12-калибра, разработа
 ItemName="Сайга 12с"
 
 [Saiga12cAmmoPickup]
-PickupMessage="12-gauge"
+PickupMessage="12-ый калибр"
 
 [Saiga12cPickup]
 ItemName="Сайга 12с"
