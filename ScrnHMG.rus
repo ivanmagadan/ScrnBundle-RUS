@@ -67,7 +67,7 @@ FemaleSuicide="%o выстрелила себе в ногу."
 MaleSuicide="%o выстрелил себе в ногу."
 
 [DamTypeM41AAssaultRifle]
-DeathString="Игрок %k убил игрока %o (Pulse Rifle)."
+DeathString="Игрок %k убил игрока %o (Импульсная винтовка)."
 FemaleSuicide="%o выстрелила себе в ногу."
 MaleSuicide="%o выстрелил себе в ногу."
 
