@@ -2,13 +2,13 @@
 EarnedString="%s получил %1-й уровень перка %v!"
 
 [KFVetEarnedMessageSR]
-EarnedString="Вы получили %l-й уровень перка %v!"
+EarnedString="Вы получили квалификацию %v %l-го уровня!"
 
 [SRBuyMenuSaleList]
 WeaponGroupText="Группа оружия"
 
 [SRCustomProgress]
-ProgressName="Ленивый модер! Убейте его!!"
+ProgressName="Ленивый моддер! Убейте его!!"
 
 [SRInvasionLoginMenu]
 Panels=((Caption="Новости",Hint="Обзор новостей сервера."),(Caption="MOTD",Hint="Сообщение дня."),(Caption="Сервер Инфо",Hint="Текущая карта и настройки игры."),(Caption="Связь",Hint="Ручная настройка связи с другими игроками."),(Caption="Статистика",Hint="Обзор вашей текущей статистики на сервере."))
@@ -16,7 +16,7 @@ ProfileButton.Caption="Профиль"
 
 [SRKFTab_BuyMenu]
 ArchivementGetInfo="Для разблокировки этого оружия требуется Достижение '%1'."
-InfoText[4]="Для этого оружия требуется DLC пакет '%1'."
+InfoText[4]="Для этого оружия требуется DLC-пакет '%1'."
 
 [SRLobbyFooter]
 UnreadyString="Обзор карты"
@@ -31,7 +31,7 @@ CharRace.Caption="Показать"
 CharRace.Hint="Отфильтровать доступных персонажей."
 
 [SRScoreBoard]
-NotShownInfo="игроков вне списка"
+NotShownInfo="игроков вне таблицы"
 PlayerCountText="Игроков:"
 SpectatorCountText="| Наблюдателей:"
 AliveCountText="| Живых игроков:"
@@ -58,6 +58,6 @@ ReloadButton.Caption="Обнов."
 ReloadButton.Hint="Обновить текущую страницу"
 
 [SRVeterancyTypes]
-DisableTag="LOCKED"
+DisableTag="ЗАБЛОКИРОВАНО"
 DisableDescription="Не могу купить это оружие, потому что перк говорит «нет»."
 
