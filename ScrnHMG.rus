@@ -1,17 +1,6 @@
-[AK47H]
-ItemName="Тяжелый AK47"
-
-[AK47HAmmo]
-ItemName="AK47 bullets"
-
-[AK47HPickup]
-ItemName="Тяжелый AK47"
-ItemShortName="Тяжелый AK47"
-PickupMessage="Вы получили Тяжелый AK47"
-
 [AUG_A1AR]
 Description="Steyr AUG (Armee Universal Gewehr - армейская универсальная винтовка) - комплекс стрелкового оружия, выпущенный в 1977 году австрийской компанией Steyr-Daimler-Puch (ныне Штайр Манли́хер AG & Co KG ). Принят на вооружение такими странами, как Австрия, Новая Зеландия, Люксембург и Ирландия. В Австралии винтовка выпускается по лицензии под маркой F88. Имеет сменные стволы разной длины: основной 508 мм, а также укороченные стволы 350 мм и 407 мм и тяжелый ствол 621 мм."
-ItemName="Steyr AUG A1"
+ItemName="Steyr AUG A1 SE"
 
 [AUG_A1ARAmmo]
 ItemName="5.56мм NATO"
@@ -20,19 +9,16 @@ ItemName="5.56мм NATO"
 PickupMessage="5.56мм NATO"
 
 [AUG_A1ARPickup]
-ItemName="Steyr AUG A1"
-ItemShortName="AUG A1"
+ItemName="Steyr AUG A1 SE"
+ItemShortName="AUG A1 SE"
 PickupMessage="Вы получили Steyr AUG A1"
-
-[Ak47HAmmoPickup]
-PickupMessage="Патроны 7.62мм"
 
 [BruteGunnerPerkProg]
 ProgressName="Урон нанесенный пулеметами"
 
 [ChainGun]
-Description="Пулемет сорванный с руки мертвого Патриарха. Или даже с ЖИВОГО. Он работает, и ничего больше не имеет значения."
-ItemName="Пулемет Патриарха"
+Description="Пулемет сорван с руки мертвого Патриарха. Или может быть с разорванного. Или даже с ЖИВОГО. Это работает, и все остальное не имеет значения."
+ItemName="Пулемет Патриарха SE"
 
 [ChainGunAmmo]
 ItemName="Chaingun bullets"
@@ -44,14 +30,9 @@ PickupMessage="Chaingun Bullets"
 SecondaryAmmoShortName="-- Ракеты"
 
 [ChainGunPickup]
-ItemName="Пул. Патриарха"
-ItemShortName="Пул. Патриарха"
+ItemName="Пул. Патриарха SE"
+ItemShortName="Пул. Патриарха SE"
 PickupMessage="Вы получили пулемет Патриарха."
-
-[DamTypeAK47H]
-DeathString="Игрок %k убил игрока %o (Тяжелый AK47)."
-FemaleSuicide="%o выстрелила себе в ногу."
-MaleSuicide="%o выстрелил себе в ногу."
 
 [DamTypeAUG_A1AR]
 DeathString="Игрок %k убил игрока %o (Steyr AUG A1)."
@@ -109,41 +90,41 @@ ItemName="Патроны 5.56x45мм NATO"
 PickupMessage="Патроны 5.56x45мм NATO"
 
 [M249Pickup]
-ItemName="M249 SAW"
-ItemShortName="M249 SAW"
+ItemName="M249 SAW SE"
+ItemShortName="M249 SAW SE"
 PickupMessage="Вы получили M249 SAW"
 
 [M249SAW]
-Description="Легкий (ручной) пулемет, состоит на вооружении многих стран, в том числе в США (под обозначением М249 SAW), Канаде (обозначается С9), Австралии (обозначается F-89) и других."
-ItemName="M249 SAW"
+Description="M249 SAW/LMG - это производимая в США версия бельгийского FN Minimi. M249 использует патрон NATO 5,56x45мм, который снижает вес оружия в заряженном состоянии, дает пользователю возможность вести высокоточный, достаточно мощный огонь."
+ItemName="M249 SAW SE"
 
 [M41AAmmo]
-ItemName="M41A 10 мм безгильзовые боеприпасы"
+ItemName="M41A 10мм безгильзовые боеприпасы"
 
 [M41AAmmoPickup]
-PickupMessage="M41A 10 мм безгильзовые боеприпасы"
+PickupMessage="M41A 10мм безгильзовые боеприпасы"
 
 [M41AAssaultRifle]
-Description="Импульсная винтовка M41A. Предназначена для убийства пришельцев. Особенно круто выглядит в руках Сигурни Уивера."
-ItemName="Импульсная винтовка M41A"
+Description="Импульсная винтовка M41A. Создана, чтобы убивать пришельцев. Особенно круто выглядит в руках Сигурни Уивер."
+ItemName="Импульсная винтовка M41A SE"
 
 [M41APickup]
-SecondaryAmmoShortName="M41A Frag Grenades"
+SecondaryAmmoShortName="-- Гранаты M41A"
 
 [M41APrimaryPickup]
-ItemName="Импульсная винтовка M41A"
-ItemShortName="M41A"
+ItemName="Импульсная винтовка M41A SE"
+ItemShortName="M41A SE"
 PickupMessage="Вы получили импульсную винтовку M41A"
 
 [M41AProjectileAmmo]
-ItemName="M41A Grenades"
+ItemName="Гранаты M41A"
 
 [M41AProjectileAmmoPickup]
-PickupMessage="M41A Grenades"
+PickupMessage="Гранаты M41A"
 
 [PKM]
-Description="ПКМ (Пулемет Калашникова Модернизированный) был принят на вооружение в 1969 году. Это модернизированная, улучшенная версия продукта ПК (Пулемет Калашникова)."
-ItemName="ПКМ"
+Description="ПКМ (Пулемет Калашникова Модернизированный) был принят на вооружение в 1969 году. Это модернизированная, улучшенная версия ПК (Пулемет Калашникова)."
+ItemName="ПКМ SE"
 
 [PKMAmmo]
 ItemName="Патроны 7.62мм"
@@ -152,8 +133,8 @@ ItemName="Патроны 7.62мм"
 PickupMessage="7.62мм"
 
 [PKMPickup]
-ItemName="ПКМ"
-ItemShortName="ПКМ"
+ItemName="ПКМ SE"
+ItemShortName="ПКМ SE"
 PickupMessage="Вы получили ПКМ"
 
 [RPK47Ammo]
@@ -164,22 +145,22 @@ PickupMessage="7.62мм"
 
 [RPK47MachineGun]
 Description="РПК (Ручной Пулемет Калашникова) представляет собой легкий пулемет советского образца 7,62х39 мм, разработанный Михаилом Калашниковым в конце 1950-х годов, параллельно с автоматом АКМ."
-ItemName="РПК47"
+ItemName="РПК47 SE"
 
 [RPK47Pickup]
-ItemName="РПК47"
-ItemShortName="РПК47"
+ItemName="РПК47 SE"
+ItemShortName="РПК47 SE"
 PickupMessage="Вы получили РПК47"
 
 [RocketAmmo]
-ItemName="L.A.W Ракеты"
+ItemName="Ракеты L.A.W"
 
 [RocketAmmoPickup]
 PickupMessage="Ракеты"
 
 [SA80LSW]
-Description="SA80 (Small Arms for 1980s) - британское семейство стрелкового оружия 5,56 мм. Элементы его конструкции, в частности конфигурация «булл-пап», исходят от более ранней винтовки EM-2."
-ItemName="SA80 LSW"
+Description="SA80 (стрелковое оружие 1980-х годов) - британское семейство стрелкового оружия калибра 5,56 мм. Это газовая штурмовая винтовка селективного огня. Элементы его конструкции, в частности конфигурация «булл-пап», заимствованы из более ранней винтовки ЕМ-2."
+ItemName="SA80 LSW SE"
 
 [SA80LSWAmmo]
 ItemName="5.56x45"
@@ -188,34 +169,34 @@ ItemName="5.56x45"
 PickupMessage="5.56x45"
 
 [SA80LSWPickup]
-ItemName="SA80 LSW"
-ItemShortName="SA80 LSW"
+ItemName="SA80 LSW SE"
+ItemShortName="SA80 LSW SE"
 PickupMessage="Вы получили SA80 LSW"
 
 [ScrnVetHeavyMG]
-SkillInfo="PERK SKILLS (HMg v5.03):|Отдача всего оружия на 75% меньше|Переносимый вес больше на 10 единиц|Скорость перемещения ниже на 10%"
-CustomLevelInfo="PERK BONUSES (LEVEL %L):|На %x больше ущерба тяжелым оружием|Магазин тяжелого оружия больше на %m|Максимальный боезапас тяжелого оружия выше на %a|%$ скидка на тяжелое оружие"
+SkillInfo="PERK SKILLS (HMg v5.11):|Отдача всего оружия на 75% меньше|Переносимый вес больше на 10 единиц|Скорость перемещения ниже на 10%"
+CustomLevelInfo="PERK BONUSES (LEVEL %L):|На %x больше урона тяжелым оружием|Магазин тяжелого оружия больше на %m|Максимальный боезапас тяжелого оружия выше на %a|%$ скидка на тяжелое оружие"
 VeterancyName="Пулеметчик"
 Requirements[0]="Нанесите %x ед. урона тяжелым оружием"
 
 [Stinger]
-Description="Миниган Стингер сначала был разработан корпорацией Liandri как инструмент для добычи полезных ископаемых, но позже преобразован для военной службы. Стреляет осколками необработанного кристалла Tarydium."
-ItemName="Миниган Стингер"
+Description="Миниган Стингер сначала был разработан корпорацией Liandri Corp. как инструмент для добычи полезных ископаемых, но позже преобразован для военной службы. Стреляет осколками необработанного кристалла Таридия."
+ItemName="Миниган Стингер SE"
 
 [StingerAmmo]
-ItemName="Кристаллы Tarydium"
+ItemName="Кристаллы Таридия"
 
 [StingerAmmoPickup]
-PickupMessage="Кристаллы Tarydium"
+PickupMessage="Кристаллы Таридия"
 
 [StingerPickup]
-ItemName="Миниган Стингер"
-ItemShortName="Стингер"
+ItemName="Миниган Стингер SE"
+ItemShortName="Стингер SE"
 PickupMessage="Вы получили Миниган Стингер"
 
 [ThompsonH]
-Description="Томпсон - американский автомат, изобретенный Джоном Т. Томпсоном в 1919 году, который стал печально известным во времена запрета. Он было обычным явлением в средствах массовой информации того времени, которое использовалось как сотрудниками правоохранительных органов, так и преступниками."
-ItemName="Тяжелый Томми-ган"
+Description="Томпсон - американский автомат, изобретенный Джоном Т. Томпсоном в 1919 году, который стал печально известным в эпоху сухого закона. Это было обычным явлением в средствах массовой информации того времени, его использовали как сотрудники правоохранительных органов, так и преступники."
+ItemName="Тяжелый Томми-ган SE"
 
 [ThompsonHAmmo]
 ItemName="Пули 45. ACP"
@@ -224,8 +205,8 @@ ItemName="Пули 45. ACP"
 PickupMessage="Патроны 45. ACP"
 
 [ThompsonHPickup]
-ItemName="Тяжелый Томми-ган"
-ItemShortName="Тяжелый Томми"
+ItemName="Тяжелый Томми-ган SE"
+ItemShortName="Тяжелый Томми SE"
 PickupMessage="Вы получили пистолет-пулемет Томпсона"
 
 [XMV850Ammo]
@@ -236,10 +217,10 @@ PickupMessage="Патроны 7.62x51мм"
 
 [XMV850M]
 Description="Миниган с уменьшенной до 950 оборотов в минуту скорострельностью. Но по прежнему крутой и имеет лазерный прицел."
-ItemName="Миниган XMV850"
+ItemName="Миниган XMV850 SE"
 
 [XMV850Pickup]
-ItemName="Миниган XMV850"
-ItemShortName="XMV850"
+ItemName="Миниган XMV850 SE"
+ItemShortName="XMV850 SE"
 PickupMessage="Вы получили Миниган XMV850."
 
