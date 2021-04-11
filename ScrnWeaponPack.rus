@@ -54,13 +54,9 @@ PickupMessage="Вы получили револьвер Colt Python"
 
 [DamTypeAK12AssaultRifle]
 DeathString="Игрок %k убил игрока %o (AK-12)."
-FemaleSuicide="%o выстрелила себе в ногу."
-MaleSuicide="%o выстрелил себе в ногу."
 
 [DamTypeAK74AssaultRifle]
 DeathString="Игрок %k убил игрока %o (AK-74)."
-FemaleSuicide="%o выстрелила себе в ногу."
-MaleSuicide="%o выстрелил себе в ногу."
 
 [DamTypeCZ805M]
 DeathString="Игрок %k убил игрока %o (CZ 805)."
@@ -74,7 +70,7 @@ MaleSuicide="%o выстрелил себе в ногу."
 DeathString="Игрок %k убил игрока %o (HK-417)."
 
 [DamTypeHuntingRifle]
-DeathString="Игрок %k убил игрока %o (Hunting Rifle)."
+DeathString="Игрок %k убил игрока %o (Охотничья винтовка)."
 FemaleSuicide="%o выстрелила себе в ногу."
 MaleSuicide="%o выстрелил себе в ногу."
 
@@ -106,8 +102,6 @@ MaleSuicide="%o выстрелил себе в ногу."
 
 [DamTypeVALDT]
 DeathString="Игрок %k убил игрока %o (Вал)."
-FemaleSuicide="%o выстрелила себе в ногу."
-MaleSuicide="%o выстрелил себе в ногу."
 
 [DamTypeVSSDT]
 DeathString="Игрок %k убил игрока %o (Винторез)."
@@ -149,14 +143,14 @@ ItemName="HopMines"
 PickupMessage="HopMines"
 
 [HopMineLPickup]
-ItemName="HopMine Launcher"
-ItemShortName="HopMine"
+ItemName="HopMine Launcher SE"
+ItemShortName="HopMine SE"
 PickupMessage="Вы получили HopMine Launcher."
 
 [HopMineLchr]
 MinesText="Мины: "
 Description="Прототип пусковой установки Hopmine. Альфа-версия. Есть серьезные недоработки - мины детонируются друг от друга. Но это все же может быть очень полезным."
-ItemName="HopMine Launcher"
+ItemName="HopMine Launcher SE"
 
 [HuntingRifle]
 Description="Оружие для любительской охоты со спусковым крючком и мощным интегрированным оптическим прицелом."
