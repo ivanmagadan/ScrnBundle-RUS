@@ -80,7 +80,7 @@ DeathString="%k сжег дотла игрока %o."
 [Doom3Mutator]
 strVersion="v%m.%n.%p"
 FriendlyName="Doom 3 Monsters Mode - ScrN Edition"
-Description="Вторжение существ из doom 3. Мод изменил [ScrN]PooSH. Оригинальные авторы: Marco, INIQUITOUS."
+Description="Вторжение существ из doom 3. Мод изменил [ScrN]PooSH. Авторы оригинала: Marco, INIQUITOUS."
 RulesGroup="DoomIII"
 
 [DoomMonster]
