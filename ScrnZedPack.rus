@@ -1,3 +1,54 @@
+[BloatC]
+MenuName="Pukey the Clown"
+
+[BloatG]
+MenuName="Grittier Bloat"
+
+[BloatH]
+MenuName="Mama Bessie"
+
+[BloatX]
+MenuName="Fake Santa"
+
+[BossC]
+MenuName="Ring Leader"
+
+[BossG]
+MenuName="Grittier Patriarch"
+
+[BossH]
+MenuName="Sheriff Wade"
+
+[BossX]
+MenuName="Santriarch"
+
+[Brute]
+MenuName="Brute"
+
+[ClotC]
+MenuName="Strange Little Clot"
+
+[ClotG]
+MenuName="Grittier Clot"
+
+[ClotH]
+MenuName="Honey Biscuit"
+
+[ClotX]
+MenuName="Elf"
+
+[CrawlerC]
+MenuName="Two-Head Girl"
+
+[CrawlerG]
+MenuName="Grittier Crawler"
+
+[CrawlerH]
+MenuName="Half of Uncle Pervis"
+
+[CrawlerX]
+MenuName="Reindeer"
+
 [DamTypeEMP]
 DeathString="%o слишком близко наблюдал за самоуничтожением %k."
 
@@ -12,63 +63,99 @@ MenuName="Female FleshPound"
 [FemaleFP_MKII]
 MenuName="Female FleshPound MKII"
 
+[FleshpoundC]
+MenuName="Flesh Clown"
+
+[FleshpoundG]
+MenuName="Grittier Fleshpound"
+
+[FleshpoundH]
+MenuName="Bubba"
+
+[FleshpoundX]
+MenuName="Nutcracker"
+
+[Ghost]
+MenuName="Ghost"
+
+[GorefastC]
+MenuName="Sword Polisher"
+
+[GorefastG]
+MenuName="Grittier Gorefast"
+
+[GorefastH]
+MenuName="Banjo Chewey"
+
+[GorefastX]
+MenuName="Gingerfast"
+
 [HardPat]
 MenuName="Hard Pat"
 
-[HardPat_CIRCUS]
+[HardPatC]
 MenuName="Hard Ringmaster"
 
-[HardPat_GRITTIER]
+[HardPatG]
 MenuName="Hard Grittier Pat"
 
-[HardPat_HALLOWEEN]
+[HardPatH]
 MenuName="Hard Sheriff"
 
-[HardPat_XMAS]
+[HardPatX]
 MenuName="Hard Santa"
+
+[HuskG]
+MenuName="Grittier Husk"
+
+[HuskH]
+MenuName="Brother Sparky"
+
+[HuskX]
+MenuName="Snow Husk"
+
+[Jason]
+MenuName="Jason"
+
+[ScrakeC]
+MenuName="Man Monkey"
+
+[ScrakeG]
+MenuName="Grittier Scrake"
+
+[ScrakeH]
+MenuName="Cousin Otis"
+
+[ScrakeX]
+MenuName="Jack Frost"
+
+[Shiver]
+MenuName="Shiver"
+
+[SirenC]
+MenuName="Bearded Beauty"
+
+[SirenG]
+MenuName="Grittier Siren"
+
+[SirenH]
+MenuName="Granny Crystal May"
+
+[SirenX]
+MenuName="Screaming Tree"
+
+[StalkerC]
+MenuName="Assistant"
+
+[StalkerG]
+MenuName="Grittier Stalker"
+
+[StalkerH]
+MenuName="Maggie May"
+
+[StalkerX]
+MenuName="Mrs. Claws"
 
 [TeslaHusk]
 MenuName="Tesla Husk"
-
-[ZombieBloat_GRITTIER]
-MenuName="Bloat.se"
-
-[ZombieBoss_GRITTIER]
-MenuName="Grittier Patriarch"
-
-[ZombieBrute]
-MenuName="Brute.se"
-
-[ZombieClot_GRITTIER]
-MenuName="Grittier Clot"
-
-[ZombieCrawler_GRITTIER]
-MenuName="Crawler.se"
-
-[ZombieFleshpound_GRITTIER]
-MenuName="Grittier Fleshpound"
-
-[ZombieGhost]
-MenuName="Ghost"
-
-[ZombieGorefast_GRITTIER]
-MenuName="Gorefast.se"
-
-[ZombieHusk_GRITTIER]
-MenuName="Husk.se"
-
-[ZombieJason]
-MenuName="Jason.se"
-
-[ZombieScrake_GRITTIER]
-MenuName="Grittier Scrake"
-
-[ZombieShiver]
-MenuName="Shiver.se"
-
-[ZombieSiren_GRITTIER]
-MenuName="Grittier Siren"
-
-[ZombieStalker_GRITTIER]
-MenuName="Grittier Stalker"
 
