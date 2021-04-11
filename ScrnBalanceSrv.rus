@@ -6,15 +6,15 @@ GroupInfo=((Caption="ВСЕ"),(Caption="Карты"),(Caption="Основной 
 ProgressName="Достижения"
 
 [AchMaps]
-ProgressName="Достижения карт"
+ProgressName="Достижения (карты)"
 
 [AchObjMaps]
-ProgressName="Достижения карт (Objective)"
+ProgressName="Достижения (карты режима задач)"
 
 [BaronsGame]
 strNewBaron="%p становится бароном этой волны! Защитите его от Gorefasts!"
 strBaronDead="БАРОН МЕРТВ. ИГРА ОКОНЧЕНА!"
-KFHints=("Каждую волну случайный игрок выбирается в качестве барона волны.","Все Gorefasts слепо следуют за бароном.","Барон умирает = Игра окончена.","ScrN Balance: Shotguns, except Combat and Hunting, penetrate fat bodies worse than small enemies.","ScrN Balance: M99 can't stun Scrake with a body-shot. Crossbow has no fire speed bonus as in original game before v1035.","ScrN Balance: M14EBR has different laser sights. Choose the color you like!","ScrN Balance: Hand grenades can be 'cooked'. You can enable this on 'Scrn Balance' settings page in the Main Menu.","ScrN Balance: Husk Gun's secondary fire acts as Napalm Thrower. You should definitely try it out!","ScrN Balance: Gunslinger has bonuses both for single and dual pistols. But real Cowboys use only dualies.","ScrN Balance: Gunslinger becomes a Cowboy while using dual pistols without wearing an armor (except jacket). Cowboy moves, shoots and reloads his pistols much faster. From the other side, he dies faster too..","ScrN Balance: Berserker, while holding non-melee weapons, moves slower than other perks.","ScrN Balance: Chaisaw's secondary fire can stun Scrakes the same way as an Axe.","ScrN Balance: Chainsaw consumes fuel. Raised power makes it a beast... until you need to refill","ScrN Balance: Medic, while holding a syringe, runs same fast as while holding a knife.","ScrN Balance: Medics can heal much faster than other perks. If you aren't a Medic, don't screw up the healing process with your lame injection.","ScrN Balance: FN-FAL has bullet penetration and 2-bullet fixed burst mode.","ScrN Balance: MK23 has no bullet penetration but double size of magazine, comparing to Magnum .44","ScrN Balance: Your experience and perk bonus levels can be different. If they are, you'll see 2 perk icons on your HUD.","ScrN Balance: If you see two perk icons on your HUD, left one shows your experience level, right - actual level of perk bonuses you gain.","ScrN Balance: Flare pistol has an incremental burn DoT (iDoT). The more you shoot the more damage zeds take from burning.","ScrN Balance: Medic nades are for healing only. Zeds are not taking damage neither fear them","ScrN Balance: If you have just joined the game and got blamed - maybe it is just a welcome gift. Don't worry - shit happens.","ScrN Balance: Nailgun can nail enemies to walls... nail them alive! Crucify your ZED!","ScrN Console Command: TOGGLEPLAYERINFO - hides health bars while keeping the rest of the HUD.","ScrN Console Command: MVOTE - access to ScrN Voting. Type MVOTE HELP for more info.","ScrN Console Command: DROPALLWEAPONS - drops all your weapons to the ground. What else did you expected?","ScrN Console Command: TOGGLEWEAPONLOCK - lock/unlocks your weapons on the ground.","ScrN Console Commands: ToggleHudStyle, CoolHudSize, CoolHudAmmoSize, CoolHudAmmoX/Y - customize your HUD as you like.","ScrN Balance: Medic gets XP for shooting zeds with Medic Guns. But do not forget to heal your teammates!")
+KFHints=("Every wave a random player is picked to be the Baron of the Wave.","All Gorefasts are blindly following Baron.","Baron dies = Game Over.","ScrN: Combat Shotgun is made much better. Give it a try","ScrN: Shotguns, except Combat and Boomstick, penetrate fat bodies worse than small enemies","ScrN: M99 cannot stun Scrake with a body-shot. Crossbow has no fire speed bonus as in the original game before v1035","ScrN: M14EBR has different laser sights.","ScrN: Hand grenades can be 'cooked'. Enable/disable that on 'Scrn Features' page in the Main Menu.","ScrN: Gunslinger has bonuses both for single and dual pistols. But real Cowboys use only dualies.","ScrN: Gunslinger becomes a Cowboy while using dual pistols without wearing heavy armor. Cowboy moves and shoots much faster. On the other hand, he dies faster too.","ScrN: Berserker, while holding non-melee weapons, moves slower than other perks.","ScrN: Chainsaw makes more damage but consumes fuel. Also, the alternate attack stuns Scrakes.","ScrN: Support Spec. may use Chainsaw. Remember Evil Dead? Try the Chainsaw+Boomstick loadout.","ScrN: Medics have regular frag nades. Do not blow yourself up!","ScrN: Medic, while holding a syringe, runs same fast as while holding a knife.","ScrN: Medics can heal much faster than other perks. If you aren't a Medic, don't screw up the healing process with your lame injection.","ScrN: Medic gets XP for shooting zeds with Medic Guns. But do not forget to heal your teammates!","ScrN: Medic nades are for healing only. Zeds are not taking damage neither fear them.","ScrN: Combat Medic is more 'combat' than 'medic'","ScrN: FN-FAL has armor-piercing bullets and 2-round fixed burst mode.","ScrN: MK23 has no bullet penetration but double size of magazine, comparing to .44 Magnum","ScrN: Your experience and perk bonus levels may be different. If they are, you see two perk icons on the HUD.","ScrN: If you see two perk icons on the HUD, the left one shows your experience level, the right - actual level of perk bonuses that you gain.","ScrN: Husk Gun's secondary fire acts as Napalm Thrower.","ScrN: Flares deal the incremental burn Damage over Time (iDoT). The more you shoot the more damage zeds take from burning.","ScrN: Nailgun can nail enemies to walls... nail them alive! Crucify your ZED!","ScrN Console Command: MVOTE - access to ScrN Voting. Type MVOTE HELP for more info.","Social Isolation: The Virus gets spread by a close contact. Keep distance!","Social Isolation: Infected players should keep a distance from other infected as well. Increased Virus concentration in the air leads to severe symptoms.","Social Isolation: Epidemic safety rules prohibit picking up items of infected players, even if you are already infected.","Social Isolation: The Trader keeps her shop clean. Players get charged for coughing in the shop area - to cover the disinfection costs.","Social Isolation: Rumors say that Toilet Paper can protect you from the Virus. At least you will die with a clean butt.","Social Isolation: 'I can feel it coming in the air tonight, oh Lord!' Yes, it is the Virus in the air. And it is gonna kill you!","Social Isolation: The shop is a high-risk area for spreading the Virus. Keep distance and wait in line for shopping.")
 GameName="Baron's Game"
 Description="Every wave a random player is picked to be the Baron of the Wave. He gets blamed and all Gorefasts will chase him. If Baron dies, team gets wiped."
 
@@ -53,18 +53,18 @@ hintBaseLostTrader="You lost your Guardian and now you are dead!"
 
 [ScrnAA12AutoShotgun]
 Description="Модернизированный автоматический дробовик. Наносит меньше урона, но невероятное проникновение и скорость стрельбы делают его лучшим выбором, чтобы убить все ... пока у вас остались боеприпасы"
-ItemName="AA12"
+ItemName="AA12 SE"
 
 [ScrnAA12Pickup]
-ItemName="Дробовик AA12"
-ItemShortName="Дробовик AA12"
+ItemName="Дробовик AA12 SE"
+ItemShortName="Дробовик AA12 SE"
 
 [ScrnAK47AssaultRifle]
-ItemName="АК47"
+ItemName="АК47 SE"
 
 [ScrnAK47Pickup]
-ItemName="АК47"
-ItemShortName="АК47"
+ItemName="АК47 SE"
+ItemShortName="АК47 SE"
 
 [ScrnAchievementEarnedMsg]
 EarnedString="Открыто Достижение!"
@@ -74,11 +74,11 @@ InProgressString="Прогресс Достижения..."
 GroupInfo=((Caption="ВСЕ"))
 
 [ScrnAxe]
-ItemName="Топор"
+ItemName="Топор SE"
 
 [ScrnAxePickup]
-ItemName="Топор"
-ItemShortName="Топор"
+ItemName="Топор SE"
+ItemShortName="Топор SE"
 
 [ScrnBalance]
 strBonusLevel="Эффективный уровень бонусов вашего перка [%s]"
@@ -103,7 +103,6 @@ strPauseTraderOnly="Игра может быть остановлена толь
 viResume="ИГРА ВОЗОБНОВЛЕНА"
 viEndTrade="ЗАВЕРШЕНИЕ ТОРГОВЛИ"
 viDifficulty="Сложность"
-strZedSpawnsDoubled="Рейты спавна Зэдов удвоены!"
 strSquadNotFound="Отряд мобов с данным именем не найден"
 strCantSpawnSquadNow="В данный момент нельзя спавнить мобов"
 strSquadList="Доступные отряды:"
@@ -117,23 +116,24 @@ strBlamedBaron="%p blamed for blaming Baron"
 HelpInfo=("%gLOCKPERK%w|%gUNLOCKPERK %y<название перка> %w Отключить/Включить перк в конце волны","%gLOCKTEAM%w|%gUNLOCKTEAM %w Заблокировать/Разблокировать команды. Только приглашенные игроки смогут присоединиться к заблокированной команде.","%gPAUSE %yX %w Остановить игру на X секунд","%gEND TRADE %w Немедленно завершить торговлю и начать следующую волну","%gEND WAVE %w Убить последних застрявших мобов, чтобы закончить волну","%gBLAME %y<ник игрока> %b[<причина>] %w Обвинить игрока [в <причина>]","%gSPEC %y<ник игрока> %b[<причина>] %w Переместить игрока в зрители","%gKICK %y<ник игрока> %b[<причина>] %w Выгнать игрока [за <причина>]","%gINVITE %y<player_name> %w Пригласить игрока в заблокированную команду.","%gBORING %w Удвоить рейты спавна мобов","%gSPAWN %y<название отряда> %w Спавнить отряд мобов","%gREADY%w|%gUNREADY %w Сделать всех готовыми/не готовыми играть","%gFF %yX %w Установить огонь по своим в X%","%gMAP RESTART %w Перезапустить текущую карту","%gFAKED %yX %w Установить фэйковых игроков на X (FAKEDCOUNT+FAKEDHEALTH)","%gFAKEDCOUNT %yX %w Set Faked Players for zed count calculation","%gFAKEDHEALTH %yX %w Установить фальшивых игроков для расчета здоровья зэдов")
 
 [ScrnBenelliPickup]
-ItemName="Боевой дробовик"
-ItemShortName="Боевой дробовик"
+ItemName="Боевой дробовик SE"
+ItemShortName="Боевой дробовик SE"
 
 [ScrnBenelliShotgun]
 Description="Военный тактический дробовик с возможностью ведения огня в полуавтоматическом режиме. Емкость магазина: до 6 зарядов. Специальная конструкция корпуса позволяет дроби проникать в жир намного легче."
-ItemName="Боевой дробовик"
+ItemName="Боевой дробовик SE"
 
 [ScrnBlamedMsg]
 Messages=("Вы обвинены командой!","В качестве наказания вы должны","смотреть на это в течении 2-х минут:")
 
 [ScrnBoomStick]
 Description="Это мой BOOMstick (c) Ash, Evil Dead - Army of Darkness, 1992. Используется на протяжении веков, чтобы охотиться на Демонов, Пришельцев и Зомби. Теперь пришло время для ZED. Можно стрелять с одного или двух стволов одновременно. Доступна перезарядка одного патрона."
-ItemName="Ружье"
+ItemName="Ружье Эшли"
 
 [ScrnBoomStickPickup]
-ItemName="Ружье"
-ItemShortName="Ружье"
+ItemName="Ружье Эшли"
+ItemShortName="Ружье Эшли"
+PickupMessage="Вы получили Ружье Эшли."
 
 [ScrnBullpup]
 Description="Если вы нашли Булл-пап на карте, то он, вероятно, принадлежит [REB]Mike1. Майк имеет более 1000 игровых часов в KF, используя только Булл-пап."
@@ -145,32 +145,32 @@ ItemShortName="Булл-пап Майка"
 
 [ScrnBuyMenuInvList]
 UpgradeArmorCaption="Обновить"
-NoWeightCaption="Нет свободного веса"
+NoWeightCaption="Нет свободных единиц переносимого веса"
 
 [ScrnBuyMenuSaleList]
 LockStrings=(,"DLC","LOCKED","PERK?","SP?","ACH","???")
 
 [ScrnChainsaw]
 Description="Эту легендарную бензопилу на протяжении многих столетий использовали для борьбы со злом"
-ItemName="Бензопила Аш"
+ItemName="Бензопила Эшли"
 
 [ScrnChainsawAmmo]
 ItemName="Канистра с топливом"
 
 [ScrnChainsawAmmoPickup]
-PickupMessage="Вы нашли Бензин"
+PickupMessage="ML бензина"
 
 [ScrnChainsawPickup]
-ItemName="Бензопила Аш"
-ItemShortName="Бензопила Аш"
-PickupMessage="Вы получили Бензопилу Аш."
+ItemName="Бензопила Эшли"
+ItemShortName="Бензопила Эшли"
+PickupMessage="Вы получили Бензопилу Эшли."
 
 [ScrnClaymoreSword]
-ItemName="Меч Клеймор"
+ItemName="Меч Клеймор SE"
 
 [ScrnClaymoreSwordPickup]
-ItemName="Меч Клеймор"
-ItemShortName="Меч Клеймор"
+ItemName="Меч Клеймор SE"
+ItemShortName="Меч Клеймор SE"
 
 [ScrnClientPerkRepLink]
 strLevelTitle="Уровень перка %C"
@@ -186,18 +186,18 @@ ItemShortName="Боевая Броня"
 PickupMessage="Вы получили Боевую Броню"
 
 [ScrnCrossbow]
-ItemName="Композ.арбалет"
+ItemName="Композ. арбалет SE"
 
 [ScrnCrossbowPickup]
-ItemName="Композ.арбалет"
-ItemShortName="Композ.арбалет"
+ItemName="Арбалет SE"
+ItemShortName="Арбалет SE"
 
 [ScrnCrossbuzzsaw]
-ItemName="Дисковый арбалет"
+ItemName="Дисковый арбалет SE"
 
 [ScrnCrossbuzzsawPickup]
-ItemName="Дисковый арбалет"
-ItemShortName="Дисковый арбалет"
+ItemName="Дисковый арбалет SE"
+ItemShortName="Дисковый арбалет SE"
 
 [ScrnDamTypeCommandoBase]
 DeathString="Игрок %k убил игрока %o (Штурмовая винтовка)."
@@ -253,15 +253,15 @@ FemaleSuicide="%o выстрелила себе в ногу."
 MaleSuicide="%o выстрелил себе в ногу."
 
 [ScrnDeagle]
-ItemName="Дезерт Игл"
+ItemName="Дезерт Игл SE"
 
 [ScrnDeaglePickup]
-ItemName="Дезерт Игл"
-ItemShortName="Дезерт Игл"
+ItemName="Дезерт Игл SE"
+ItemShortName="Дезерт Игл SE"
 
 [ScrnDual44Magnum]
 Description="Пара 'Магнумов .44'. Лучший выбор Ковбоя, чтобы очистить Дикий Запад от орды зэдов!"
-ItemName="Пара 'Магнумов .44'"
+ItemName="Пара 'Магнумов .44' SE"
 
 [ScrnDual44MagnumLaser]
 Description="Да! Один в каждой руке! Теперь с лазерным указателем."
@@ -273,22 +273,22 @@ ItemShortName="Пара 44-х L"
 PickupMessage="Вы получили Пару 'Магнумов .44' с лазерным указателем"
 
 [ScrnDual44MagnumPickup]
-ItemName="Пара 'Магнумов .44'"
-ItemShortName="Пара 44-х"
+ItemName="Пара 'Магнумов .44' SE"
+ItemShortName="Пара 44-х SE"
 
 [ScrnDualDeagle]
-ItemName="Пара Дезерт Игл"
+ItemName="Пара Дезерт Игл SE"
 
 [ScrnDualDeaglePickup]
-ItemName="Пара Дезерт Игл"
-ItemShortName="Пара Игл"
+ItemName="Пара Дезерт Игл SE"
+ItemShortName="Пара Д.Игл SE"
 
 [ScrnDualFlareRevolver]
-ItemName="Пара ракетниц"
+ItemName="Пара ракетниц SE"
 
 [ScrnDualFlareRevolverPickup]
-ItemName="Пара ракетниц"
-ItemShortName="Пара ракетниц"
+ItemName="Пара ракетниц SE"
+ItemShortName="Пара ракетниц SE"
 
 [ScrnDualMK23Laser]
 Description="Да! Один в каждой руке! Теперь с лазерным указателем."
@@ -300,26 +300,32 @@ ItemShortName="Пара MK23 L"
 PickupMessage="Вы получили Пару MK23 с лазерным указателем"
 
 [ScrnDualMK23Pickup]
-ItemName="Пара MK23"
-ItemShortName="Пара MK23"
+ItemName="Пара MK23 SE"
+ItemShortName="Пара MK23 SE"
 
 [ScrnDualMK23Pistol]
-ItemName="Пара MK23-х"
+ItemName="Пара MK23 SE"
 
 [ScrnDualies]
-ItemName="Пара пистолетов"
+ItemName="Пара пистолетов SE"
 
 [ScrnDualiesPickup]
-ItemName="Пара пистолетов"
-ItemShortName="Пара пистолетов"
+ItemName="Пара пистолетов SE"
+ItemShortName="Пара пистолетов SE"
+
+[ScrnFNFALAmmo]
+ItemName="7.62x51мм NATO AP"
+
+[ScrnFNFALAmmoPickup]
+PickupMessage="7.62x51мм NATO AP"
 
 [ScrnFNFAL_ACOG_AssaultRifle]
-Description="Классическая боевая винтовка НАТО. Может проникать в небольшие цели и имеет режим ведения огня фиксированными очередями."
-ItemName="FNFAL"
+Description="Классическая боевая винтовка НАТО. Снаряжен бронебойными снарядами НАТО 7,62x51 мм. Имеет режим ведения огня фиксированными очередями по 2 пули."
+ItemName="FNFAL SE"
 
 [ScrnFNFAL_ACOG_Pickup]
-ItemName="FNFAL ACOG"
-ItemShortName="FNFAL"
+ItemName="FNFAL ACOG SE"
+ItemShortName="FNFAL SE"
 
 [ScrnFireModeSwitchMessage]
 SwitchMessage[0]="Полностью автоматический"
@@ -330,25 +336,25 @@ SwitchMessage[4]="Одиночный режим"
 SwitchMessage[5]="Мульти режим"
 
 [ScrnFlameThrower]
-ItemName="Огнемет"
+ItemName="Огнемет SE"
 
 [ScrnFlameThrowerPickup]
-ItemName="Огнемет"
-ItemShortName="Огнемет"
+ItemName="Огнемет SE"
+ItemShortName="Огнемет SE"
 
 [ScrnFlareRevolver]
-ItemName="Ракетница"
+ItemName="Ракетница SE"
 
 [ScrnFlareRevolverPickup]
-ItemName="Ракетница"
-ItemShortName="Ракетница"
+ItemName="Ракетница SE"
+ItemShortName="Ракетница SE"
 
 [ScrnFrag]
-ItemName="Граната"
+ItemName="Граната SE"
 
 [ScrnFragPickup]
-ItemName="Граната"
-ItemShortName="Граната"
+ItemName="Граната SE"
+ItemShortName="Граната SE"
 
 [ScrnGUIBuyWeaponInfoPanel]
 strSecondsPerShot="сек/в"
@@ -385,6 +391,8 @@ strTeamUnlocked="Команды разблокированы. Все желаю�
 
 [ScrnGameRules]
 msgHardcore="Уровень хардкора повышен до %a (+%i за %r)"
+msgHardcoreLowered="Уровень хардкора снижен до %a (%i за %r)"
+msgWeaponBlame="%p обвиняется в покупке %w"
 msgDoom3Monster="Doom3 монстры"
 msgDoomPercent="Количество Doom3 монстров на волне = %p%"
 msgDoom3Boss="Doom Босс"
@@ -394,7 +402,8 @@ strPerkedWeaponsOnly="Вы можете поднять оружие только
 strWaveAccuracy="%p набрал %a точности на этой волне!"
 
 [ScrnGameType]
-KFHints=("ScrN Balance: You can reload a single shell into Hunting Shotgun.","ScrN Balance: You can't skip Hunting Shotgun's reload. So use it with caution.","ScrN Balance: Combat Shotgun is made much better. Give it a try.","ScrN Balance: Shotguns, except Combat and Hunting, penetrate fat bodies worse than small enemies.","ScrN Balance: M99 can't stun Scrake with a body-shot. Crossbow has no fire speed bonus as in original game before v1035.","ScrN Balance: M14EBR has different laser sights. Choose the color you like!","ScrN Balance: Hand grenades can be 'cooked'. You can enable this on 'Scrn Balance' settings page in the Main Menu.","ScrN Balance: Husk Gun's secondary fire acts as Napalm Thrower. You should definitely try it out!","ScrN Balance: Gunslinger has bonuses both for single and dual pistols. But real Cowboys use only dualies.","ScrN Balance: Gunslinger becomes a Cowboy while using dual pistols without wearing an armor (except jacket). Cowboy moves, shoots and reloads his pistols much faster. From the other side, he dies faster too..","ScrN Balance: Berserker, while holding non-melee weapons, moves slower than other perks.","ScrN Balance: Chaisaw's secondary fire can stun Scrakes the same way as an Axe.","ScrN Balance: Chainsaw consumes fuel. Raised power makes it a beast... until you need to refill","ScrN Balance: Medic, while holding a syringe, runs same fast as while holding a knife.","ScrN Balance: Medics can heal much faster than other perks. If you aren't a Medic, don't screw up the healing process with your lame injection.","ScrN Balance: FN-FAL has bullet penetration and 2-bullet fixed burst mode.","ScrN Balance: MK23 has no bullet penetration but double size of magazine, comparing to Magnum .44","ScrN Balance: Your experience and perk bonus levels can be different. If they are, you'll see 2 perk icons on your HUD.","ScrN Balance: If you see two perk icons on your HUD, left one shows your experience level, right - actual level of perk bonuses you gain.","ScrN Balance: Flare pistol has an incremental burn DoT (iDoT). The more you shoot the more damage zeds take from burning.","ScrN Balance: Medic nades are for healing only. Zeds are not taking damage neither fear them","ScrN Balance: If you have just joined the game and got blamed - maybe it is just a welcome gift. Don't worry - shit happens.","ScrN Balance: Nailgun can nail enemies to walls... nail them alive! Crucify your ZED!","ScrN Console Command: TOGGLEPLAYERINFO - hides health bars while keeping the rest of the HUD.","ScrN Console Command: MVOTE - access to ScrN Voting. Type MVOTE HELP for more info.","ScrN Console Command: DROPALLWEAPONS - drops all your weapons to the ground. What else did you expected?","ScrN Console Command: TOGGLEWEAPONLOCK - lock/unlocks your weapons on the ground.","ScrN Console Commands: ToggleHudStyle, CoolHudSize, CoolHudAmmoSize, CoolHudAmmoX/Y - customize your HUD as you like.","ScrN Balance: Medic gets XP for shooting zeds with Medic Guns. But do not forget to heal your teammates!")
+BoringStrings=("Normal ZED spawn rate","DOUBLE ZED spawn rate","QUAD ZED spawn rate","INSANE ZED spawn rate")
+KFHints=("ScrN: You can interrupt reloading by dropping the weapon on the ground","ScrN: Many weapons have Tactical Reload. Reload a non-empty more quickly.","ScrN: You can reload a single shell into Boomstick","ScrN: Combat Shotgun is made much better. Give it a try","ScrN: Shotguns, except Combat and Boomstick, penetrate fat bodies worse than small enemies","ScrN: M99 cannot stun Scrake with a body-shot. Crossbow has no fire speed bonus as in the original game before v1035","ScrN: M14EBR has different laser sights.","ScrN: Hand grenades can be 'cooked'. Enable/disable that on 'Scrn Features' page in the Main Menu.","ScrN: Gunslinger has bonuses both for single and dual pistols. But real Cowboys use only dualies.","ScrN: Gunslinger becomes a Cowboy while using dual pistols without wearing heavy armor. Cowboy moves and shoots much faster. On the other hand, he dies faster too.","ScrN: Berserker, while holding non-melee weapons, moves slower than other perks.","ScrN: Chainsaw makes more damage but consumes fuel. Also, the alternate attack stuns Scrakes.","ScrN: Support Spec. may use Chainsaw. Remember Evil Dead? Try the Chainsaw+Boomstick loadout.","ScrN: Medics have regular frag nades. Do not blow yourself up!","ScrN: Medic, while holding a syringe, runs same fast as while holding a knife.","ScrN: Medics can heal much faster than other perks. If you aren't a Medic, don't screw up the healing process with your lame injection.","ScrN: Medic gets XP for shooting zeds with Medic Guns. But do not forget to heal your teammates!","ScrN: Medic nades are for healing only. Zeds are not taking damage neither fear them.","ScrN: Combat Medic is more 'combat' than 'medic'","ScrN: FN-FAL has armor-piercing bullets and 2-round fixed burst mode.","ScrN: MK23 has no bullet penetration but double size of magazine, comparing to .44 Magnum","ScrN: Your experience and perk bonus levels may be different. If they are, you see two perk icons on the HUD.","ScrN: If you see two perk icons on the HUD, the left one shows your experience level, the right - actual level of perk bonuses that you gain.","ScrN: Husk Gun's secondary fire acts as Napalm Thrower.","ScrN: Flares deal the incremental burn Damage over Time (iDoT). The more you shoot the more damage zeds take from burning.","ScrN: Nailgun can nail enemies to walls... nail them alive! Crucify your ZED!","ScrN Console Command: MVOTE - access to ScrN Voting. Type MVOTE HELP for more info.","Social Isolation: The Virus gets spread by a close contact. Keep distance!","Social Isolation: Infected players should keep a distance from other infected as well. Increased Virus concentration in the air leads to severe symptoms.","Social Isolation: Epidemic safety rules prohibit picking up items of infected players, even if you are already infected.","Social Isolation: The Trader keeps her shop clean. Players get charged for coughing in the shop area - to cover the disinfection costs.","Social Isolation: Rumors say that Toilet Paper can protect you from the Virus. At least you will die with a clean butt.","Social Isolation: 'I can feel it coming in the air tonight, oh Lord!' Yes, it is the Virus in the air. And it is gonna kill you!","Social Isolation: The shop is a high-risk area for spreading the Virus. Keep distance and wait in line for shopping.")
 GameName="ScrN Floor"
 Description="ScrN Edition of Killing Floor game mode (KFGameType)."
 
@@ -420,55 +429,55 @@ ItemName="Пушка Хаска/Напалм"
 
 [ScrnHuskGunPickup]
 ItemName="Пушка Хаска/Напалм"
-ItemShortName="Пушка Хаска"
+ItemShortName="Пушка Хаска SE"
 
 [ScrnInvasionLoginMenu]
 Panels=((Caption="Новости",Hint="Обзор новостей сервера."),(Caption="MOTD",Hint="Сообщение дня."),(Caption="Сервер Инфо",Hint="Текущая карта и настройки игры."),(Caption="Связь",Hint="Ручная настройка связи с другими игроками."),(Caption="Статистика",Hint="Обзор вашей текущей статистики на сервере."),(Caption="Достижения",Hint="Серверные достижения"),(Caption="Функции ScrN",Hint="Функции ScrN Balance, настройки и инфо"))
 TeamSwitchButton.Caption="Сменить команду"
 
 [ScrnKSGPickup]
-ItemName="Дробовик KSG"
-ItemShortName="KSG"
+ItemName="Дробовик KSG SE"
+ItemShortName="KSG SE"
 
 [ScrnKSGShotgun]
 Description="Прототип улучшенного тактического дробовика, разработанный в 'Horzine'. Оснащен магазином повышенной емкости и переключателем режимов кучности огня 'высоко/низко'. Его гранулы проникают в слабых врагов почти без потери урона, но обычно застревают внутри больших тел. Не имеет лечебных насадок, но медикам нравится это в любом случае."
-ItemName="Дробовик KSG"
+ItemName="Дробовик KSG SE"
 
 [ScrnKatana]
-ItemName="Катана"
+ItemName="Катана SE"
 
 [ScrnKatanaPickup]
-ItemName="Катана"
-ItemShortName="Катана"
+ItemName="Катана SE"
+ItemShortName="Катана SE"
 
 [ScrnKnife]
-ItemName="Нож"
+ItemName="Нож SE"
 
 [ScrnKnifePickup]
-ItemName="Нож"
-ItemShortName="Нож"
+ItemName="Нож SE"
+ItemShortName="Нож SE"
 PickupMessage="Вы получили нож."
 
 [ScrnKrissMMedicGun]
-ItemName="Мед. ПП Schneidzekk"
+ItemName="Мед. ПП Schneidzekk SE"
 
 [ScrnKrissMPickup]
-ItemName="Мед. ПП Schneidzekk"
-ItemShortName="Schneidzekk"
+ItemName="Мед. ПП Schneidzekk SE"
+ItemShortName="Schneidzekk SE"
 
 [ScrnLAW]
 Description="Легкий противотанковый гранатомет, как видно из названия, предназначен для уничтожения легких бронированных машин ... но не может убить даже Мясника! Maybe because he doesn't wear armor to punch through ^^"
-ItemName="Гранатомет"
+ItemName="Гранатомет SE"
 
 [ScrnLAWAmmo]
 ItemName="Заряды к гранатомету"
 
 [ScrnLAWAmmoPickup]
-PickupMessage="Зажигательные ракеты"
+PickupMessage="Заряды к гранатомету"
 
 [ScrnLAWPickup]
-ItemName="Гранатомет"
-ItemShortName="Гранатомет"
+ItemName="Гранатомет SE"
+ItemShortName="Гранатомет SE"
 
 [ScrnLightVestPickup]
 ItemName="Легкая Броня"
@@ -477,33 +486,35 @@ PickupMessage="Вы получили Легкую Броню"
 
 [ScrnLobbyFooter]
 UnreadyString="Не готов"
+Cancel.Caption="Отключиться"
+Cancel.Hint="Отключиться от этого сервера"
 ViewMap.Caption="Обзор Карты"
 ViewMap.Hint="Посмотреть карту пока игроки готовятся"
 
 [ScrnM14EBRBattleRifle]
 Description="Модернизированная боевая винтовка M14 - полуавтоматический вариант. Оснащена лазерным прицелом. Специальная линза позволяет менять цвет лазера на лету."
-ItemName="Винт. M14EBR"
+ItemName="Винт. M14EBR SE"
 
 [ScrnM14EBRPickup]
-ItemName="Винт. M14EBR"
-ItemShortName="M14EBR"
+ItemName="Винт. M14EBR SE"
+ItemShortName="M14EBR SE"
 
 [ScrnM203MAmmo]
-ItemName="Мед. гранаты M203М"
+ItemName="Мед. гранаты M203"
 
 [ScrnM203MAmmoPickup]
-PickupMessage="Мед. гранаты M203М"
+PickupMessage="Мед. гранаты M203"
 
 [ScrnM32GrenadeLauncher]
-ItemName="Гранатомет M32"
+ItemName="Гранатомет M32 SE"
 
 [ScrnM32Pickup]
-ItemName="Гранатомет M32"
-ItemShortName="Гранатомет M32"
+ItemName="Гранатомет M32 SE"
+ItemShortName="Гранатомет M32 SE"
 
 [ScrnM4203AssaultRifle]
 Description="Штурмовая винтовка с установленным подствольным гранатометом. Стреляет очередями по 3 пули."
-ItemName="M4-203"
+ItemName="M4-203 SE"
 
 [ScrnM4203MMedicGun]
 SuccessfulHealMessage="Вы вылечили %c игрока(ов) с %ahp"
@@ -517,30 +528,30 @@ SecondaryAmmoShortName="-- Целебные гранаты"
 PickupMessage="Вы получили Мед. M4-203М"
 
 [ScrnM4203Pickup]
-ItemName="M4-203"
-ItemShortName="M4-203"
-SecondaryAmmoShortName="-- M203-гранаты"
+ItemName="M4-203 SE"
+ItemShortName="M4-203 SE"
+SecondaryAmmoShortName="-- гранаты M203"
 
 [ScrnM4AssaultRifle]
 Description="Компактная штурмовая винтовка. Урон может быть лучше, но точность, быстрая перезарядка и много боеприпасов делают ее хорошим выбором в битве."
-ItemName="M4"
+ItemName="M4 SE"
 
 [ScrnM4Pickup]
-ItemName="M4"
-ItemShortName="M4"
+ItemName="M4 SE"
+ItemShortName="M4 SE"
 
 [ScrnM79GrenadeLauncher]
-ItemName="Гранатомет M79"
+ItemName="Гранатомет M79 SE"
 
 [ScrnM79Inc]
 Description="Классический ручной однозарядный гранатомет времен войны во Вьетнаме. Запускает зажигательные гранаты."
 ItemName="Гранатомет M79 Inc"
 
 [ScrnM79IncAmmo]
-ItemName="Зажигательные гранаты"
+ItemName="Зажигательные гранаты M79"
 
 [ScrnM79IncAmmoPickup]
-PickupMessage="Зажигательные гранаты"
+PickupMessage="Зажигательные гранаты M79"
 
 [ScrnM79IncPickup]
 ItemName="Гранатомет M79 Inc"
@@ -553,10 +564,10 @@ Description="Классический ручной однозарядный гр
 ItemName="Мед. гранатомет M79М"
 
 [ScrnM79MAmmo]
-ItemName="Целебные гранаты"
+ItemName="Целебные гранаты M79"
 
 [ScrnM79MAmmoPickup]
-PickupMessage="Целебные гранаты"
+PickupMessage="Целебные гранаты M79"
 
 [ScrnM79MPickup]
 ItemName="Мед. гранатомет M79М"
@@ -564,72 +575,72 @@ ItemShortName="Мед. M79М"
 PickupMessage="Вы получили однозарядный Мед. гранатомет M79М"
 
 [ScrnM79Pickup]
-ItemName="Гранатомет M79"
-ItemShortName="M79"
+ItemName="Гранатомет M79 SE"
+ItemShortName="M79 SE"
 
 [ScrnM7A3MMedicGun]
-ItemName="Мед. ПП M7A3M"
+ItemName="Мед. ПП M7A3M SE"
 
 [ScrnM7A3MPickup]
-ItemName="Мед. ПП M7A3M"
-ItemShortName="M7A3M"
+ItemName="Мед. ПП M7A3M SE"
+ItemShortName="M7A3M SE"
 
 [ScrnM99Pickup]
-ItemName="M99 AMR"
-ItemShortName="M99 AMR"
+ItemName="M99 AMR SE"
+ItemShortName="M99 AMR SE"
 
 [ScrnM99SniperRifle]
 ItemName="M99 AMR 'The NoobGun'"
 
 [ScrnMAC10MP]
-ItemName="MAC-10"
+ItemName="MAC-10 SE"
 
 [ScrnMAC10Pickup]
-ItemName="MAC-10"
-ItemShortName="MAC-10"
+ItemName="MAC-10 SE"
+ItemShortName="MAC-10 SE"
 
 [ScrnMK23Pickup]
-ItemName="MK23"
-ItemShortName="MK23"
+ItemName="MK23 SE"
+ItemShortName="MK23 SE"
 
 [ScrnMK23Pistol]
 Description="Высококлассный пистолет 45-го калибра. Хороший баланс между мощностью, количеством боеприпасов и скоростью стрельбы. Урон близок к Магнуму, но не имеет проникновения пули."
-ItemName="MK23"
+ItemName="MK23 SE"
 
 [ScrnMKb42AssaultRifle]
-ItemName="MKb42"
+ItemName="MKb42 SE"
 
 [ScrnMKb42Pickup]
-ItemName="MKb42"
-ItemShortName="MKb42"
+ItemName="MKb42 SE"
+ItemShortName="MKb42 SE"
 
 [ScrnMP5MMedicGun]
-ItemName="Мед. ПП MP5M"
+ItemName="Мед. ПП MP5M SE"
 
 [ScrnMP5MPickup]
-ItemName="Мед. ПП MP5M"
-ItemShortName="MP5M"
+ItemName="Мед. ПП MP5M SE"
+ItemShortName="MP5M SE"
 
 [ScrnMP7MMedicGun]
-ItemName="Мед. ПП MP7M"
+ItemName="Мед. ПП MP7M SE"
 
 [ScrnMP7MPickup]
-ItemName="Мед. ПП MP7M"
-ItemShortName="MP7M"
+ItemName="Мед. ПП MP7M SE"
+ItemShortName="MP7M SE"
 
 [ScrnMachete]
-ItemName="Мачете"
+ItemName="Мачете SE"
 
 [ScrnMachetePickup]
-ItemName="Мачете"
-ItemShortName="Мачете"
+ItemName="Мачете SE"
+ItemShortName="Мачете SE"
 
 [ScrnMagnum44Pickup]
-ItemName="Магнум .44"
-ItemShortName="Магнум .44"
+ItemName="Магнум .44 SE"
+ItemShortName="Магнум .44 SE"
 
 [ScrnMagnum44Pistol]
-ItemName="Магнум .44'"
+ItemName="Магнум .44 SE"
 
 [ScrnMapAchievements]
 UniversalDescriptions[0]="Survive on %m in ScrN Balance mode"
@@ -647,11 +658,16 @@ CombatSong="KF_Pathogen"
 WaveBasedSongs=((CombatSong="KF_Hunger",CalmSong="KF_Wading"),(CombatSong="KF_WPrevention",CalmSong="KF_Wading"),(CombatSong="DirgeDefective1",CalmSong="KF_Neurotoxin"),(CombatSong="DirgeDefective2",CalmSong="KF_Vapour"),(CombatSong="DirgeDisunion1",CalmSong="KF_Peripheral"),(CombatSong="DirgeDisunion2",CalmSong="KF_TheEdge"),(CombatSong="KF_Pathogen",CalmSong="KF_Insect"),(CombatSong="DirgeRepulse1",CalmSong="KF_SinSoma"),(CombatSong="DirgeRepulse2",CalmSong="KF_SinSoma"),(CombatSong="KF_Containment",CalmSong="KF_TheStitches"),(CombatSong="KF_Abandon",CalmSong="KF_TheStitches"))
 
 [ScrnNailGun]
-ItemName="Влад Пронзитель"
+ItemName="Влад Пронзитель SE"
 
 [ScrnNailGunPickup]
-ItemName="Влад Пронзитель"
-ItemShortName="Влад 9000"
+ItemName="Влад Пронзитель SE"
+ItemShortName="Влад 9000 SE"
+
+[ScrnNoVestPickup]
+ItemName="Без брони"
+ItemShortName="Без брони"
+PickupMessage="Вы потеряли броню"
 
 [ScrnObjMapAchievements]
 UniversalDescriptions[0]="Survive on %m in Objective Mode on Normal Difficulty or above"
@@ -660,11 +676,11 @@ UniversalDescriptions[2]="Survive on %m in Objective Mode on Suicidal Difficulty
 UniversalDescriptions[3]="Survive on %m in Objective Mode on HoE Difficulty"
 
 [ScrnPipeBombExplosive]
-ItemName="Взрывчатка"
+ItemName="Взрывчатка SE"
 
 [ScrnPipeBombPickup]
-ItemName="Взрывчатка"
-ItemShortName="Взрывчатка"
+ItemName="Взрывчатка SE"
+ItemShortName="Взрывчатка SE"
 
 [ScrnPistolDamageProgress]
 ProgressName="Урон нанесенный пистолетами"
@@ -694,25 +710,25 @@ SwitchMessage[1]="Нет патронов"
 EarnedString="Вы повысили уровень перка %v до %l!"
 
 [ScrnSCARMK17AssaultRifle]
-ItemName="SCARMK17"
+ItemName="SCARMK17 SE"
 
 [ScrnSCARMK17Pickup]
-ItemName="SCARMK17"
-ItemShortName="SCARMK17"
+ItemName="SCARMK17 SE"
+ItemShortName="SCARMK17 SE"
 
 [ScrnSPSniperPickup]
-ItemName="Однозарядный мушкет"
-ItemShortName="Однозарядный мушкет"
+ItemName="Однозарядный мушкет SE"
+ItemShortName="Мушкет SE"
 
 [ScrnSPSniperRifle]
-ItemName="Однозарядный мушкет"
+ItemName="Мушкет SE"
 
 [ScrnSPThompsonPickup]
-ItemName="СДС доктора Т"
-ItemShortName="СДС доктора Т"
+ItemName="СДС доктора Т SE"
+ItemShortName="СДС доктора Т SE"
 
 [ScrnSPThompsonSMG]
-ItemName="Система доставки свинца доктора Т"
+ItemName="Система доставки свинца доктора Т SE"
 
 [ScrnScoreBoard]
 AssHeaderText="Ass."
@@ -725,41 +741,41 @@ PointsText="ДЕНЬГИ"
 TimeText="ВРЕМЯ"
 
 [ScrnScythe]
-ItemName="Коса"
+ItemName="Коса SE"
 
 [ScrnScythePickup]
-ItemName="Коса"
-ItemShortName="Коса"
+ItemName="Коса SE"
+ItemShortName="Коса SE"
 
 [ScrnSeekerSixPickup]
-ItemName="SeekerSix Rocket Launcher"
-ItemShortName="SeekerSix"
+ItemName="SeekerSix Rocket Launcher SE"
+ItemShortName="SeekerSix SE"
 
 [ScrnSeekerSixRocketLauncher]
-ItemName="SeekerSix Rocket Launcher"
+ItemName="SeekerSix Rocket Launcher SE"
 
 [ScrnShotgun]
-ItemName="Дробовик"
+ItemName="Дробовик SE"
 
 [ScrnShotgunPickup]
-ItemName="Дробовик"
-ItemShortName="Дробовик"
+ItemName="Дробовик SE"
+ItemShortName="Дробовик SE"
 
 [ScrnSingle]
-ItemName="9мм пистолет"
+ItemName="9мм пистолет SE"
 
 [ScrnSinglePickup]
-ItemName="9мм пистолет"
-ItemShortName="9мм пистолет"
+ItemName="9мм пистолет SE"
+ItemShortName="9мм пистолет SE"
 
 [ScrnStoryGameInfo]
 GameName="ScrN Objective Mode"
 
 [ScrnSyringe]
-ItemName="Шприц-инъектор"
+ItemName="Шприц-инъектор SE"
 
 [ScrnSyringePickup]
-ItemName="Шприц-инъектор"
+ItemName="Шприц-инъектор SE"
 
 [ScrnTab_Achievements]
 OutOfString="из"
@@ -767,21 +783,26 @@ UnlockedString="открыто"
 AchievementProgressLabel.Caption="0 из 0 открыто"
 BGAchievements.Caption="Мои Достижения"
 GroupCombo.Caption="Группа"
-GroupCombo.Hint="Отфильтровать список достижений"
+GroupCombo.Hint="Позволяет отфильтровать список достижений"
 OnlyLockedCheckBox.Caption="Показывать только закрытые"
 OnlyLockedCheckBox.Hint="Показывать только закрытые достижения"
 
 [ScrnTab_BuyMenu]
 strSelectedItemRequirements="Требования для разблокирования выбранного предмета"
 strIntoScrnLocked="Вы должны выполнить вышеуказанные требования для разблокирования выбранного предмета. Если у нескольких требований одинаковая первая цифра в квадратных скобках [X], то вам необходимо только одно из них. Нажмите F3, чтобы увидеть описание предмета."
-InfoText[0]="Добро пожаловать в мой магазин, работающий на ScrN Balance! Горячие клавиши:|ENTER/BACKPACE: купить/продать предмет.|PAGE UP/DOWN: выбрать пред./след. группу. 0-9: Быстрый выбор группы.|UP/DOWN: выбрать пред./след. предмет в текущей группе.|LEFT/RIGHT: закрыть/открыть текущую группу."
-AutoFillString="[F8] Полный боезапас"
-AutoFill.Caption="[F8] Полный боезапас"
+SaleButtonCaption="Продать оружие"
+InfoText[0]="Добро пожаловать в мой магазин, работающий на ScrN Balance! Горячие клавиши:|F1/F2: перейти к инвентарю/списку продаж|ENTER/BACKPACE: купить/продать предмет. F7/F8: автозаполнение брони/боеприпасов|0-9: Быстрый выбор группы / купить X обойм.|PAGE UP/DOWN: выбрать пред./след. группу. LEFT/RIGHT: закрыть/открыть текущую группу.|UP/DOWN: выбрать пред./след. предмет в текущей группе."
+AutoFillString="[F8] Пополнить боезапас"
+AutoFill.Caption="[F8] Автозаполнение боеприпасов"
 AutoFill.Hint="Первый клик пополняет патроны для всего оружия. Второй клик покупает взрывчатку и гранаты."
 Exit.Caption="[ESC] Выйти из магазина"
 Exit.Hint="Закрыть меню торговли."
+PurchaseB.Caption="Покупка оружия"
+PurchaseB.Hint="Купить выбранное оружие [ENTER]"
 Refresh.Caption="[F5] Обновить"
 Refresh.Hint="Обновить меню торговца."
+SaleB.Caption="Продать оружие"
+SaleB.Hint="Продать выбранный предмет [BACKSPACE]"
 SelectedItemL.Caption="Информация о выбранном предмете"
 
 [ScrnTab_Profile]
@@ -887,15 +908,15 @@ ZedsButton.Caption="Мобы"
 ZedsButton.Hint="Prints current monster collection"
 
 [ScrnThompsonDrum]
-ItemName="Автомат 'Rising Storm'"
+ItemName="RS Томми-ган SE"
 
 [ScrnThompsonDrumPickup]
-ItemName="Автомат 'Rising Storm'"
-ItemShortName="Автомат R.S."
-PickupMessage="Вы получили автомат 'Rising Storm' с дисковым магазином"
+ItemName="RS Томми-ган SE"
+ItemShortName="RS Томми-ган SE"
+PickupMessage="Вы получили 'Rising Storm' Томпсон с дисковым магазином"
 
 [ScrnThompsonInc]
-ItemName="Зажигательный Томми-ган"
+ItemName="Зажигательный Томми-ган SE"
 
 [ScrnThompsonIncAmmo]
 ItemName="45. ACP Зажигательные пули"
@@ -904,16 +925,16 @@ ItemName="45. ACP Зажигательные пули"
 PickupMessage="Rounds 45. ACP Inc."
 
 [ScrnThompsonIncPickup]
-ItemName="Зажигательный Томми-ган"
-ItemShortName="Томми-ган Inc."
+ItemName="Зажигательный Томми-ган SE"
+ItemShortName="Томми-ган Inc. SE"
 PickupMessage="Вы получили зажигательный Томми-ган"
 
 [ScrnTrenchgun]
-ItemName="Траншейный дробовик 'Дыхание дракона'"
+ItemName="Траншейный дробовик 'Дыхание дракона' SE"
 
 [ScrnTrenchgunPickup]
-ItemName="Траншейный дробовик"
-ItemShortName="Траншейный дробовик"
+ItemName="Траншейный дробовик SE"
+ItemShortName="Траншейный дробовик SE"
 
 [ScrnUnicode]
 Dosh="Ј"
@@ -939,8 +960,7 @@ Requirements[0]="Нанести %x ед. урона оружием медика"
 SkillInfo="PERK SKILLS:|Магазин автоматич. оружия больше на 25%|Скорость перезарядки всего оружия выше на 35%|Отдача у всего оружия на 40% меньше|Возможность видеть невидимых врагов и здоровья"
 CustomLevelInfo="PERK BONUSES (LEVEL %L):|На %x больше ущерба автоматич. оружием|Увеличение длительности замедления времени в %z раз(а)|%$ скидка на автоматич. оружие"
 VeterancyName="Коммандос"
-Requirements[0]="Убейте %x Сталкеров/Шиверов автоматич. оружием"
-Requirements[1]="Нанесите %x ед. урона автоматич. оружием"
+Requirements[0]="Нанесите %x ед. урона автоматич. оружием"
 
 [ScrnVetDemolitions]
 SkillInfo="PERK SKILLS:|80% сопротивления взрывам"
@@ -965,7 +985,6 @@ SkillInfo="PERK SKILLS:|Скорость перезарядки пистолет
 CustomLevelInfo="PERK BONUSES (LEVEL %L):|На %x больше ущерба пистолетами|Максимальный боезапас пистолетов выше на %a|%$ скидка на пистолеты"
 VeterancyName="Стрелок"
 Requirements[0]="Совершите %x убийств пистолетами"
-Requirements[1]="Нанесите %x ед. урона пистолетами"
 
 [ScrnVetSharpshooter]
 SkillInfo="PERK SKILLS:|На 50% больше урона в голову другим оружием|Отдача у пистолетов/снайперских винтовок на 75% меньше|Скорость перезарядки пистолетов/снайперских винтовок выше на 60%"
@@ -978,40 +997,45 @@ SkillInfo="PERK SKILLS:|Пробивная способность дробови
 CustomLevelInfo="PERK BONUSES (LEVEL %L):|Ущерб от дробовиков выше на %x|Максимальный боезапас для дробовиков выше на %a|Макс. число гранат увеличено на %g|%$ скидка на дробовики"
 VeterancyName="Поддержка"
 Requirements[0]="Нанесите %x ед. урона дробовиками"
-Requirements[1]="Заварите %x ед. прочности дверей"
 
 [ScrnWinchester]
-ItemName="Винтовка"
+ItemName="Винтовка SE"
 
 [ScrnWinchesterPickup]
-ItemName="Винтовка"
-ItemShortName="Винтовка"
+ItemName="Винтовка SE"
+ItemShortName="Винтовка SE"
 
 [ScrnZEDMKIIPickup]
-ItemName="Zed Eradication Device MKII"
-ItemShortName="ZED GUN MKII"
+ItemName="Zed Eradication Device MKIISE"
+ItemShortName="ZED GUN MKIISE"
 
 [ScrnZEDMKIIWeapon]
-ItemName="ZED GUN MKII"
+ItemName="ZED GUN MKIISE"
 
 [ScrnZedVoting]
 HelpInfo=("%pZED %y<zed_vote> %gON%w|%rOFF %w Добавить|Удалить зэдов. %bMVOTE ZED HELP %w для получения дополнительной информации.")
 GroupInfo=("%pZED %y<zed_vote> %gON%w|%rOFF %w Добавить или удалить зэдов. Требуется перезагрузка карты.","%wZed votes:")
 
 [SocAch]
-GroupInfo=((Caption="ALL"),(Caption="Social Isolation"))
-ProgressName="Social Isolation Achievements"
+GroupInfo=((Caption="ВСЕ"),(Caption="Социальная изоляция"))
+ProgressName="Достижения социальной изоляции"
 
 [SocDistanceMsg]
-Title="KEEP DISTANCE"
-Messages=("You are too close to other players!","Move away to prevent virus spreading.")
+Title="ДЕРЖИ ДИСТАНЦИЮ"
+Messages=("Вы слишком близко к другим игрокам!","Отойдите, чтобы предотвратить распространение вируса.")
 
 [SocIsoMut]
 FriendlyName="Social Isolation"
 Description="The year 2020. While the Specimen Outbreak is still in progress, the second threat broke through - The Virus. The source of The Virus is still unidentified. Rumors say it is the latest experiment of Horzine labs. Others say a bat f****d a snake, and then got eaten by the Stinky Clot! 30% of the human population got infected, and the number is growing. There is no cure, no vaccine. The only way to survive is social isolation. Keep the distance to stop The Virus spreading but stay together to fight the Zeds."
 
+[SocRules]
+strInfectedItems="Нельзя поднимать зараженные предметы"
+
 [StinkyClot]
-MenuName="Вонючий Клот"
+MenuName="Stinky Clot"
+
+[StinkyClotZed]
+MenuName="Evil Stinky Clot"
 
 [StinkyController]
 BlameStr="%p обвинен в размещении базы в глючном месте!"
@@ -1027,10 +1051,10 @@ FemaleSuicide="%o убита игрой"
 MaleSuicide="%o убит игрой"
 
 [TSCGame]
-RedTeamHumanName="Британцы"
+RedTeamHumanName="British"
 BlueTeamHumanName="Steampunk"
 strBudgetCut="Бюджет команд был урезан"
-KFHints=("У каждой команды есть свой магазин. Команда не может получить один и того же магазин два раза подряд.","When the Trader opens her doors, she drops Base Guardian nearby. Take it to your base!","Pick up a Base Guardian next to the Trader, bring it where you want your Base to be and press SETUPBASE(ALTFIRE) button.","Base can be established only once per wave. Once set up, it can not be moved.","If nobody stays at a Base, then the Guardian gets frustrated and disappears. No Guardian = No Base.","Base Guardian has 2 cool features: it protects you from the Friendly Fire and damages enemy squad members.","Base Guardian hurts enemy players withing the range of the Base no matter of Friendly Fire setting.","Base can be established during the Trader Time only. So hurry up!","Other squad cannot stay at your Base.","You can play without a Base too, but who is going to protect you from the Friendly Fire then?..","Setting up a Base in a strategical map point is a key to success.","You can not set up own Base at Enemy Base. However, Bases may intersect.","While carrying Base Guardian you can pass it to other player by pressing the same key as throwing a weapon.","Best camping spots in standard KF game are not necessarily the best spots in TSC.","Team gets wiped if ANY its member dies during SUDDEN DEATH wave.","Wiping enemy squad doesn't grant you a win. You still have to survive till the end of the wave.","TSC isn't Versus or Team Deathmatch game. You don't have to fight the enemy team. Leave that job to ZEDs.","You can wait until ZEDs wipe out enemy squad or help them. Help who? ZEDs or the other squad? Thr choice is up to you...","There are 4 Human Damage rules in TSC: OFF, No Friendly Fire, Normal and PvP. Type MVOTE TEAM HDMG for the info.","When Human Damage is OFF, you can not damage other squad's members. Your Guardian can though.","Human Damage is OFF during the first wave, Trader Time and when there are less than 10 zeds left in a wave.","Human Damage is ON during waves (except first one). Staying at own Base protects you from it.","You can switch team during the Trader Time. Type SWITCHTEAM in the console or bind it to key.","Switching the team during the game kills you first. Then restarts you as other squad's member.","You can not switch a team during a wave.","Medics and medics only can see health and armor of enemy players","TSC, same as KF, is not about winning or losing. It is all about surviving.","TSC doesn't force you to play against the other squad. You can cooperate and survive together. But nobody said that the other squad thinks the same...","During the Trader Time, if other squad has 2 players less than yours, you can switch to it on-the-fly (without dying).")
+KFHints=("Each team has its own Trader. A team can not get the same Trader two times in a row.","When the Trader opens her doors, she drops the Base Guardian nearby. Take it to your Base!","Pick up the Base Guardian next to the Trader, bring it where you want your Base to be, and press the SETUPBASE or CROUCH button.","The Base can be established only once per wave. Once set up, it can not be moved.","If nobody stays at a Base, then the Guardian gets frustrated and disappears. No Guardian = No Base.","Base Guardian has two cool features: it protects you from the Friendly Fire and damages enemy squad members.","Base Guardian hurts enemy players within the range of the Base no matter of the Friendly Fire setting.","Base Guardian can be stunned with nades or 700+ cumulative damage.","Base Guardian is invulnerable while waking up or for the first 10 seconds of a wave.","The Base can be established during the Trader Time only. So hurry up!","The other squad cannot stay at your Base.","You can play without a Base too, but who will protect you from the Friendly Fire then?","Setting up a Base in a strategic map point is the key to success.","You cannot set up your own Base at the Enemy Base. However, the Bases may intersect.","While carrying Base Guardian, you can pass it to another player by pressing the same key as throwing a weapon.","Best camping spots in the standard KF game are not necessarily the best spots in TSC.","The team gets wiped if ANY its member dies during the SUDDEN DEATH wave.","Wiping the enemy squad doesn't grant you a win. You still have to survive till the end of the wave.","TSC isn't Versus or Team Deathmatch game. You don't have to fight the enemy team. Leave that job to ZEDs.","You can wait until ZEDs wipe out the enemy squad or help them. Help who? ZEDs or the other squad? The choice is up to you...","There are 4 Human Damage rules in TSC: OFF, No Friendly Fire, Normal, and PvP. Type MVOTE TEAM HDMG for the info.","When Human Damage is OFF, you can not damage the other squad's members. The Base Guardian can, though.","Human Damage is OFF during the first wave, Trader Time, and when there are less than 10 zeds left in a wave.","Human Damage is ON during waves (except the first one). Staying at your own Base protects you from it.","You can switch team during the Trader Time. Type SWITCHTEAM in the console or bind it to a key.","Switching the team during the game kills you first. Then restarts you as another squad member.","You cannot switch a team during a wave.","Medics, and only medics, can see the health and armor of enemy players.","TSC, same as KF, is not about winning or losing. It is all about surviving.","TSC doesn't force you to play against the other squad. You can cooperate and survive together. But nobody said that the other team thinks the same...","During the Trader Time, if the other squad has 2+ players less than yours, you can switch to it on-the-fly (without dying).","Social Isolation: Rumors say that Toilet Paper can protect you from the Virus. At least you will die with a clean butt.","Social Isolation: 'I can feel it coming in the air tonight, oh Lord!' Yes, it is the Virus in the air. And it is gonna kill you!","Social Isolation: The shop is a high-risk area for spreading the Virus. Keep distance and wait in line for shopping.")
 GameName="Team Survival Competition"
 Description="Two Teams, One Floor. Killing Floor. There are two teams competing in surviving specimen invasion on the same map and at the same time. Both teams can cooperate, fight against each other or just stay each in own corner of the map - choice is up to you..."
 
@@ -1071,13 +1095,14 @@ TimeOutCounter.Caption="Игра начнется автоматически ч�
 ReadyString="Готов"
 UnreadyString="Не готов"
 strJoin="Присоединиться"
-strJoined="Зарегистрирован"
+strJoined="Присоединился"
 strCurrentWave="Текущая волна:"
 strWaves="волн"
 strTeam="Команда:"
 strNotTeamMember="Выберите команду..."
 WaitingForMorePlayers="Ожидайте пока присоединиться больше игроков..."
-TeamNames[0]="Британцы"
+strPlayerIsSpectator="Вы зритель."
+TeamNames[0]="British"
 TeamNames[1]="Steampunk"
 strHDmg="Система повреждений: "
 HDmgNames=("ВЫКЛ","Огонь по своим: ВЫКЛ","PvP + Огонь по своим: ВЫКЛ","Нормальная","PvP","От всех")
@@ -1115,17 +1140,19 @@ strBaseZ="Нельзя создать базу на вражеской терр�
 strBaseShop="Нельзя создать базу внутри магазина!"
 strTeamLocked="Команда заблокирована. Новые игроки могут присоединиться только по приглашению."
 strTeamUnlocked="Команда разблокирована. Каждый может присоединиться к игре."
-strBaseEstablished[0]="База Британцев создана"
+strBaseEstablished[0]="База British создана"
 strBaseEstablished[1]="База Steampunk создана"
-strBaseLost[0]="База Британцев потеряна"
+strBaseLost[0]="База British потеряна"
 strBaseLost[1]="База Steampunk потеряна"
-strTeamWiped[0]="Отряд Британцев УНИЧТОЖЕН!"
+strTeamWiped[0]="Отряд British УНИЧТОЖЕН!"
 strTeamWiped[1]="Отряд Steampunk УНИЧТОЖЕН!"
-strBaseStunned[0]="Хранитель Британцев оглушен"
+strBaseStunned[0]="Хранитель British оглушен"
 strBaseStunned[1]="Хранитель Steampunk оглушен"
-strBaseWakeUp[0]="Хранитель Британцев проснулся"
+strBaseWakingUp[0]="Хранитель British просыпается"
+strBaseWakingUp[1]="Хранитель Steampunk просыпается"
+strBaseWakeUp[0]="Хранитель British проснулся"
 strBaseWakeUp[1]="Хранитель Steampunk проснулся"
-strTeamNames[0]="Британцы"
+strTeamNames[0]="British"
 strTeamNames[1]="Steampunk"
 
 [TSCScoreBoard]
@@ -1146,33 +1173,35 @@ HelpInfo=("%pTEAM %y<опция> %w Командное голосование. %
 GroupInfo=("%pTEAM %gHDMG %yPVP%w|%yNORMAL%w|%yNOFF%w|%yOFF %w Изменить систему повреждений","%pTEAM %gSHUFFLE %w Перемешать команды путем случайного перемещения игроков между собой","%pTEAM %gABORTSHUFFLE %w Отменить перемешивание команд","%pTEAM %gLOCK %w Заблокировать команду, предотвратить вход новых игроков","%pTEAM %gUNLOCK %w Разблокировать команду","%pTEAM %gINVITE %y<ник игрока> %w Разрешить игроку присоединиться к команде","%pTEAM %bCAPTAIN %y<ник игрока> %w Выбрать Капитана своей команды","%pTEAM %bCARRIER %y<ник игрока> %w Выбрать Носителя. Если выбран, то Хранителя (Гнома) сможет взять только Капитан и Носитель","%pTEAM %gREADY%w|%gUNREADY %w делает вашу команду готовой/не готовой к игре")
 
 [TheGuardian]
-strBlame="Игрока %p обвиняют в неудачной установке базы"
+strBlame="%p обвиняется в неудачной установке базы"
 
 [ToiletPaper]
-Description="Toilet Paper. Rumors say that it somehow helps to survive the Virus Outbreak. Who knows? At least you will die with the clean butt."
-ItemName="Toilet Paper"
+Description="Туалетная бумага. По слухам, это каким-то образом помогает пережить вирусную эпидемию. Кто знает? По крайней мере, ты умрешь с чистой задницей."
+ItemName="Туалетная бумага"
 
 [ToiletPaperAmmo]
-ItemName="A Toilet Paper Roll"
+ItemName="Рулон туалетной бумаги"
 
 [ToiletPaperAmmoPickup]
-PickupMessage="Found some Toilet Paper"
+PickupMessage="Вы нашли туалетную бумагу"
 
 [ToiletPaperPickup]
-ItemName="Toilet Paper"
-ItemShortName="Toilet Paper"
-PickupMessage="You got Toilet Paper"
+ItemName="Туалетная бумага"
+ItemShortName="Туалетная бумага"
+PickupMessage="Вы получили туалетную бумагу"
 
 [ToiletPaperProj_Brown]
-strBlame="%p blamed for touching %o's feces"
+strBlame="%p обвиняется в прикосновении к фекалиям %o"
 
 [TurboGame]
 GameName="Turbo Floor"
 Description="Same KF but faster. Much Faster. And more ZED Time."
 
 [VirusDamage]
-DeathString="%o died from The Virus."
-FemaleSuicide="%o died from the Virus."
-MaleSuicide="%o died from the Virus."
+DeathString="%o умер от вируса."
+FemaleSuicide="%o умерла от вируса."
+MaleSuicide="%o умер от вируса."
 
+[VirusInfo]
+strCoughedInShop="Предупреждение о распространении вируса! Вы заплатили $%$ за дезинфекцию зоны магазина."
 
