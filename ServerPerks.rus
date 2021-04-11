@@ -16,7 +16,7 @@ ProfileButton.Caption="Профиль"
 
 [SRKFTab_BuyMenu]
 ArchivementGetInfo="Для разблокировки этого оружия требуется Достижение '%1'."
-InfoText[4]="Для этого оружия требуется DLC-пакет '%1'."
+InfoText[4]="Для этого оружия требуется пакет загружаемого контента (DLC) '%1'."
 
 [SRLobbyFooter]
 UnreadyString="Обзор карты"
@@ -55,7 +55,7 @@ NextButton.Hint="Перейти на следующую страницу в ис
 PreviousButton.Caption=" < "
 PreviousButton.Hint="Перейти на предыдущую страницу в истории"
 ReloadButton.Caption="Обнов."
-ReloadButton.Hint="Обновить текущую страницу"
+ReloadButton.Hint="Перезагрузить текущую страницу"
 
 [SRVeterancyTypes]
 DisableTag="ЗАБЛОКИРОВАНО"
