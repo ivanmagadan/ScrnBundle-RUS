@@ -43,14 +43,14 @@ PickupMessage="Ледяные осколки"
 ReloadMessage="REL"
 EmptyMessage="---"
 Description="Cryo Mass Driver v014 или просто «Морозильник» разработан для ... бла-бла-бла ... замораживания мобов"
-ItemName="Cryo Mass Driver 14"
+ItemName="Cryo Mass Driver 14 SE"
 
 [FreezerPickup]
 SecondaryAmmoShortName="-- Жидкий азот"
 
 [FreezerPickup]
-ItemName="Cryo Mass Driver 14"
-ItemShortName="Cryo MD14"
+ItemName="Cryo Mass Driver 14 SE"
+ItemShortName="Cryo MD14 SE"
 PickupMessage="Вы получили Cryo Mass Driver 14"
 
 [HTecMut]
@@ -58,7 +58,7 @@ FriendlyName="ScrN Horzine Technician"
 Description="Техник 'Horzine' с IJC Cryo Mass Driver 14. Требуется ScrN Balance v9+."
 
 [HTecProg]
-ProgressName="Замороженные/Захваченные мобы"
+ProgressName="Замороженные/Ударенные током мобы"
 
 [HTecZEDGun]
 ItemName="HTec ZED Eradication Device"
@@ -74,7 +74,7 @@ ItemName="HTec ZED Gun MKII"
 ItemShortName="ZED Gun MKII"
 
 [KVolt]
-Description="Модифицированный для стрельбы крио-дротиками K-Volt, разработанный в 'Horzine'. Криодарты K-Volt слабее, чем Mass Driver, но они имеют более длительный эффект последействия и улучшеную разрушающую способность."
+Description="Модифиция прототипа K-Volt для стрельбы крио-дротиками, разработанная в 'Horzine'. Крио-дротики K-Volt слабее, чем у Mass Driver, но у них более длительное последействие и повышенная разрушающая способность."
 ItemName="HTec K-VOLT Cryo"
 
 [KVoltAmmo]
@@ -89,11 +89,8 @@ ItemShortName="HTec K-VOLT"
 PickupMessage="Вы получили HTec K-VOLT Cryo"
 
 [ScrnVetHTec]
-SkillInfo="PERK SKILLS (HTec v4.03):|Крио-гранаты|больше замороженных денег|Броня не замедляет вас|На 60% меньше ущерба от желчи толстяков и крика сирен при использовании бронежилета Horzine (>100)"
-CustomLevelInfo="PERK BONUSES (LEVEL %L):|На %x больше ущерба ZED/Крио пушками|На %x быстрее заморозка|Магазин ZED пушек больше на %m|Максимальный ZED/Крио боезапас выше на %a|Макс. число Крио-гранат увеличено на %g|%$ скидка на HTec инвентарь"
+SkillInfo="PERK SKILLS (HTec v5.00):|Крио-гранаты|Больше замороженных денег|Броня не замедляет вас|На 60% меньше урона от желчи толстяков и крика сирен при броне > 100"
+CustomLevelInfo="PERK BONUSES (LEVEL %L):|На %x больше урона ZED/Крио пушками|На %x быстрее заморозка|Магазин ZED пушек больше на %m|Максимальный ZED/Крио боезапас выше на %a|Макс. число Крио-гранат увеличено на %g|%$ скидка на HTec инвентарь"
 VeterancyName="Техник 'Horzine'"
-Requirements[0]="Заморозить или захватить %x мобов"
-
-[ZombieSirenCryo]
-MenuName="Cryo Siren"
+Requirements[0]="Заморозить или ударить током %x мобов"
 
