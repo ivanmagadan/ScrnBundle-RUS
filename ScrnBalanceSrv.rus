@@ -68,7 +68,7 @@ ItemShortName="АК47 SE"
 
 [ScrnAchievementEarnedMsg]
 EarnedString="Открыто Достижение!"
-InProgressString="Прогресс Достижения..."
+InProgressString="Прогресс Достижения"
 
 [ScrnAchievements]
 GroupInfo=((Caption="ВСЕ"))
@@ -82,7 +82,6 @@ ItemShortName="Топор SE"
 
 [ScrnBalance]
 strBonusLevel="Эффективный уровень бонусов вашего перка [%s]"
-strVersion="v%m.%n.%p"
 strStatus="Уровень вашего перка: Визуальный=%v, Эффективный=[%b]. Диапазон перков [%n..%x]."
 strStatus2="Альт.огонь=%a. MaxZombiesOnce=%m."
 strSrvWarning="Вы используете версию ScrnBalance для выделенного сервера, которая не должна устанавливаться на локальные машины! Пожалуйста, получите версию для клиента из мастерской."
@@ -113,7 +112,8 @@ strEndWavePenalty="Команда заплатит за преждевремен
 strRCommands="R_* Команды могут быть выполнены только с помощью рефери (Admin rights + Tourney Mode)"
 strBlamed="%p blamed %r"
 strBlamedBaron="%p blamed for blaming Baron"
-HelpInfo=("%gLOCKPERK%w|%gUNLOCKPERK %y<название перка> %w Отключить/Включить перк в конце волны","%gLOCKTEAM%w|%gUNLOCKTEAM %w Заблокировать/Разблокировать команды. Только приглашенные игроки смогут присоединиться к заблокированной команде.","%gPAUSE %yX %w Остановить игру на X секунд","%gEND TRADE %w Немедленно завершить торговлю и начать следующую волну","%gEND WAVE %w Убить последних застрявших мобов, чтобы закончить волну","%gBLAME %y<ник игрока> %b[<причина>] %w Обвинить игрока [в <причина>]","%gSPEC %y<ник игрока> %b[<причина>] %w Переместить игрока в зрители","%gKICK %y<ник игрока> %b[<причина>] %w Выгнать игрока [за <причина>]","%gINVITE %y<player_name> %w Пригласить игрока в заблокированную команду.","%gBORING %w Удвоить рейты спавна мобов","%gSPAWN %y<название отряда> %w Спавнить отряд мобов","%gREADY%w|%gUNREADY %w Сделать всех готовыми/не готовыми играть","%gFF %yX %w Установить огонь по своим в X%","%gMAP RESTART %w Перезапустить текущую карту","%gFAKED %yX %w Установить фэйковых игроков на X (FAKEDCOUNT+FAKEDHEALTH)","%gFAKEDCOUNT %yX %w Set Faked Players for zed count calculation","%gFAKEDHEALTH %yX %w Установить фальшивых игроков для расчета здоровья зэдов")
+strWrongPerk="Wrong perk (%s)"
+HelpInfo=("%gLOCKPERK%w|%gUNLOCKPERK %y[!] <perk1> [<perk2> ...]%w Отключить/Включить перк в конце волны","%gLOCKTEAM%w|%gUNLOCKTEAM %w Заблокировать/Разблокировать команды. Только приглашенные игроки смогут присоединиться к заблокированной команде.","%gPAUSE %yX %w Остановить игру на X секунд","%gEND TRADE %w Немедленно завершить торговлю и начать следующую волну","%gEND WAVE %w Убить последних застрявших мобов, чтобы закончить волну","%gBLAME %y<ник игрока> %b[<причина>] %w Обвинить игрока [в <причина>]","%gSPEC %y<ник игрока> %b[<причина>] %w Переместить игрока в зрители","%gKICK %y<ник игрока> %b[<причина>] %w Выгнать игрока [за <причина>]","%gINVITE %y<player_name> %w Пригласить игрока в заблокированную команду.","%gBORING %w Удвоить рейты спавна мобов","%gSPAWN %y<название отряда> %w Спавнить отряд мобов","%gREADY%w|%gUNREADY %w Сделать всех готовыми/не готовыми играть","%gFF %yX %w Установить огонь по своим в X%","%gMAP RESTART %w Перезапустить текущую карту","%gFAKED %yX %w Установить фейковых игроков на X (FAKEDCOUNT+FAKEDHEALTH)","%gFAKEDCOUNT %yX %w Установить фейковых игроков для расчета количества зедов","%gFAKEDHEALTH %yX %w Установить фейковых игроков для расчета здоровья зедов","%gDIFF %yX %w Изменить сложность карты (2-8) для следующей карты")
 
 [ScrnBenelliPickup]
 ItemName="Боевой дробовик SE"
@@ -260,7 +260,7 @@ ItemName="Дезерт Игл SE"
 ItemShortName="Дезерт Игл SE"
 
 [ScrnDual44Magnum]
-Description="Пара 'Магнумов .44'. Лучший выбор Ковбоя, чтобы очистить Дикий Запад от орды зэдов!"
+Description="Пара 'Магнумов .44'. Лучший выбор Ковбоя, чтобы очистить Дикий Запад от орды зедов!"
 ItemName="Пара 'Магнумов .44' SE"
 
 [ScrnDual44MagnumLaser]
@@ -328,10 +328,10 @@ ItemName="FNFAL ACOG SE"
 ItemShortName="FNFAL SE"
 
 [ScrnFireModeSwitchMessage]
-SwitchMessage[0]="Полностью автоматический"
-SwitchMessage[1]="Полуавтоматический"
-SwitchMessage[2]="Очередями в 2 пули"
-SwitchMessage[3]="Очередями в 3 пули"
+SwitchMessage[0]="Полностью автоматический режим"
+SwitchMessage[1]="Полуавтоматический режим"
+SwitchMessage[2]="Режим стрельбы очередями по 2 пули"
+SwitchMessage[3]="Режим стрельбы очередями по 3 пули"
 SwitchMessage[4]="Одиночный режим"
 SwitchMessage[5]="Мульти режим"
 
@@ -436,12 +436,12 @@ Panels=((Caption="Новости",Hint="Обзор новостей сервер
 TeamSwitchButton.Caption="Сменить команду"
 
 [ScrnKSGPickup]
-ItemName="Дробовик KSG SE"
+ItemName="KSG SE"
 ItemShortName="KSG SE"
 
 [ScrnKSGShotgun]
 Description="Прототип улучшенного тактического дробовика, разработанный в 'Horzine'. Оснащен магазином повышенной емкости и переключателем режимов кучности огня 'высоко/низко'. Его гранулы проникают в слабых врагов почти без потери урона, но обычно застревают внутри больших тел. Не имеет лечебных насадок, но медикам нравится это в любом случае."
-ItemName="Дробовик KSG SE"
+ItemName="KSG SE"
 
 [ScrnKatana]
 ItemName="Катана SE"
@@ -490,6 +490,9 @@ Cancel.Caption="Отключиться"
 Cancel.Hint="Отключиться от этого сервера"
 ViewMap.Caption="Обзор Карты"
 ViewMap.Hint="Посмотреть карту пока игроки готовятся"
+
+[ScrnLobbyMenu]
+strBrokenGame="(BAD GAME MODE!)"
 
 [ScrnM14EBRBattleRifle]
 Description="Модернизированная боевая винтовка M14 - полуавтоматический вариант. Оснащена лазерным прицелом. Специальная линза позволяет менять цвет лазера на лету."
@@ -545,7 +548,7 @@ ItemName="Гранатомет M79 SE"
 
 [ScrnM79Inc]
 Description="Классический ручной однозарядный гранатомет времен войны во Вьетнаме. Запускает зажигательные гранаты."
-ItemName="Гранатомет M79 Inc"
+ItemName="Зажигательный M79"
 
 [ScrnM79IncAmmo]
 ItemName="Зажигательные гранаты M79"
@@ -554,14 +557,14 @@ ItemName="Зажигательные гранаты M79"
 PickupMessage="Зажигательные гранаты M79"
 
 [ScrnM79IncPickup]
-ItemName="Гранатомет M79 Inc"
+ItemName="Зажигательный M79"
 ItemShortName="M79 Inc"
-PickupMessage="Вы получили однозарядный гранатомет M79 Inc."
+PickupMessage="Вы получили однозарядный зажигательный гранатомет M79"
 
 [ScrnM79M]
 SuccessfulHealMessage="Вы вылечили %c игрока(ов) с %ahp"
 Description="Классический ручной однозарядный гранатомет времен войны во Вьетнаме. Модифицирован для запуска целебных гранат."
-ItemName="Мед. гранатомет M79М"
+ItemName="Мед. гранатомет M79"
 
 [ScrnM79MAmmo]
 ItemName="Целебные гранаты M79"
@@ -570,8 +573,8 @@ ItemName="Целебные гранаты M79"
 PickupMessage="Целебные гранаты M79"
 
 [ScrnM79MPickup]
-ItemName="Мед. гранатомет M79М"
-ItemShortName="Мед. M79М"
+ItemName="Мед. гранатомет M79"
+ItemShortName="Мед. M79"
 PickupMessage="Вы получили однозарядный Мед. гранатомет M79М"
 
 [ScrnM79Pickup]
@@ -703,7 +706,7 @@ strPlayingSong="Сейчас играет: "
 SwitchMessage[0]="Полностью заряжен"
 
 [ScrnPlayerWarningMessage]
-SwitchMessage[0]="Магазин пуст! Пожалуйста перезарядитесь."
+SwitchMessage[0]="Магазин пуст! Перезарядитесь."
 SwitchMessage[1]="Нет патронов"
 
 [ScrnPromotedMessage]
@@ -735,6 +738,7 @@ AssHeaderText="Ass."
 KillsAssSeparator=" + "
 strPingMax="N/A"
 SpectatorsText="Зрители"
+SuicideTimeText="Suicide in"
 TeamScoreString="Бумажник команды:"
 HealthText="HP"
 PointsText="ДЕНЬГИ"
@@ -800,7 +804,7 @@ Exit.Hint="Закрыть меню торговли."
 PurchaseB.Caption="Покупка оружия"
 PurchaseB.Hint="Купить выбранное оружие [ENTER]"
 Refresh.Caption="[F5] Обновить"
-Refresh.Hint="Обновить меню торговца."
+Refresh.Hint="Перезагрузить меню торговца, включая сброс максимального значения информационных панелей оружия."
 SaleB.Caption="Продать оружие"
 SaleB.Hint="Продать выбранный предмет [BACKSPACE]"
 SelectedItemL.Caption="Информация о выбранном предмете"
@@ -818,7 +822,8 @@ strUnlockWeapons="Разблок. Оружие"
 strBoundToCook="'%s' key bound to 'Cook' grenade"
 strBoundToThrow="'%s' key bound to Throw grenade"
 strCantFindNade="Не можете найти клавишу для метания гранат. Пожалуйста назначьте её в Настройки->Управление."
-BarStyleItems=("Classic Bars","Modern Bars","Cool Bars")
+ShowDamagesItems=("Hide damage numbers","Show combined damage","Show all numbers")
+BarStyleItems=("Classic Bars","Modern Bars","Modern + Weapon","Cool Bars")
 HudStyleItems=("Classic HUD, old icons","Classic HUD, new icons","Cool HUD (center)","Cool HUD (left)")
 strBadReason="Напишите хорошую причину"
 strServerInfoSeparator="   "
@@ -837,7 +842,7 @@ BarScale.Hint="Adjust size of the Player Bars"
 BarStyleList.Hint="Player Info Bar Style (Beacons above teammates)"
 BlameButton.Caption="Обвинить"
 BlameButton.Hint="Нажмите, чтобы начать голосование за обвинение выбранного игрока по 'Причине'"
-BoringButton.Caption="Скучно"
+BoringButton.Caption="Boring"
 BoringButton.Hint="Увеличить скорость появления мобов, что сделает игру быстрее."
 CookNade.Caption="Включить подготовку гранаты"
 CookNade.Hint="Если опция включена, граната будет оставаться в ваших руках пока удерживается клавиша. Подготовка гранаты замедляет скорость броска!"
@@ -857,6 +862,8 @@ KickButton.Caption="Кик"
 KickButton.Hint="Нажмите, чтобы начать голосование за кик выбранного игрока по 'Причине'."
 ManualReload.Caption="Ручная перезарядка"
 ManualReload.Hint="Если опция включена, то автоматическая перезарядка оружия будет выключена"
+NeverSwitchOnPickup.Caption="No Weapon Autoswitch"
+NeverSwitchOnPickup.Hint="If checked, the player does not automatically switch to newly obtained weapons (either bought or picked up)"
 PerkProgressButton.Caption="Прогресс перков"
 PerkProgressButton.Hint="Вывести прогресс перка и накопленный во время этой игры XP в консоль"
 PlayerBG.Caption="Голосование/MVote"
@@ -864,8 +871,6 @@ PlayerList.Caption="Игрок:"
 PlayerList.Hint="Выбрать игрока из списка"
 PlayerListButton.Caption="Список"
 PlayerListButton.Hint="Записать список игроков в консоль и KillingFloor.log"
-PrioritizeBoomstick.Caption="Ружье до AA12"
-PrioritizeBoomstick.Hint="Если опция включена, то при нажатии '4' Охотничье Ружье будет выбираться до AA12"
 PrioritizePerkedWeapons.Caption="Оружие перка первое"
 PrioritizePerkedWeapons.Hint="Если опция включена, оружие перка будет выбираться первым в группе"
 PrizeButton.Caption="Get Prize"
@@ -876,8 +881,7 @@ ReasonTextBox.Caption="Причина:"
 ServerInfoLabel.Caption="Статус сервера недоступен"
 ShowAchProgress.Caption="Прогресс Достижений"
 ShowAchProgress.Hint="Если опция включена, то вы всегда будете получать уведомления о любом прогрессе Достижений. Если нет, то игра автоматически решит когда показывать уведомления."
-ShowDamages.Caption="Показывать урон"
-ShowDamages.Hint="Если опция включена, то на экране будет отображаться наносимый вами урон"
+ShowDamagesList.Hint="Display damage popups"
 ShowSpeed.Caption="Показывать скорость"
 ShowSpeed.Hint="Если опция включена, то на экране будет отображаться ваша текущая скорость перемещения"
 SpecButton.Caption="Зритель"
@@ -902,7 +906,7 @@ VoteNoButton.Hint="Decline current vote in progress"
 VoteYesButton.Caption="Да!"
 VoteYesButton.Hint="Accept current vote in progress"
 WeaponLockButton.Caption="Блокировка оружия"
-WeaponLockButton.Hint="Блокирует/Деблокирует потерянное оружие. Если заблокировано, то другие игроки не смогут поднимать оружие."
+WeaponLockButton.Hint="Блокирует/Разблокирует выпавшее оружие. Если заблокировано, то другие игроки не смогут поднимать оружие."
 WeaponsBG.Caption="Оружие"
 ZedsButton.Caption="Мобы"
 ZedsButton.Hint="Prints current monster collection"
@@ -945,44 +949,44 @@ ItemShortName="Бронежилет"
 PickupMessage="Вы получили бронежилет"
 
 [ScrnVetBerserker]
-SkillInfo="PERK SKILLS:|Движения в ближнем бою на 30% быстрее|На 80% меньше ущерба от желчи толстяков|На 60% меньше ущерба от Doom Demons|40% сопротивления любому ущербу|Клоты не могут вас схватить|Увеличение длительности замедления времени в 4 раза"
-CustomLevelInfo="PERK BONUSES (LEVEL %L):|Дополнительно %x ущерба рукопашным оружием|Атака рукопашным оружием на %s быстрее|На %a больше топлива для бензопилы|%$ скидка на оружие ближнего боя"
+SkillInfo="PERK SKILLS:|Движения в ближнем бою на 30% быстрее|На 80% меньше урона от желчи толстяков|На 60% меньше урона от Doom Demons|40% сопротивления любому урону|Клоты не могут вас схватить|Увеличение длительности замедления времени в 4 раза"
+CustomLevelInfo="PERK BONUSES (LEVEL %L):|Дополнительно %x урона рукопашным оружием|Атака рукопашным оружием на %s быстрее|На %a больше топлива для бензопилы|%$ скидка на оружие ближнего боя"
 VeterancyName="Берсеркер"
 Requirements[0]="Нанести %x ед. урона оружием ближнего боя"
 
 [ScrnVetCombatMedic]
 SkillInfo="PERK SKILLS:|Скорость перемещения выше на 20%|Магазин оружия медика больше на 100%|Атака катаной/мачете на 75% быстрее|Во время замедления скорость перемещения быстрее"
-CustomLevelInfo="PERK BONUSES (LEVEL %L):|На %x больше ущерба оружием медика|Максимальный боезапас оружия медика выше на %a|Броня эффективнее на %v|Увеличение длительности замедления времени в %z раз(а)|%$ скидка на оружие медика, броню и катану"
+CustomLevelInfo="PERK BONUSES (LEVEL %L):|На %x больше урона оружием медика|Максимальный боезапас оружия медика выше на %a|Броня эффективнее на %v|Увеличение длительности замедления времени в %z раз(а)|%$ скидка на оружие медика, броню и катану"
 VeterancyName="Боевой медик"
 Requirements[0]="Нанести %x ед. урона оружием медика"
 
 [ScrnVetCommando]
 SkillInfo="PERK SKILLS:|Магазин автоматич. оружия больше на 25%|Скорость перезарядки всего оружия выше на 35%|Отдача у всего оружия на 40% меньше|Возможность видеть невидимых врагов и здоровья"
-CustomLevelInfo="PERK BONUSES (LEVEL %L):|На %x больше ущерба автоматич. оружием|Увеличение длительности замедления времени в %z раз(а)|%$ скидка на автоматич. оружие"
+CustomLevelInfo="PERK BONUSES (LEVEL %L):|На %x больше урона автоматич. оружием|Увеличение длительности замедления времени в %z раз(а)|%$ скидка на автоматич. оружие"
 VeterancyName="Коммандос"
-Requirements[0]="Нанесите %x ед. урона автоматич. оружием"
+Requirements[0]="Нанесите %x ед. урона штурмовыми винтовками"
 
 [ScrnVetDemolitions]
 SkillInfo="PERK SKILLS:|80% сопротивления взрывам"
-CustomLevelInfo="PERK BONUSES (LEVEL %L):|На %x больше ущерба оружием подрывника|Макс. число ракет увеличено на %a|Макс. число ручных гранат, взрывчатки и M203 увеличено на %g|%$ скидка на оружие подрывника|%d скидка на боезапас оружия подрывника|%p скидка на взрывчатку"
+CustomLevelInfo="PERK BONUSES (LEVEL %L):|На %x больше урона оружием подрывника|Макс. число ракет увеличено на %a|Макс. число ручных гранат, взрывчатки и M203 увеличено на %g|%$ скидка на оружие подрывника|%d скидка на боезапас оружия подрывника|%p скидка на взрывчатку"
 VeterancyName="Подрывник"
 Requirements[0]="Нанесите %x ед. урона взрывами"
 
 [ScrnVetFieldMedic]
-SkillInfo="PERK SKILLS:|Эффективность лечения выше на 75%|На 75% меньше ущерба от желчи толстяков|Скорость перемещения выше на 20%|Магазин оружия медика больше на 100%"
+SkillInfo="PERK SKILLS:|Эффективность лечения выше на 75%|На 75% меньше урона от желчи толстяков|Скорость перемещения выше на 20%|Магазин оружия медика больше на 100%"
 CustomLevelInfo="PERK BONUSES (LEVEL %L):|Перезарядка шприца быстрее на %s|Броня эффективнее на %v|%$ скидка на оружие медика и броню"
 VeterancyName="Медик"
 Requirements[0]="Восстановите %x ед. здоровья союзникам"
 
 [ScrnVetFirebug]
 SkillInfo="PERK SKILLS:|Иммунитет к огню|Радиус поражения огнемета больше на 100%|Перезарядка зажигательного оружия быстрее на 60%|Зажигательные гранаты"
-CustomLevelInfo="PERK BONUSES (LEVEL %L):|Ущерб от горения выше на %x|Максимальный запас топлива выше на %a|Макс. число гранат увеличено на %g|%$ скидка на зажигательное оружие"
+CustomLevelInfo="PERK BONUSES (LEVEL %L):|Урон от горения выше на %x|Максимальный запас топлива выше на %a|Макс. число гранат увеличено на %g|%$ скидка на зажигательное оружие"
 VeterancyName="Поджигатель"
-Requirements[0]="Нанесите %x ед. урона огнеметным оружием"
+Requirements[0]="Нанесите %x ед. урона огнем"
 
 [ScrnVetGunslinger]
 SkillInfo="PERK SKILLS:|Скорость перезарядки пистолетов выше на 60%|Отдача у пистолетов на 50% меньше||COWBOY MODE:|Скорость перезарядки выше на 35%|Скорость перемещения выше на 20%|9мм автоматический пистолет"
-CustomLevelInfo="PERK BONUSES (LEVEL %L):|На %x больше ущерба пистолетами|Максимальный боезапас пистолетов выше на %a|%$ скидка на пистолеты"
+CustomLevelInfo="PERK BONUSES (LEVEL %L):|На %x больше урона пистолетами|Максимальный боезапас пистолетов выше на %a|%$ скидка на пистолеты"
 VeterancyName="Стрелок"
 Requirements[0]="Совершите %x убийств пистолетами"
 
@@ -994,7 +998,7 @@ Requirements[0]="Убейте %x врагов выстрелами в голов
 
 [ScrnVetSupportSpec]
 SkillInfo="PERK SKILLS:|Пробивная способность дробовиков выше на 60%|Переносимый вес больше на 10 единиц|Скорость работы сварочным аппаратом выше на 150%|Держа сварочный аппарат в руках можно увидеть HP дверей с 30м"
-CustomLevelInfo="PERK BONUSES (LEVEL %L):|Ущерб от дробовиков выше на %x|Максимальный боезапас для дробовиков выше на %a|Макс. число гранат увеличено на %g|%$ скидка на дробовики"
+CustomLevelInfo="PERK BONUSES (LEVEL %L):|Урон от дробовиков выше на %x|Максимальный боезапас для дробовиков выше на %a|Макс. число гранат увеличено на %g|%$ скидка на дробовики"
 VeterancyName="Поддержка"
 Requirements[0]="Нанесите %x ед. урона дробовиками"
 
