@@ -14,31 +14,31 @@ ItemShortName="AUG A1 SE"
 PickupMessage="Вы получили Steyr AUG A1"
 
 [BruteGunnerPerkProg]
-ProgressName="Урон нанесенный пулеметами"
+ProgressName="Урон нанесенный тяжелыми пулеметами"
 
 [ChainGun]
-Description="Пулемет сорван с руки мертвого Патриарха. Или может быть с разорванного. Или даже с ЖИВОГО. Это работает, и все остальное не имеет значения."
-ItemName="Пулемет Патриарха SE"
+Description="Цепной Пулемет сорван с руки мертвого Патриарха. Или может быть с разорванного. Или даже с ЖИВОГО. Это работает, и все остальное не имеет значения."
+ItemName="Цепной Пулемет Патриарха SE"
 
 [ChainGunAmmo]
-ItemName="Chaingun bullets"
+ItemName="Пули для цепного пулемета"
 
 [ChainGunAmmoPickup]
-PickupMessage="Chaingun Bullets"
+PickupMessage="Пули для цепного пулемета"
 
 [ChainGunPickup]
 SecondaryAmmoShortName="-- Ракеты"
 
 [ChainGunPickup]
-ItemName="Пул. Патриарха SE"
-ItemShortName="Пул. Патриарха SE"
-PickupMessage="Вы получили пулемет Патриарха."
+ItemName="Цепной Пулемет SE"
+ItemShortName="Цепной Пулемет SE"
+PickupMessage="Вы получили Цепной Пулемет Патриарха."
 
 [DamTypeAUG_A1AR]
 DeathString="Игрок %k убил игрока %o (Steyr AUG A1)."
 
 [DamTypeCG]
-DeathString="Игрок %k убил игрока %o (Пулемет Патриарха)."
+DeathString="Игрок %k убил игрока %o (Цепной Пулемет Патриарха)."
 FemaleSuicide="%o выстрелила себе в ногу."
 MaleSuicide="%o выстрелил себе в ногу."
 
@@ -113,7 +113,7 @@ SecondaryAmmoShortName="-- Гранаты M41A"
 
 [M41APrimaryPickup]
 ItemName="Импульсная винтовка M41A SE"
-ItemShortName="M41A SE"
+ItemShortName="Импульсная винтовка"
 PickupMessage="Вы получили импульсную винтовку M41A"
 
 [M41AProjectileAmmo]
@@ -174,9 +174,9 @@ ItemShortName="SA80 LSW SE"
 PickupMessage="Вы получили SA80 LSW"
 
 [ScrnVetHeavyMG]
-SkillInfo="PERK SKILLS (HMg v5.11):|Отдача всего оружия на 75% меньше|Переносимый вес больше на 10 единиц|Скорость перемещения ниже на 10%"
-CustomLevelInfo="PERK BONUSES (LEVEL %L):|На %x больше урона тяжелым оружием|Магазин тяжелого оружия больше на %m|Максимальный боезапас тяжелого оружия выше на %a|%$ скидка на тяжелое оружие"
-VeterancyName="Пулеметчик"
+SkillInfo="PERK SKILLS (HMg v5.12):|Отдача всего оружия на 75% меньше|Переносимый вес больше на 10 единиц|Скорость перемещения ниже на 10%"
+CustomLevelInfo="PERK BONUSES (LEVEL %L):|На %x больше урона тяжелым оружием|Магазин тяжелого оружия больше на %m|Максимальный боезапас тяжелого оружия больше на %a|%$ скидка на тяжелое оружие"
+VeterancyName="Тяжелый Пулеметчик"
 Requirements[0]="Нанесите %x ед. урона тяжелым оружием"
 
 [Stinger]
