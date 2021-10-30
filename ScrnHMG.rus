@@ -99,10 +99,10 @@ Description="M249 SAW/LMG - это производимая в США верси
 ItemName="M249 SAW SE"
 
 [M41AAmmo]
-ItemName="M41A 10мм безгильзовые боеприпасы"
+ItemName="10мм безгильзовые боеприпасы для M41A"
 
 [M41AAmmoPickup]
-PickupMessage="M41A 10мм безгильзовые боеприпасы"
+PickupMessage="10мм безгильзовые боеприпасы для M41A"
 
 [M41AAssaultRifle]
 Description="Импульсная винтовка M41A. Создана, чтобы убивать пришельцев. Особенно круто выглядит в руках Сигурни Уивер."
@@ -153,7 +153,7 @@ ItemShortName="РПК47 SE"
 PickupMessage="Вы получили РПК47"
 
 [RocketAmmo]
-ItemName="Ракеты L.A.W"
+ItemName="Ракеты для L.A.W"
 
 [RocketAmmoPickup]
 PickupMessage="Ракеты"
@@ -210,7 +210,7 @@ ItemShortName="Тяжелый Томми SE"
 PickupMessage="Вы получили пистолет-пулемет Томпсона"
 
 [XMV850Ammo]
-ItemName="Патроны XMV850"
+ItemName="Патроны для XMV850"
 
 [XMV850AmmoPickup]
 PickupMessage="Патроны 7.62x51мм"
@@ -221,6 +221,6 @@ ItemName="Миниган XMV850 SE"
 
 [XMV850Pickup]
 ItemName="Миниган XMV850 SE"
-ItemShortName="XMV850 SE"
+ItemShortName="Миниган XMV850"
 PickupMessage="Вы получили Миниган XMV850."
 
