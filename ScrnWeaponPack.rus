@@ -236,10 +236,10 @@ Description="Снайперская винтовка Драгунова пред
 ItemName="СВД (Драгунов) SE"
 
 [SVDAmmo]
-ItemName="Снайперский патрон 7H1"
+ItemName="Снайперские патроны 7H1"
 
 [SVDAmmoPickup]
-PickupMessage="Снайперский патрон 7H1"
+PickupMessage="Снайперские патроны 7H1"
 
 [SVDPickup]
 ItemName="СВД (Драгунов) SE"
@@ -286,7 +286,7 @@ Description="Franchi SPAS12 - боевой дробовик, производи�
 ItemName="SPAS-12 SE"
 
 [SpasAmmoPickup]
-PickupMessage="Снаряды 12-го калибра"
+PickupMessage="Гильзы 12-го калибра"
 
 [SpasPickup]
 ItemName="SPAS-12 SE"
