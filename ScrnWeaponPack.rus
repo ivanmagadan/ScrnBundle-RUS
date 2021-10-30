@@ -1,5 +1,5 @@
 [AK12AssaultRifle]
-Description="Калашников АК-12 (ранее АК-200) - новейшая производная советско-российской серии автоматов АК-47. Эта версия использует патроны 5.45x39мм (те же, что и АК-74)"
+Description="Калашников АК-12 (ранее АК-400) - новейшая производная советско-российской серии автоматов АК-74. Эта версия использует патроны 5.45x39мм (те же, что и АК-74)"
 ItemName="AK-12 SE"
 
 [AK12Pickup]
@@ -123,18 +123,18 @@ PickupMessage="Вы получили HK-417"
 
 [HRL]
 Description="Модифицированная 'Horzine' L.A.W. использует более легкие и меньшие по размеру ракеты, что позволяет не только переносить их большее количество, но и намного легче их перезаряжать."
-ItemName="Гранатомет HRL-1 SE"
+ItemName="Ракетная установка HRL-1 SE"
 
 [HRLAmmo]
-ItemName="Заряды к HRL-1 SE"
+ItemName="Ракеты для HRL-1"
 
 [HRLAmmoPickup]
-PickupMessage="Заряды к HRL-1 SE"
+PickupMessage="Ракеты для HRL-1"
 
 [HRLPickup]
-ItemName="Гранатомет HRL-1 SE"
+ItemName="Ракетная установка HRL-1 SE"
 ItemShortName="HRL-1 SE"
-PickupMessage="Вы получили Гранатомет HRL-1"
+PickupMessage="Вы получили ракетную пусковую установку HRL-1"
 
 [HopMineAmmo]
 ItemName="HopMines"
@@ -199,7 +199,7 @@ PickupMessage="Вы получили Мед. пистолет"
 
 [Protecta]
 Description="Автоматический дробовик Protecta превосходил AA12 во всех аспектах, пока техническим специалистам Horzine не удалось зарядить его сигнальными ракетами..."
-ItemName="Flare Shotgun 'Protecta' SE"
+ItemName="Сигнальный Дробовик 'Protecta' SE"
 
 [ProtectaAmmo]
 ItemName="Заряды с жидким газом"
@@ -217,10 +217,10 @@ Description="Ракетно-пусковая установка РПГ-7. Име
 ItemName="РПГ-7 SE"
 
 [RPGAmmo]
-ItemName="Выстрел для РПГ-7"
+ItemName="Выстрелы для РПГ-7"
 
 [RPGAmmoPickup]
-PickupMessage="Выстрел ПГ-7ВЛ"
+PickupMessage="Выстрелы ПГ-7ВЛ"
 
 [RPGPickup]
 ItemName="РПГ-7 SE"
