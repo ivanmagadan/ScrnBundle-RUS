@@ -263,7 +263,7 @@ PickupMessage="Вы получили снайперскую винтовку Д�
 
 [SWPAch]
 GroupInfo=((Caption="ВСЕ"),(Caption="Пользовательское Оружие"))
-ProgressName="Достижния (оружие ScrN)"
+ProgressName="Достижения (оружие ScrN)"
 
 [SWPMut]
 FriendlyName="ScrN Weapon Pack"
