@@ -83,7 +83,7 @@ ItemShortName="Топор SE"
 [ScrnBalance]
 strBonusLevel="Эффективный уровень бонусов вашего перка [%s]"
 strStatus="Уровень вашего перка: Визуальный=%v, Эффективный=[%b]. Диапазон перков [%n..%x]."
-strStatus2="Альт.огонь=%a. MaxZombiesOnce=%m."
+strStatus2="Альт. механизм горения=%a. MaxZombiesOnce=%m."
 strSrvWarning="Вы используете версию ScrnBalance для выделенного сервера, которая не должна устанавливаться на локальные машины! Пожалуйста, получите версию для клиента из мастерской."
 strSrvWarning2="Если вы получаете ошибку несоответствия версии, удалите файл KillingFloor/System/ScrnBalanceSrv.u."
 strBetaOnly="Доступно только во время бета-тестирования (bBeta = True)"
