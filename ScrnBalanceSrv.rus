@@ -87,6 +87,9 @@ strStatus2="Альт.огонь=%a. MaxZombiesOnce=%m."
 strSrvWarning="Вы используете версию ScrnBalance для выделенного сервера, которая не должна устанавливаться на локальные машины! Пожалуйста, получите версию для клиента из мастерской."
 strSrvWarning2="Если вы получаете ошибку несоответствия версии, удалите файл KillingFloor/System/ScrnBalanceSrv.u."
 strBetaOnly="Доступно только во время бета-тестирования (bBeta = True)"
+strXPInitial="^G$Начальная статистика Перка:"
+strXPProgress="^G$Прогресс Перка:"
+strXPBonus="^G$Бонус опыта за победу: ^c$"
 strAchEarn="%p открыл Достижение: %a"
 strAutoKickOffPerk="Вы были автоматически выкинуты с сервера за игру без перка. Введите RECONNECT в консоли, чтобы снова присоединиться к серверу и выбрать перк."
 FriendlyName="The ScrN Balance Server"
@@ -412,6 +415,8 @@ GameName="ScrN Floor"
 Description="ScrN Edition of Killing Floor game mode (KFGameType)."
 
 [ScrnHUD]
+HudStyles=("Classic HUD, old icons","Classic HUD, new icons","Cool HUD (center)","Cool HUD (left)")
+BarStyles=("Classic Bars","Modern Bars","Modern Extended","Cool Bars")
 strFollowing="НАБЛЮДЕНИЕ ЗА:"
 strTrader="Торговец: "
 strBonusLevel="^Уровень бонуса^"
@@ -694,8 +699,8 @@ ProgressName="Урон нанесенный пистолетами"
 ProgressName="Убийств пистолетами"
 
 [ScrnPlayerController]
-strLocked="Оружие ЗАБЛОКИРОВАНО"
-strUnlocked="Оружие РАЗБЛОКИРОВАНО"
+strLocked="Подбор Оружия ЗАБЛОКИРОВАН"
+strUnlocked="Подбор Оружия РАЗБЛОКИРОВАН"
 strLockDisabled="Блокировка оружия отключена на сервере"
 strAlreadySpectating="Уже зритель. Введите READY, если хотите присоединиться к игре."
 strNoPerkChanges="Смена перка во время игры не доступна"
@@ -704,6 +709,9 @@ strSpecFavoriteAssigned="View target marked as favorite"
 strSpecNoFavorites="No favorite view targets! Press '4' to assign favorite."
 strPlayingSong="Сейчас играет: "
 strMutateProtection="Cannot mutate too often. Wait a bit."
+
+[ScrnPlayerInfo]
+strXPBonus="^G$XP Bonus (^c$x%x^G$):"
 
 [ScrnPlayerMessage]
 SwitchMessage[0]="Полностью заряжен"
@@ -826,8 +834,6 @@ strBoundToCook="'%s' key bound to 'Cook' grenade"
 strBoundToThrow="'%s' key bound to Throw grenade"
 strCantFindNade="Не можете найти клавишу для метания гранат. Пожалуйста назначьте её в Настройки->Управление."
 ShowDamagesItems=("Hide damage numbers","Show combined damage","Show all numbers")
-BarStyleItems=("Classic Bars","Modern Bars","Modern + Weapon","Cool Bars")
-HudStyleItems=("Classic HUD, old icons","Classic HUD, new icons","Cool HUD (center)","Cool HUD (left)")
 strBadReason="Напишите хорошую причину"
 strServerInfoSeparator="   "
 strPerkRange="Диапазон бонусов перка: "
