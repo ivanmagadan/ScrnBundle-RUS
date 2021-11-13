@@ -711,7 +711,7 @@ strPlayingSong="Сейчас играет: "
 strMutateProtection="Cannot mutate too often. Wait a bit."
 
 [ScrnPlayerInfo]
-strXPBonus="^G$XP Bonus (^c$x%x^G$):"
+strXPBonus="^G$Бонус Опыта (^c$x%x^G$):"
 
 [ScrnPlayerMessage]
 SwitchMessage[0]="Полностью заряжен"
