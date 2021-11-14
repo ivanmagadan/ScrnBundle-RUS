@@ -1,5 +1,5 @@
 [KFVetEarnedMessagePL]
-EarnedString="%s получил %1-й уровень перка %v!"
+EarnedString="%s заработал повышение до %v %l-го уровня!"
 
 [KFVetEarnedMessageSR]
 EarnedString="Вы получили квалификацию %v %l-го уровня!"
