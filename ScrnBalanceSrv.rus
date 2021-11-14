@@ -721,7 +721,7 @@ SwitchMessage[0]="Магазин пуст! Перезарядитесь."
 SwitchMessage[1]="Нет патронов"
 
 [ScrnPromotedMessage]
-EarnedString="Вы повысили уровень перка %v до %l!"
+EarnedString="Вы получили повышение до %v %l-го уровня!"
 
 [ScrnSCARMK17AssaultRifle]
 ItemName="SCARMK17 SE"
