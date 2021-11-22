@@ -55,10 +55,10 @@ PickupMessage="Вы получили Cryo Mass Driver 14"
 
 [HTecMut]
 FriendlyName="ScrN Horzine Technician"
-Description="Техник 'Horzine' с IJC Cryo Mass Driver 14. Требуется ScrN Balance v9+."
+Description="Техник 'Horzine' с IJC Cryo Mass Driver 14."
 
 [HTecProg]
-ProgressName="Замороженные/Пораженные током мобы"
+ProgressName="Замороженные/Пораженные током ЗЕДы"
 
 [HTecZEDGun]
 ItemName="HTec ZED Eradication Device"
@@ -89,7 +89,7 @@ ItemShortName="HTec K-VOLT"
 PickupMessage="Вы получили HTec K-VOLT Cryo"
 
 [ScrnVetHTec]
-SkillInfo="PERK SKILLS (HTec v5.01):|Крио-гранаты|Больше замороженных денег|Броня не замедляет вас|На 60% меньше урона от желчи толстяков и крика сирен при броне > 100"
+SkillInfo="PERK SKILLS:|Крио-гранаты|Больше замороженных денег|Броня не замедляет вас|На 60% меньше урона от желчи толстяков и крика сирен при броне > 100"
 CustomLevelInfo="PERK BONUSES (LEVEL %L):|На %x больше урона ZED/Крио пушками|На %x быстрее заморозка|Магазин ZED пушек больше на %m|Максимальный ZED/Крио боезапас больше на %a|Макс. число Крио-гранат увеличено на %g|%$ скидка на HTec инвентарь"
 VeterancyName="Техник 'Horzine'"
 Requirements[0]="Заморозить или поразить током %x ЗЕДов"
