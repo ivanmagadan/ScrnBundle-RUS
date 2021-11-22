@@ -83,6 +83,10 @@ MaleSuicide="%o выстрелил себе в ногу."
 [DamTypeXMV850M]
 DeathString="Игрок %k убил игрока %o (Миниган XMV850)."
 
+[HmgMut]
+FriendlyName="ScrN Heavy Machine Gunner"
+Description="Перк Тяжелый Пулеметчик. Когда размер имеет значение..."
+
 [M249Ammo]
 ItemName="Патроны 5.56x45мм NATO"
 
@@ -174,7 +178,7 @@ ItemShortName="SA80 LSW SE"
 PickupMessage="Вы получили SA80 LSW"
 
 [ScrnVetHeavyMG]
-SkillInfo="PERK SKILLS (HMg v5.12):|Отдача всего оружия на 75% меньше|Переносимый вес больше на 10 единиц|Скорость перемещения ниже на 10%"
+SkillInfo="PERK SKILLS:|Отдача всего оружия на 75% меньше|Переносимый вес больше на 10 единиц|Скорость перемещения ниже на 10%"
 CustomLevelInfo="PERK BONUSES (LEVEL %L):|На %x больше урона Тяжелым Оружием|Магазин Тяжелого Оружия больше на %m|Максимальный боезапас Тяжелого Оружия больше на %a|%$ скидка на Тяжелое Оружие"
 VeterancyName="Тяжелый Пулеметчик"
 Requirements[0]="Нанесите %x ед. урона Тяжелым Оружием"
