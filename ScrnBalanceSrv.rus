@@ -498,6 +498,7 @@ ViewMap.Hint="Посмотреть карту пока игроки готовя
 
 [ScrnLobbyMenu]
 strBrokenGame="(BAD GAME MODE!)"
+CurrentMapL.Caption="This is a placeholder line (tm)"
 
 [ScrnM14EBRBattleRifle]
 Description="Модернизированная боевая винтовка M14 - полуавтоматический вариант. Оснащена лазерным прицелом. Специальная линза позволяет менять цвет лазера на лету."
@@ -651,10 +652,10 @@ ItemShortName="Магнум .44 SE"
 ItemName="Магнум .44 SE"
 
 [ScrnMapAchievements]
-UniversalDescriptions[0]="Survive on %m in ScrN Balance mode"
+UniversalDescriptions[0]="Survive on %m in any ScrN Balance game"
 UniversalDescriptions[1]="Survive on %m against Super/Custom specimens and Hardcore Level 5+"
 UniversalDescriptions[2]="Survive on %m in Turbo/Nightmare/SocIso/Custom game and HL 10+"
-UniversalDescriptions[3]="Survive on %m in FTG/XCM/Doom3 game and HL 15+"
+UniversalDescriptions[3]="Survive on %m in FTG/XCM/Nightmare/Doom3 game and HL 15+"
 MapDifficultyNames[0]="Map"
 MapDifficultyNames[1]="Hard+ Map"
 MapDifficultyNames[2]="Suicidal+ Map"
@@ -803,7 +804,9 @@ OnlyLockedCheckBox.Hint="Показывать только закрытые до
 [ScrnTab_BuyMenu]
 strSelectedItemRequirements="Требования для разблокирования выбранного предмета"
 strIntoScrnLocked="Вы должны выполнить вышеуказанные требования для разблокирования выбранного предмета. Если у нескольких требований одинаковая первая цифра в квадратных скобках [X], то вам необходимо только одно из них. Нажмите F3, чтобы увидеть описание предмета."
-SaleButtonCaption="Продать оружие"
+SaleButtonCaption="Продать Оружие"
+strSale0="Пожертвовать"
+strNoSale="Не продается"
 InfoText[0]="Добро пожаловать в мой магазин, работающий на ScrN Balance! Горячие клавиши:|F1/F2: перейти к инвентарю/списку продаж|ENTER/BACKPACE: купить/продать предмет. F7/F8: автозаполнение брони/боеприпасов|0-9: Быстрый выбор группы / купить X обойм.|PAGE UP/DOWN: выбрать пред./след. группу. LEFT/RIGHT: закрыть/открыть текущую группу.|UP/DOWN: выбрать пред./след. предмет в текущей группе."
 AutoFillString="[F8] Пополнить боезапас"
 AutoFill.Caption="[F8] Автозаполнение боеприпасов"
@@ -814,7 +817,7 @@ PurchaseB.Caption="Покупка оружия"
 PurchaseB.Hint="Купить выбранное оружие [ENTER]"
 Refresh.Caption="[F5] Обновить"
 Refresh.Hint="Перезагрузить меню торговца, включая сброс максимального значения информационных панелей оружия."
-SaleB.Caption="Продать оружие"
+SaleB.Caption="Продать Оружие"
 SaleB.Hint="Продать выбранный предмет [BACKSPACE]"
 SelectedItemL.Caption="Информация о выбранном предмете"
 
