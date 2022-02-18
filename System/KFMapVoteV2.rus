@@ -21,9 +21,9 @@ ColumnHeadings=("Тип игры","Карта","Голоса","Рейтинг")
 ColumnHeadingHints=("Тип игры.","Название карты.","Количество голосов, поданных за эту карту.","Пользовательский рейтинг карты.")
 
 [MVLikePage]
-WindowName="Опрос"
-DislikeButton.Caption="Нет!"
-LikeButton.Caption="Да!"
+WindowName="Отзыв о Карте"
+DislikeButton.Caption="Нет"
+LikeButton.Caption="Да"
 LikeInfo.Caption="Вам понравилась эта карта?"
 
 [MVMultiColumnList]
