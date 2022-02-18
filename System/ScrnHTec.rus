@@ -1,6 +1,6 @@
 [CryoThrower]
 Description="Листовой вентилятор, модифицированный для распыления жидкого азота."
-ItemName="HTec Cryo Thrower"
+ItemName="HTec Криомет"
 
 [CryoThrowerAmmo]
 ItemName="Жидкий азот"
@@ -9,9 +9,9 @@ ItemName="Жидкий азот"
 PickupMessage="ML жидкого азота"
 
 [CryoThrowerPickup]
-ItemName="HTec Cryo Thrower"
-ItemShortName="HTec Cryo Thrower"
-PickupMessage="Вы получили CryoThrower"
+ItemName="HTec Криомет"
+ItemShortName="HTec Криомет"
+PickupMessage="Вы получили Криомет"
 
 [DamTypeFreezerBase]
 DeathString="Игрок %o был заморожен игроком %k."
@@ -25,7 +25,7 @@ MaleSuicide="%o был пронзен ледяными осколками."
 
 [FreezeAch]
 GroupInfo=((Caption="ВСЕ"),(Caption="Пользовательское оружие"))
-ProgressName="Cryo Достижения"
+ProgressName="Достижения Крио"
 
 [FreezerAmmo]
 ItemName="Жидкий азот"
@@ -42,40 +42,40 @@ PickupMessage="Ледяные осколки"
 [FreezerGun]
 ReloadMessage="REL"
 EmptyMessage="---"
-Description="Cryo Mass Driver v014 или просто «Морозильник» разработан для ... бла-бла-бла ... замораживания мобов"
-ItemName="Cryo Mass Driver 14 SE"
+Description="Крио Mass Driver v014 или просто 'Морозильник' разработан для ... бла-бла-бла ... замораживания мобов"
+ItemName="Крио Mass Driver 14 SE"
 
 [FreezerPickup]
 SecondaryAmmoShortName="-- Жидкий азот"
 
 [FreezerPickup]
-ItemName="Cryo Mass Driver 14 SE"
-ItemShortName="Cryo MD14 SE"
-PickupMessage="Вы получили Cryo Mass Driver 14"
+ItemName="Крио Mass Driver 14 SE"
+ItemShortName="Крио MD14 SE"
+PickupMessage="Вы получили Крио Mass Driver 14"
 
 [HTecMut]
 FriendlyName="ScrN Horzine Technician"
-Description="Техник 'Horzine' с IJC Cryo Mass Driver 14."
+Description="Техник 'Horzine' с IJC Крио Mass Driver 14."
 
 [HTecProg]
 ProgressName="Замороженные/Пораженные током ЗЕДы"
 
 [HTecZEDGun]
-ItemName="HTec ZED Eradication Device"
+ItemName="HTec Устройство для уничтожения ЗЕДов"
 
 [HTecZEDGunPickup]
-ItemName="HTec ZED Gun"
+ItemName="HTec ЗЕД Пушка"
 
 [HTecZEDMKII]
-ItemName="HTec ZED Eradication Device MKII"
+ItemName="HTec Устройство для уничтожения ЗЕДов MKII"
 
 [HTecZEDMKIIPickup]
-ItemName="HTec ZED Gun MKII"
-ItemShortName="ZED Gun MKII"
+ItemName="HTec ЗЕД Пушка MKII"
+ItemShortName="ЗЕД Пушка MKII"
 
 [KVolt]
 Description="Модифиция прототипа K-Volt для стрельбы крио-дротиками, разработанная в 'Horzine'. Крио-дротики K-Volt слабее, чем у Mass Driver, но у них более длительное последействие и повышенная разрушающая способность."
-ItemName="HTec K-VOLT Cryo"
+ItemName="HTec K-VOLT Крио"
 
 [KVoltAmmo]
 ItemName="Крио-дротики"
@@ -84,13 +84,13 @@ ItemName="Крио-дротики"
 PickupMessage="Крио-дротики"
 
 [KVoltPickup]
-ItemName="HTec K-VOLT Cryo"
+ItemName="HTec K-VOLT Крио"
 ItemShortName="HTec K-VOLT"
-PickupMessage="Вы получили HTec K-VOLT Cryo"
+PickupMessage="Вы получили HTec K-VOLT Крио"
 
 [ScrnVetHTec]
-SkillInfo="PERK SKILLS:|Крио-гранаты|Больше замороженных денег|Броня не замедляет вас|На 60% меньше урона от желчи толстяков и крика сирен при броне > 100"
-CustomLevelInfo="PERK BONUSES (LEVEL %L):|На %x больше урона ZED/Крио пушками|На %x быстрее заморозка|Магазин ZED пушек больше на %m|Максимальный ZED/Крио боезапас больше на %a|Макс. число Крио-гранат увеличено на %g|%$ скидка на HTec инвентарь"
+SkillInfo="НАВЫКИ ПЕРКА:|Крио-гранаты|Больше замороженных денег|Броня не замедляет вас|На 60% меньше урона от желчи Толстяков и крика Сирен при броне > 100"
+CustomLevelInfo="БОНУСЫ ПЕРКА (УРОВЕНЬ %L):|На %x больше урона ЗЕД/Крио Пушками|На %x быстрее заморозка|На %m больше магазин ЗЕД Пушек|На %a больше ЗЕД/Крио боезапас|На %gед. увеличено число Крио-гранат|%$ скидка на HTec инвентарь"
 VeterancyName="Техник 'Horzine'"
 Requirements[0]="Заморозить или поразить током %x ЗЕДов"
 
