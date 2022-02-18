@@ -17,28 +17,28 @@ PickupMessage="Вы получили Steyr AUG A1"
 ProgressName="Урон нанесенный тяжелыми пулеметами"
 
 [ChainGun]
-Description="Цепной Пулемет сорван с руки мертвого Патриарха. Или может быть с разорванного. Или даже с ЖИВОГО. Это работает, и все остальное не имеет значения."
-ItemName="Цепной Пулемет Патриарха SE"
+Description="Цепной Пулемет сорван с руки мертвого Патриарха. Или может быть с разорванного. Или даже с ЖИВОГО. Это работает, а все остальное не имеет значения."
+ItemName="Пулемет Патриарха SE"
 
 [ChainGunAmmo]
-ItemName="Пули для цепного пулемета"
+ItemName="Пули для Пулемета"
 
 [ChainGunAmmoPickup]
-PickupMessage="Пули для цепного пулемета"
+PickupMessage="Пули для Пулемета"
 
 [ChainGunPickup]
 SecondaryAmmoShortName="-- Ракеты"
 
 [ChainGunPickup]
-ItemName="Цепной Пулемет SE"
-ItemShortName="Цепной Пулемет SE"
-PickupMessage="Вы получили Цепной Пулемет Патриарха."
+ItemName="Пулемет Патриарха SE"
+ItemShortName="Пулемет SE"
+PickupMessage="Вы получили Пулемет Патриарха."
 
 [DamTypeAUG_A1AR]
 DeathString="Игрок %k убил игрока %o (Steyr AUG A1)."
 
 [DamTypeCG]
-DeathString="Игрок %k убил игрока %o (Цепной Пулемет Патриарха)."
+DeathString="Игрок %k убил игрока %o (Пулемет Патриарха)."
 FemaleSuicide="%o выстрелила себе в ногу."
 MaleSuicide="%o выстрелил себе в ногу."
 
@@ -58,7 +58,7 @@ FemaleSuicide="%o выстрелила себе в ногу."
 MaleSuicide="%o выстрелил себе в ногу."
 
 [DamTypeRPK47MG]
-DeathString="Игрок %k убил игрока %o (RPK47)."
+DeathString="Игрок %k убил игрока %o (RPK-47)."
 FemaleSuicide="%o выстрелила себе в ногу."
 MaleSuicide="%o выстрелил себе в ногу."
 
@@ -96,7 +96,7 @@ PickupMessage="Патроны 5.56x45мм NATO"
 [M249Pickup]
 ItemName="M249 SAW SE"
 ItemShortName="M249 SAW SE"
-PickupMessage="Вы получили M249 SAW"
+PickupMessage="Вы получили M249 SAW SE"
 
 [M249SAW]
 Description="M249 SAW/LMG - это производимая в США версия бельгийского FN Minimi. M249 использует патрон NATO 5,56x45мм, который снижает вес оружия в заряженном состоянии, дает пользователю возможность вести высокоточный, достаточно мощный огонь."
@@ -118,7 +118,7 @@ SecondaryAmmoShortName="-- Гранаты M41A"
 [M41APrimaryPickup]
 ItemName="Импульсная винтовка M41A SE"
 ItemShortName="Импульсная винтовка"
-PickupMessage="Вы получили импульсную винтовку M41A"
+PickupMessage="Вы получили M41A"
 
 [M41AProjectileAmmo]
 ItemName="Гранаты M41A"
@@ -138,7 +138,7 @@ PickupMessage="7.62мм"
 
 [PKMPickup]
 ItemName="ПКМ SE"
-ItemShortName="ПКМ SE"
+ItemShortName="ПКМ"
 PickupMessage="Вы получили ПКМ"
 
 [RPK47Ammo]
@@ -149,12 +149,12 @@ PickupMessage="7.62мм"
 
 [RPK47MachineGun]
 Description="РПК (Ручной Пулемет Калашникова) представляет собой легкий пулемет советского образца 7,62х39 мм, разработанный Михаилом Калашниковым в конце 1950-х годов, параллельно с автоматом АКМ."
-ItemName="РПК47 SE"
+ItemName="РПК-47 SE"
 
 [RPK47Pickup]
-ItemName="РПК47 SE"
-ItemShortName="РПК47 SE"
-PickupMessage="Вы получили РПК47"
+ItemName="РПК-47 SE"
+ItemShortName="РПК-47"
+PickupMessage="Вы получили РПК-47"
 
 [RocketAmmo]
 ItemName="Ракеты для L.A.W"
@@ -163,7 +163,7 @@ ItemName="Ракеты для L.A.W"
 PickupMessage="Ракеты"
 
 [SA80LSW]
-Description="SA80 (стрелковое оружие 1980-х годов) - британское семейство стрелкового оружия калибра 5,56 мм. Это газовая штурмовая винтовка селективного огня. Элементы его конструкции, в частности конфигурация «булл-пап», заимствованы из более ранней винтовки ЕМ-2."
+Description="SA80 (стрелковое оружие 1980-х годов) - британское семейство стрелкового оружия калибра 5,56 мм. Это газовая штурмовая винтовка селективного огня. Элементы его конструкции, в частности конфигурация 'булл-пап', заимствованы из более ранней винтовки ЕМ-2."
 ItemName="SA80 LSW SE"
 
 [SA80LSWAmmo]
@@ -174,12 +174,12 @@ PickupMessage="5.56x45"
 
 [SA80LSWPickup]
 ItemName="SA80 LSW SE"
-ItemShortName="SA80 LSW SE"
+ItemShortName="SA80 LSW"
 PickupMessage="Вы получили SA80 LSW"
 
 [ScrnVetHeavyMG]
-SkillInfo="PERK SKILLS:|Отдача всего оружия на 75% меньше|Переносимый вес больше на 10 единиц|Скорость перемещения ниже на 10%"
-CustomLevelInfo="PERK BONUSES (LEVEL %L):|На %x больше урона Тяжелым Оружием|Магазин Тяжелого Оружия больше на %m|Максимальный боезапас Тяжелого Оружия больше на %a|%$ скидка на Тяжелое Оружие"
+SkillInfo="НАВЫКИ ПЕРКА:|На 75% меньше отдача всего оружия|на 10 ед. больше переносимый вес|На 10% ниже скорость перемещения"
+CustomLevelInfo="БОНУСЫ ПЕРКА (УРОВЕНЬ %L):|На %x больше урона Тяжелым Оружием|На %m больше магазин Тяжелого Оружия|На %a больше боезапас Тяжелого Оружия|%$ скидка на Тяжелое Оружие"
 VeterancyName="Тяжелый Пулеметчик"
 Requirements[0]="Нанесите %x ед. урона Тяжелым Оружием"
 
