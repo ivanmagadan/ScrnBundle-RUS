@@ -61,17 +61,17 @@ Description="Техник 'Horzine' с IJC Крио Mass Driver 14."
 ProgressName="Замороженные/Пораженные током ЗЕДы"
 
 [HTecZEDGun]
-ItemName="HTec Устройство для уничтожения ЗЕДов"
+ItemName="HTec Уничтожитель ЗЕДов"
 
 [HTecZEDGunPickup]
-ItemName="HTec ЗЕД Пушка"
+ItemName="HTec ЗЕД-ган"
 
 [HTecZEDMKII]
-ItemName="HTec Устройство для уничтожения ЗЕДов MKII"
+ItemName="HTec Уничтожитель ЗЕДов MKII"
 
 [HTecZEDMKIIPickup]
-ItemName="HTec ЗЕД Пушка MKII"
-ItemShortName="ЗЕД Пушка MKII"
+ItemName="HTec ЗЕД-ган MKII"
+ItemShortName="ЗЕД-ган MKII"
 
 [KVolt]
 Description="Модифиция прототипа K-Volt для стрельбы крио-дротиками, разработанная в 'Horzine'. Крио-дротики K-Volt слабее, чем у Mass Driver, но у них более длительное последействие и повышенная разрушающая способность."
