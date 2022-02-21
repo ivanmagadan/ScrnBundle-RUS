@@ -1,14 +1,14 @@
 [BloatC]
-MenuName="Pukey the Clown"
+MenuName="Клоун Пьюки"
 
 [BloatG]
 MenuName="Grittier Bloat"
 
 [BloatH]
-MenuName="Mama Bessie"
+MenuName="Мама Бесси"
 
 [BloatX]
-MenuName="Fake Santa"
+MenuName="Фальшивый Санта"
 
 [BossC]
 MenuName="Ring Leader"
@@ -17,37 +17,37 @@ MenuName="Ring Leader"
 MenuName="Grittier Patriarch"
 
 [BossH]
-MenuName="Sheriff Wade"
+MenuName="Шериф Уэйд"
 
 [BossX]
-MenuName="Santriarch"
+MenuName="Сантриарх"
 
 [Brute]
-MenuName="Brute"
+MenuName="Брут"
 
 [ClotC]
-MenuName="Strange Little Clot"
+MenuName="Странный Маленький Клот"
 
 [ClotG]
 MenuName="Grittier Clot"
 
 [ClotH]
-MenuName="Honey Biscuit"
+MenuName="Медовое Печенье"
 
 [ClotX]
-MenuName="Elf"
+MenuName="Эльф"
 
 [CrawlerC]
-MenuName="Two-Head Girl"
+MenuName="Двуглавая Девушка"
 
 [CrawlerG]
 MenuName="Grittier Crawler"
 
 [CrawlerH]
-MenuName="Half of Uncle Pervis"
+MenuName="Половина Дяди Первиса"
 
 [CrawlerX]
-MenuName="Reindeer"
+MenuName="Северный Олень"
 
 [DamTypeEMP]
 DeathString="%o слишком близко наблюдал за самоуничтожением %k."
@@ -58,94 +58,94 @@ FemaleSuicide="%o rode the lighting."
 MaleSuicide="%o rode the lighting."
 
 [FemaleFP]
-MenuName="Female FleshPound"
+MenuName="Отбивальщица"
 
 [FemaleFP_MKII]
-MenuName="Female FleshPound MKII"
+MenuName="Отбивальщица MKII"
 
 [FleshpoundC]
-MenuName="Flesh Clown"
+MenuName="Клоун из Плоти"
 
 [FleshpoundG]
 MenuName="Grittier Fleshpound"
 
 [FleshpoundH]
-MenuName="Bubba"
+MenuName="Бубба"
 
 [FleshpoundX]
-MenuName="Nutcracker"
+MenuName="Щелкунчик"
 
 [Ghost]
-MenuName="Ghost"
+MenuName="Призрак"
 
 [GorefastC]
-MenuName="Sword Polisher"
+MenuName="Полировщик Мечей"
 
 [GorefastG]
 MenuName="Grittier Gorefast"
 
 [GorefastH]
-MenuName="Banjo Chewey"
+MenuName="Банджо Чуи"
 
 [GorefastX]
-MenuName="Gingerfast"
+MenuName="Имбирь"
 
 [HardPat]
-MenuName="Hard Pat"
+MenuName="Сильный Пат"
 
 [HardPatC]
-MenuName="Hard Ringmaster"
+MenuName="Сильный Инспектор Манежа"
 
 [HardPatG]
 MenuName="Hard Grittier Pat"
 
 [HardPatH]
-MenuName="Hard Sheriff"
+MenuName="Сильный Шериф"
 
 [HardPatX]
-MenuName="Hard Santa"
+MenuName="Сильный Санта"
 
 [HuskG]
 MenuName="Grittier Husk"
 
 [HuskH]
-MenuName="Brother Sparky"
+MenuName="Брат Спарки"
 
 [HuskX]
-MenuName="Snow Husk"
+MenuName="Снежный Хаск"
 
 [Jason]
-MenuName="Jason"
+MenuName="Джейсон"
 
 [ScrakeC]
-MenuName="Man Monkey"
+MenuName="Человек Обезьяна"
 
 [ScrakeG]
 MenuName="Grittier Scrake"
 
 [ScrakeH]
-MenuName="Cousin Otis"
+MenuName="Кузен Отис"
 
 [ScrakeX]
-MenuName="Jack Frost"
+MenuName="Джек Фрост"
 
 [Shiver]
 MenuName="Shiver"
 
 [SirenC]
-MenuName="Bearded Beauty"
+MenuName="Бородатая Красавица"
 
 [SirenG]
 MenuName="Grittier Siren"
 
 [SirenH]
-MenuName="Granny Crystal May"
+MenuName="Бабушка Кристалл Мэй"
 
 [SirenX]
-MenuName="Screaming Tree"
+MenuName="Кричащее Дерево"
 
 [StalkerC]
-MenuName="Assistant"
+MenuName="Ассистент"
 
 [StalkerG]
 MenuName="Grittier Stalker"
