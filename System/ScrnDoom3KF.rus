@@ -1,27 +1,27 @@
 [Archvile]
-MenuName="ArchVile"
+MenuName="Архизлодей"
 
 [Boney]
-MenuName="Boney"
+MenuName="Бони"
 
 [BossExt]
 strHelp=("%n: Творения Ада, придите и помогите мне победить смертных!","%n: Скажите 'Привет!' моим маленьким друзьям!","%n: Помогите мне, дети мои, устроить Ад на Земле!","%n: Этот бой только начинается!","%n: Добро пожаловать в вашу Смерть, смертные!","%n: Жалкие людишки, ваши души будут принадлежать мне!")
 strRest=("%n: Время отдохнуть","%n: Я ухожу. Увидимся позже.")
 
 [Bruiser]
-MenuName="Bruiser"
+MenuName="Громила"
 
 [Cacodemon]
-MenuName="Cacodemon"
+MenuName="Какодемон"
 
 [Cherub]
-MenuName="Cherub"
+MenuName="Херувим"
 
 [Commando]
-MenuName="Commando"
+MenuName="Коммандос"
 
 [CyberDemon]
-MenuName="CyberDemon"
+MenuName="Кибердемон"
 
 [DamTypeArchvileFireWall]
 DeathString="%k отправил в Ад игрока %o."
@@ -87,16 +87,16 @@ strFUPiper=("%n: Установил мины и прячешься как кис
 strRetardedDemonsArray=("%n: Чертовы затупки, хватит меня бить, атакуйте тех смертных!","%n: Плохая собачка, %a, плохая!","%n: %a, что, черт возьми, ты делаешь? Ты должен был помочь, а не убивать меня!")
 
 [FatZombie]
-MenuName="Fat Zombie"
+MenuName="Толстый Зомби"
 
 [Forgotten]
-MenuName="Forgotten"
+MenuName="Забытый"
 
 [Guardian]
-MenuName="Guardian"
+MenuName="Охранник"
 
 [HellKnight]
-MenuName="Hell Knight"
+MenuName="Рыцарь Ада"
 
 [HunterBerserk]
 MenuName="Berserk Hunter"
@@ -111,7 +111,7 @@ MenuName="Invulnerability Hunter"
 MenuName="Imp"
 
 [LostSoul]
-MenuName="Lost Soul"
+MenuName="Потерянная Душа"
 
 [Maggot]
 MenuName="Maggot"
