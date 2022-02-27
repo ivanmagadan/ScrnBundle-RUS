@@ -9,7 +9,7 @@ strHelp=("%n: Творения Ада, придите и помогите мне
 strRest=("%n: Время отдохнуть","%n: Я ухожу. Увидимся позже.")
 
 [Bruiser]
-MenuName="Громила"
+MenuName="Бруйзер"
 
 [Cacodemon]
 MenuName="Какодемон"
@@ -99,56 +99,56 @@ MenuName="Охранник"
 MenuName="Рыцарь Ада"
 
 [HunterBerserk]
-MenuName="Berserk Hunter"
+MenuName="Берсерк"
 
 [HunterHellTime]
-MenuName="HellTime Hunter"
+MenuName="Хеллтайм"
 
 [HunterInvul]
-MenuName="Invulnerability Hunter"
+MenuName="Инвал"
 
 [Imp]
-MenuName="Imp"
+MenuName="Имп"
 
 [LostSoul]
 MenuName="Потерянная Душа"
 
 [Maggot]
-MenuName="Maggot"
+MenuName="Личинка"
 
 [Maledict]
-MenuName="Maledict"
+MenuName="Маледикт"
 
 [Mancubus]
-MenuName="Mancubus"
+MenuName="Манкубус"
 
 [MiniPat]
-MenuName="Patriarch Jr."
+MenuName="Патриарх Младший"
 
 [Pinky]
-MenuName="Pinky"
+MenuName="Пинки"
 
 [Revenant]
-MenuName="Revenant"
+MenuName="Ревенант"
 
 [Sabaoth]
-MenuName="Sabaoth"
+MenuName="Сабот"
 
 [Seeker]
 MenuName="Seeker"
 
 [Tick]
-MenuName="Tick"
+MenuName="Тик"
 
 [Trite]
-MenuName="Trite"
+MenuName="Трайт"
 
 [Vagary]
-MenuName="Vagary"
+MenuName="Вагари"
 
 [Vulgar]
-MenuName="Vulgar"
+MenuName="Вульгар"
 
 [Wraith]
-MenuName="Wraith"
+MenuName="Призрак"
 
