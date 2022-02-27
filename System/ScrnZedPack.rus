@@ -130,7 +130,7 @@ MenuName="Кузен Отис"
 MenuName="Джек Фрост"
 
 [Shiver]
-MenuName="Shiver"
+MenuName="Шивер"
 
 [SirenC]
 MenuName="Бородатая Красавица"
@@ -151,13 +151,13 @@ MenuName="Ассистент"
 MenuName="Grittier Stalker"
 
 [StalkerH]
-MenuName="Maggie May"
+MenuName="Мэгги Мэй"
 
 [StalkerX]
-MenuName="Mrs. Claws"
+MenuName="Миссис Когти"
 
 [TeslaHusk]
-MenuName="Tesla Husk"
+MenuName="Тесла Хаск"
 
 [ZedPackMut]
 FriendlyName="ScrN ZED Pack"
