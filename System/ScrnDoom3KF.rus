@@ -93,7 +93,7 @@ MenuName="Толстый Зомби"
 MenuName="Забытый"
 
 [Guardian]
-MenuName="Охранник"
+MenuName="Страж"
 
 [HellKnight]
 MenuName="Рыцарь Ада"
@@ -108,7 +108,7 @@ MenuName="Хеллтайм"
 MenuName="Инвал"
 
 [Imp]
-MenuName="Имп"
+MenuName="Бес"
 
 [LostSoul]
 MenuName="Потерянная Душа"
@@ -132,10 +132,10 @@ MenuName="Пинки"
 MenuName="Ревенант"
 
 [Sabaoth]
-MenuName="Сабот"
+MenuName="Саваоф"
 
 [Seeker]
-MenuName="Seeker"
+MenuName="Ищейка"
 
 [Tick]
 MenuName="Тик"
