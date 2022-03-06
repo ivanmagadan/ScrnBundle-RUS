@@ -52,12 +52,18 @@ hintGetGnome="Take the Guardian from your trader to set up a Base"
 hintBaseLostTrader="You lost your Guardian and now you are dead!"
 
 [ScrnAA12AutoShotgun]
-Description="Модернизированный автоматический дробовик. Наносит меньше урона, но невероятное проникновение и скорость стрельбы делают его лучшим выбором, чтобы убить все ... пока у вас остались боеприпасы"
+Description="Усовершенствованный полностью автоматический дробовик. Наносит меньше урона за пулю, но превосходное проникновение и скорострельность делают его лучшим выбором, чтобы убить все ... пока у вас остались боеприпасы"
 ItemName="AA12 SE"
 
 [ScrnAA12Pickup]
 ItemName="Дробовик AA12 SE"
 ItemShortName="Дробовик AA12 SE"
+
+[ScrnAK47Ammo]
+ItemName="7.62x33мм"
+
+[ScrnAK47AmmoPickup]
+PickupMessage="7.62x33мм"
 
 [ScrnAK47AssaultRifle]
 ItemName="АК-47 SE"
@@ -81,8 +87,8 @@ ItemName="Топор SE"
 ItemShortName="Топор SE"
 
 [ScrnBalance]
-strBonusLevel="Эффективный уровень бонусов вашего перка [%s]"
-strStatus="Уровень вашего перка: Визуальный=%v, Эффективный=[%b]. Диапазон перков [%n..%x]."
+strBonusLevel="Ваш эффективный уровень бонусов перка [%s]"
+strStatus="Ваш уровень перка: Визуальный=%v, Эффективный=[%b]. Диапазон перков на сервере [%n..%x]."
 strStatus2="Альт. механизм горения=%a. MaxZombiesOnce=%m."
 strBetaOnly="Доступно только во время бета-тестирования (bBeta = True)"
 strXPInitial="^G$Начальная статистика Перка:"
@@ -103,46 +109,52 @@ strPauseTraderOnly="Игра может быть остановлена толь
 viResume="ИГРА ВОЗОБНОВЛЕНА"
 viEndTrade="ЗАВЕРШЕНИЕ ТОРГОВЛИ"
 viDifficulty="Сложность"
-strZedSpawnsDoubled="Скорость появления ЗЕДов увеличена вдвое!"
-strSquadNotFound="Отряд мобов с данным именем не найден"
-strCantSpawnSquadNow="В данный момент нельзя спавнить мобов"
-strSquadList="Доступные отряды:"
+strZedSpawnsDoubled="Скорость появления ЗЕДов удвоена!"
+strSquadNotFound="Отряд монстров с указанным именем не найден"
+strCantSpawnSquadNow="В данный момент нельзя спавнить монстров"
+strSquadList="Доступные Отряды:"
 strNotInStoryMode="Не доступно в Story Mode"
 strNotInTSC="Не доступно в TSC"
 strCantEndWaveNow="Нельзя завершить волну сейчас"
 strEndWavePenalty="Команда заплатит за преждевременное завершение волны $"
-strRCommands="R_* Команды могут быть выполнены только с помощью рефери (Admin rights + Tourney Mode)"
+strRCommands="R_* Команды могут быть выполнены только Рефери (Наблюдатель + Права Админа + Режим Турнира)"
 strBlamed="%p blamed %r"
 strBlamedBaron="%p обвинен в обвинении Барона"
-strWrongPerk="Wrong perk (%s)"
-strMapNameTooShort="Введите хотя бы 3 буквы из названии карты для поиска или HELP|LIST|RESTART|RANDOM"
+strWrongPerk="Неверный перк (%s)"
+strMapNameTooShort="Введите не менее 3 букв из названии карты для поиска или HELP|LIST|RESTART|RANDOM"
 strMapNotFound="Карта не найдена"
-strWrongGameConfig="Wrong game config code: %s"
+strWrongGameConfig="Неверный код конфигурации игры: %s"
 HelpInfo=("%gLOCKPERK%w|%gUNLOCKPERK %y[!] <perk1> [<perk2> ...]%w Отключить/Включить перк в конце волны","%gLOCKTEAM%w|%gUNLOCKTEAM %w Заблокировать/Разблокировать команды. Только приглашенные игроки смогут присоединиться к заблокированной команде.","%gPAUSE %yX %w Остановить игру на X секунд","%gEND TRADE %w Немедленно завершить торговлю и начать следующую волну","%gEND WAVE %w Убить последних застрявших мобов, чтобы закончить волну","%gBLAME %y<ник игрока> %b[<причина>] %w Обвинить игрока [в <причина>]","%gSPEC %y<ник игрока> %b[<причина>] %w Переместить игрока в зрители","%gKICK %y<ник игрока> %b[<причина>] %w Выгнать игрока [за <причина>]","%gINVITE %y<player_name> %w Пригласить игрока в заблокированную команду.","%gBORING %w Удвоить рейты спавна мобов","%gSPAWN %y<название отряда> %w Спавнить отряд мобов","%gREADY%w|%gUNREADY %w Сделать всех готовыми/не готовыми играть","%gFF %yX %w Установить огонь по своим в X%","%gMAP RESTART %w Перезапустить текущую карту","%gMAP RANDOM %w Переключиться на случайную карту","%gMAP %y<mapname> %b[<game>] [<diff>] %w Переключить карту/режим игры/сложность","%gFAKED %yX %w Установить фейковых игроков на X (FAKEDCOUNT+FAKEDHEALTH)","%gFAKEDCOUNT %yX %w Установить фейковых игроков для расчета количества зедов","%gFAKEDHEALTH %yX %w Установить фейковых игроков для расчета здоровья зедов","%gDIFF %yX %w Изменить сложность карты (2-8) для следующей карты")
 
 [ScrnBenelliPickup]
-ItemName="Боевой дробовик SE"
-ItemShortName="Боевой дробовик SE"
+ItemName="Боевой Дробовик SE"
+ItemShortName="Боевой Дробовик SE"
 
 [ScrnBenelliShotgun]
-Description="Военный тактический дробовик с возможностью ведения огня в полуавтоматическом режиме. Емкость магазина: до 6 зарядов. Специальная конструкция корпуса позволяет дроби проникать в жир намного легче."
+Description="Военный тактический дробовик с возможностью ведения огня в полуавтоматическом режиме. Вмещает до 6 гильз. Специальная конструкция гильз позволяет дроби намного легче проникать в жир."
 ItemName="Боевой дробовик SE"
 
 [ScrnBlamedMsg]
 Messages=("Вы обвинены командой!","В качестве наказания вы должны","смотреть на это в течении 2-х минут:")
 
 [ScrnBoomStick]
-Description="Это мой BOOMstick (c) Ash, Evil Dead - Army of Darkness, 1992. Используется на протяжении веков, чтобы охотиться на Демонов, Пришельцев и Зомби. Теперь пришло время для ZED. Можно стрелять с одного или двух стволов одновременно. Доступна перезарядка одного патрона."
-ItemName="Ружье Эшли"
+Description="Это мой БУМстик (c) Эш, Зловещие мертвецы - Армия тьмы, 1992.|На протяжении веков использовался для охоты на Демонов, Пришельцев и Зомби. Теперь очередь ЗЕДов.|Можно стрелять из одного или двух стволов одновременно. Доступна одиночная перезарядка гильз."
+ItemName="Бумстик Эша"
 
 [ScrnBoomStickPickup]
-ItemName="Ружье Эшли"
-ItemShortName="Ружье Эшли"
-PickupMessage="Вы получили Ружье Эшли."
+ItemName="Бумстик Эша"
+ItemShortName="Бумстик Эша"
+PickupMessage="Вы получили Бумстик Эша."
 
 [ScrnBullpup]
 Description="Если вы нашли Булл-пап на карте, то он, вероятно, принадлежит [REB]Mike1. Майк имеет более 1000 игровых часов в KF, используя только Булл-пап."
 ItemName="Булл-пап Майка"
+
+[ScrnBullpupAmmo]
+ItemName="5.56x45мм NATO"
+
+[ScrnBullpupAmmoPickup]
+PickupMessage="5.56x45мм NATO"
 
 [ScrnBullpupPickup]
 ItemName="Булл-пап Майка"
@@ -157,7 +169,7 @@ LockStrings=(,"DLC","LOCKED","PERK?","SP?","ACH","???")
 
 [ScrnChainsaw]
 Description="Эту легендарную бензопилу на протяжении многих столетий использовали для борьбы со злом"
-ItemName="Бензопила Эшли"
+ItemName="Бензопила Эша"
 
 [ScrnChainsawAmmo]
 ItemName="Канистра с топливом"
@@ -166,9 +178,9 @@ ItemName="Канистра с топливом"
 PickupMessage="ML бензина"
 
 [ScrnChainsawPickup]
-ItemName="Бензопила Эшли"
-ItemShortName="Бензопила Эшли"
-PickupMessage="Вы получили Бензопилу Эшли."
+ItemName="Бензопила Эша"
+ItemShortName="Бензопила Эша"
+PickupMessage="Вы получили Бензопилу Эша."
 
 [ScrnClaymoreSword]
 ItemName="Меч Клеймор SE"
@@ -179,11 +191,11 @@ ItemShortName="Меч Клеймор SE"
 
 [ScrnClientPerkRepLink]
 strLevelTitle="Уровень перка %C"
-strLevelText="Этот предмет имеет ограничение на минимальный уровень перка."
+strLevelText="Этот предмет имеет ограничение по минимальному уровню перка."
 strUnknownAchTitle="Неизвестное Достижение"
 strUnknownAchText="Предмет не может быть разблокирован в текущем режиме игры."
 strGrpTitle="%C %G Достижений"
-strGrpText="Разблокировать %C достижений в группе '%G', чтобы получить этот предмет."
+strGrpText="Разблокируйте %C достижений в группе '%G', чтобы разблокировать этот предмет."
 
 [ScrnCombatVestPickup]
 ItemName="Боевая Броня"
@@ -265,21 +277,21 @@ ItemName="Дезерт Игл SE"
 ItemShortName="Дезерт Игл SE"
 
 [ScrnDual44Magnum]
-Description="Пара 'Магнумов .44'. Лучший выбор Ковбоя, чтобы очистить Дикий Запад от орды зедов!"
-ItemName="Пара 'Магнумов .44' SE"
+Description="Пара .44 Магнумов. Лучший выбор Ковбоя, чтобы очистить Дикий Запад от орды зедов!"
+ItemName="Пара .44 Магнумов SE"
 
 [ScrnDual44MagnumLaser]
-Description="Да! Один в каждой руке! Теперь с лазерным указателем."
-ItemName="Пара 'Магнумов .44' Laser"
+Description="Да! По одному в каждой руке! Теперь с лазерной насадкой."
+ItemName="Пара .44 Магнумов Laser"
 
 [ScrnDual44MagnumLaserPickup]
-ItemName="Пара 'Магнумов .44' Laser"
-ItemShortName="Пара 44-х L"
-PickupMessage="Вы получили Пару 'Магнумов .44' с лазерным указателем"
+ItemName="Пара .44 Магнумов Laser"
+ItemShortName="Пара .44 L"
+PickupMessage="Вы получили Пару 'Магнумов .44' с лазерным прицелом"
 
 [ScrnDual44MagnumPickup]
-ItemName="Пара 'Магнумов .44' SE"
-ItemShortName="Пара 44-х SE"
+ItemName="Пара .44 Магнумов SE"
+ItemShortName="Пара .44 SE"
 
 [ScrnDualDeagle]
 ItemName="Пара Дезерт Игл SE"
@@ -296,13 +308,13 @@ ItemName="Пара ракетниц SE"
 ItemShortName="Пара ракетниц SE"
 
 [ScrnDualMK23Laser]
-Description="Да! Один в каждой руке! Теперь с лазерным указателем."
-ItemName="Пара MK23-х Laser"
+Description="Да! По одному в каждой руке! Теперь с лазерной насадкой."
+ItemName="Пара MK23 Laser"
 
 [ScrnDualMK23LaserPickup]
 ItemName="Пара MK23 Laser"
 ItemShortName="Пара MK23 L"
-PickupMessage="Вы получили Пару MK23 с лазерным указателем"
+PickupMessage="Вы получили Пару MK23 с лазерным прицелом"
 
 [ScrnDualMK23Pickup]
 ItemName="Пара MK23 SE"
@@ -312,11 +324,11 @@ ItemShortName="Пара MK23 SE"
 ItemName="Пара MK23 SE"
 
 [ScrnDualies]
-ItemName="Пара пистолетов SE"
+ItemName="Пара 9мм SE"
 
 [ScrnDualiesPickup]
-ItemName="Пара пистолетов SE"
-ItemShortName="Пара пистолетов SE"
+ItemName="Пара 9мм SE"
+ItemShortName="Пара 9мм SE"
 
 [ScrnFNFALAmmo]
 ItemName="7.62x51мм NATO AP"
@@ -325,20 +337,20 @@ ItemName="7.62x51мм NATO AP"
 PickupMessage="7.62x51мм NATO AP"
 
 [ScrnFNFAL_ACOG_AssaultRifle]
-Description="Классическая боевая винтовка НАТО. Снаряжен бронебойными снарядами НАТО 7,62x51 мм. Имеет режим ведения огня фиксированными очередями по 2 пули."
-ItemName="FNFAL SE"
+Description="Классическая боевая винтовка НАТО. Снаряжен бронебойными патронами NATO 7,62x51 мм. Имеет режим ведения огня фиксированными очередями по 2 пули."
+ItemName="FNFAL AP"
 
 [ScrnFNFAL_ACOG_Pickup]
-ItemName="FNFAL ACOG SE"
-ItemShortName="FNFAL SE"
+ItemName="FNFAL ACOG AP"
+ItemShortName="FNFAL AP"
 
 [ScrnFireModeSwitchMessage]
-SwitchMessage[0]="Полностью автоматический режим"
-SwitchMessage[1]="Полуавтоматический режим"
-SwitchMessage[2]="Режим стрельбы очередями по 2 пули"
-SwitchMessage[3]="Режим стрельбы очередями по 3 пули"
-SwitchMessage[4]="Одиночный режим"
-SwitchMessage[5]="Мульти режим"
+SwitchMessage[0]="Установлен Полностью автоматический режим"
+SwitchMessage[1]="Установлен Полуавтоматический режим"
+SwitchMessage[2]="Установлен Режим стрельбы очередями по 2 пули"
+SwitchMessage[3]="Установлен Режим стрельбы очередями по 3 пули"
+SwitchMessage[4]="Установлен Одиночный режим"
+SwitchMessage[5]="Установлен Мульти режим"
 
 [ScrnFlameThrower]
 ItemName="Огнемет SE"
@@ -437,15 +449,15 @@ ItemName="Пушка Хаска/Напалм"
 ItemShortName="Пушка Хаска SE"
 
 [ScrnInvasionLoginMenu]
-Panels=((Caption="Новости",Hint="Обзор новостей сервера."),(Caption="MOTD",Hint="Сообщение дня."),(Caption="Сервер Инфо",Hint="Текущая карта и настройки игры."),(Caption="Связь",Hint="Ручная настройка связи с другими игроками."),(Caption="Статистика",Hint="Обзор вашей текущей статистики на сервере."),(Caption="Достижения",Hint="Серверные достижения"),(Caption="Функции ScrN",Hint="Функции ScrN Balance, настройки и инфо"))
-TeamSwitchButton.Caption="Сменить команду"
+Panels=((Caption="Новости",Hint="Обзор новостей сервера"),(Caption="MOTD",Hint="Сообщение дня"),(Caption="Сервер Инфо",Hint="Текущая ротация карт и настройки игры"),(Caption="Связь",Hint="Управление связью с другими игроками"),(Caption="Статистика",Hint="Обзор вашей текущей статистики на сервере"),(Caption="Достижения",Hint="ScrN Достижения на стороне сервера"),(Caption="Функции ScrN",Hint="Функции ScrN Balance, настройки и информация"))
+TeamSwitchButton.Caption="Сменить Команду"
 
 [ScrnKSGPickup]
 ItemName="KSG SE"
 ItemShortName="KSG SE"
 
 [ScrnKSGShotgun]
-Description="Прототип улучшенного тактического дробовика, разработанный в 'Horzine'. Оснащен магазином повышенной емкости и переключателем режимов кучности огня 'высоко/низко'. Его гранулы проникают в слабых врагов почти без потери урона, но обычно застревают внутри больших тел. Не имеет лечебных насадок, но медикам нравится это в любом случае."
+Description="Тактический дробовик Kel-tec. Отличается магазином боеприпасов большой емкости и возможностью выбора режима ведения огня с узким и широким разбросом. Его дробь проникает в слабых врагов почти без потери урона, но обычно застревает в больших телах. Не имеет лечебных насадок, но медикам нравится это в любом случае."
 ItemName="KSG SE"
 
 [ScrnKatana]
@@ -471,7 +483,7 @@ ItemName="Мед. ПП Schneidzekk SE"
 ItemShortName="Schneidzekk SE"
 
 [ScrnLAW]
-Description="Легкое противотанковое оружие (Light Anti-tank Weapon). Разработано для пробития бронетехники... но не может убить даже Мясника! Может быть, потому что он не носит броню, чтобы пробивать себе дорогу ^^"
+Description="Легкое противотанковое оружие (Light Anti-tank Weapon). Создано, чтобы пробивать бронетехнику... но не может убить даже Мясника! Может быть, потому что он не носит броню, которую можно пробить ^^"
 ItemName="L.A.W. SE"
 
 [ScrnLAWAmmo]
@@ -522,12 +534,12 @@ ItemName="Гранатомет M32 SE"
 ItemShortName="Гранатомет M32 SE"
 
 [ScrnM4203AssaultRifle]
-Description="Штурмовая винтовка с установленным подствольным гранатометом. Стреляет очередями по 3 пули."
+Description="Штурмовая винтовка с установленным подствольным гранатометом. Стреляет фиксированной очередью по 3 пули."
 ItemName="M4-203 SE"
 
 [ScrnM4203MMedicGun]
 SuccessfulHealMessage="Вы вылечили %c игрока(ов) с %ahp"
-Description="Штурмовая винтовка с установленным подствольным мед. гранатометом. Стреляет очередями по 3 пули."
+Description="Штурмовая винтовка с установленным подствольным мед. гранатометом. Стреляет фиксированной очередью по 3 пули."
 ItemName="Мед. винтовка M4-203М"
 
 [ScrnM4203MPickup]
@@ -541,19 +553,30 @@ ItemName="M4-203 SE"
 ItemShortName="M4-203 SE"
 SecondaryAmmoShortName="-- гранаты M203"
 
+[ScrnM4203PrimaryPickup]
+ItemName="M4-203 SE"
+ItemShortName="M4-203 SE"
+SecondaryAmmoShortName="-- гранаты M203"
+
+[ScrnM4Ammo]
+ItemName="5.56x45мм NATO AP"
+
+[ScrnM4AmmoPickup]
+PickupMessage="5.56x45мм NATO AP"
+
 [ScrnM4AssaultRifle]
-Description="Компактная штурмовая винтовка. Урон может быть лучше, но точность, быстрая перезарядка и много боеприпасов делают ее хорошим выбором в битве."
-ItemName="M4 SE"
+Description="Карабин M4 с коллиматорным прицелом M68 CCO. Снабжен бронебойными патронами калибра 5,56х45 мм NATO."
+ItemName="M4 AP"
 
 [ScrnM4Pickup]
-ItemName="M4 SE"
-ItemShortName="M4 SE"
+ItemName="M4 AP"
+ItemShortName="M4 AP"
 
 [ScrnM79GrenadeLauncher]
 ItemName="Гранатомет M79 SE"
 
 [ScrnM79Inc]
-Description="Классический ручной однозарядный гранатомет времен войны во Вьетнаме. Запускает зажигательные гранаты."
+Description="Классический гранатомет Вьетнамской эпохи. Запускает зажигательные гранаты."
 ItemName="Зажигательный M79"
 
 [ScrnM79IncAmmo]
@@ -564,12 +587,12 @@ PickupMessage="Зажигательные гранаты для M79"
 
 [ScrnM79IncPickup]
 ItemName="Зажигательный M79"
-ItemShortName="M79 Inc"
-PickupMessage="Вы получили однозарядный зажигательный гранатомет M79"
+ItemShortName="Заж. M79"
+PickupMessage="Вы получили однозарядный Зажигательный гранатомет M79"
 
 [ScrnM79M]
 SuccessfulHealMessage="Вы вылечили %c игрока(ов) с %ahp"
-Description="Классический ручной однозарядный гранатомет времен войны во Вьетнаме. Модифицирован для запуска целебных гранат."
+Description="Классический гранатомет Вьетнамской эпохи. Модифицирован для запуска целебных гранат."
 ItemName="Мед. гранатомет M79"
 
 [ScrnM79MAmmo]
@@ -581,7 +604,7 @@ PickupMessage="Целебные гранаты для M79"
 [ScrnM79MPickup]
 ItemName="Мед. гранатомет M79"
 ItemShortName="Мед. M79"
-PickupMessage="Вы получили однозарядный Мед. гранатомет M79М"
+PickupMessage="Вы получили однозарядный Мед. гранатомет M79"
 
 [ScrnM79Pickup]
 ItemName="Гранатомет M79 SE"
@@ -613,8 +636,14 @@ ItemName="MK23 SE"
 ItemShortName="MK23 SE"
 
 [ScrnMK23Pistol]
-Description="Высококлассный пистолет 45-го калибра. Хороший баланс между мощностью, количеством боеприпасов и скоростью стрельбы. Урон близок к Магнуму, но не имеет проникновения пули."
+Description="Пистолет Match Grade 45 калибра. Хороший баланс между мощностью, количеством боеприпасов и скорострельностью. Урон близок к Магнуму, но не имеет пробития пулей."
 ItemName="MK23 SE"
+
+[ScrnMKb42Ammo]
+ItemName="7.62x33мм Kurz"
+
+[ScrnMKb42AmmoPickup]
+PickupMessage="7.62x33мм Kurz"
 
 [ScrnMKb42AssaultRifle]
 ItemName="MKb42 SE"
@@ -645,11 +674,11 @@ ItemName="Мачете SE"
 ItemShortName="Мачете SE"
 
 [ScrnMagnum44Pickup]
-ItemName="Магнум .44 SE"
-ItemShortName="Магнум .44 SE"
+ItemName=".44 Магнум SE"
+ItemShortName=".44 Магнум SE"
 
 [ScrnMagnum44Pistol]
-ItemName="Магнум .44 SE"
+ItemName=".44 Магнум SE"
 
 [ScrnMapAchievements]
 UniversalDescriptions[0]="Survive on %m in any ScrN Balance game"
@@ -667,11 +696,11 @@ CombatSong="KF_Pathogen"
 WaveBasedSongs=((CombatSong="KF_Hunger",CalmSong="KF_Wading"),(CombatSong="KF_WPrevention",CalmSong="KF_Wading"),(CombatSong="DirgeDefective1",CalmSong="KF_Neurotoxin"),(CombatSong="DirgeDefective2",CalmSong="KF_Vapour"),(CombatSong="DirgeDisunion1",CalmSong="KF_Peripheral"),(CombatSong="DirgeDisunion2",CalmSong="KF_TheEdge"),(CombatSong="KF_Pathogen",CalmSong="KF_Insect"),(CombatSong="DirgeRepulse1",CalmSong="KF_SinSoma"),(CombatSong="DirgeRepulse2",CalmSong="KF_SinSoma"),(CombatSong="KF_Containment",CalmSong="KF_TheStitches"),(CombatSong="KF_Abandon",CalmSong="KF_TheStitches"))
 
 [ScrnNailGun]
-ItemName="Влад Пронзитель SE"
+ItemName="Гвоздомёт SE"
 
 [ScrnNailGunPickup]
-ItemName="Влад Пронзитель SE"
-ItemShortName="Влад 9000 SE"
+ItemName="Гвоздомёт SE"
+ItemShortName="Гвоздомёт SE"
 
 [ScrnNoVestPickup]
 ItemName="Без брони"
@@ -701,7 +730,7 @@ ProgressName="Убийств пистолетами"
 strLocked="Подбор Оружия ЗАБЛОКИРОВАН"
 strUnlocked="Подбор Оружия РАЗБЛОКИРОВАН"
 strLockDisabled="Блокировка оружия отключена на сервере"
-strAlreadySpectating="Уже зритель. Введите READY, если хотите присоединиться к игре."
+strAlreadySpectating="Уже наблюдатель. Введите READY, если хотите присоединиться к игре."
 strNoPerkChanges="Смена перка во время игры не доступна"
 strPerkLocked="Перк заблокирован"
 strSpecFavoriteAssigned="View target marked as favorite"
@@ -720,7 +749,13 @@ SwitchMessage[0]="Магазин пуст! Перезарядитесь."
 SwitchMessage[1]="Нет патронов"
 
 [ScrnPromotedMessage]
-EarnedString="Вы получили повышение до %v %l-го уровня!"
+EarnedString="Вы были повышены до %v %l-го уровня!"
+
+[ScrnSCARMK17Ammo]
+ItemName="5.56x45мм NATO"
+
+[ScrnSCARMK17AmmoPickup]
+PickupMessage="5.56x45мм NATO"
 
 [ScrnSCARMK17AssaultRifle]
 ItemName="SCARMK17 SE"
@@ -736,18 +771,24 @@ ItemShortName="Мушкет SE"
 [ScrnSPSniperRifle]
 ItemName="Мушкет SE"
 
+[ScrnSPThompsonAmmo]
+ItemName=".45 ACP"
+
+[ScrnSPThompsonAmmoPickup]
+PickupMessage=".45 ACP"
+
 [ScrnSPThompsonPickup]
-ItemName="СДС доктора Т SE"
-ItemShortName="СДС доктора Т SE"
+ItemName="Steampunk Томми-ган SE"
+ItemShortName="SP Томми-ган SE"
 
 [ScrnSPThompsonSMG]
-ItemName="Система доставки свинца доктора Т SE"
+ItemName="Steampunk Томми-ган SE"
 
 [ScrnScoreBoard]
 AssHeaderText="Ass."
 KillsAssSeparator=" + "
 strPingMax="N/A"
-SpectatorsText="Зрители"
+SpectatorsText="Наблюдатели"
 SuicideTimeText="Suicide in"
 TeamScoreString="Бумажник команды:"
 HealthText="HP"
@@ -776,11 +817,11 @@ ItemName="Дробовик SE"
 ItemShortName="Дробовик SE"
 
 [ScrnSingle]
-ItemName="9мм пистолет SE"
+ItemName="9мм Пистолет SE"
 
 [ScrnSinglePickup]
-ItemName="9мм пистолет SE"
-ItemShortName="9мм пистолет SE"
+ItemName="9мм Пистолет SE"
+ItemShortName="9мм Пистолет SE"
 
 [ScrnStoryGameInfo]
 GameName="ScrN Objective Mode"
@@ -807,7 +848,7 @@ strIntoScrnLocked="Вы должны выполнить вышеуказанны
 SaleButtonCaption="Продать Оружие"
 strSale0="Пожертвовать"
 strNoSale="Не продается"
-InfoText[0]="Добро пожаловать в мой магазин, работающий на ScrN Balance! Горячие клавиши:|F1/F2: перейти к инвентарю/списку продаж|ENTER/BACKPACE: купить/продать предмет. F7/F8: автозаполнение брони/боеприпасов|0-9: Быстрый выбор группы / купить X обойм.|PAGE UP/DOWN: выбрать пред./след. группу. LEFT/RIGHT: закрыть/открыть текущую группу.|UP/DOWN: выбрать пред./след. предмет в текущей группе."
+InfoText[0]="Добро пожаловать в мой магазин, работающий на ScrN Balance!   Горячие клавиши:|F1/F2: перейти к инвентарю/списку продаж|ENTER/BACKPACE: купить/продать предмет. F7/F8: автозаполнение брони/боеприпасов|0-9: Быстрый выбор группы / купить X обойм.|PAGE UP/DOWN: выбрать пред./след. группу. LEFT/RIGHT: закрыть/открыть текущую группу.|UP/DOWN: выбрать пред./след. предмет в текущей группе."
 AutoFillString="[F8] Пополнить боезапас"
 AutoFill.Caption="[F8] Автозаполнение боеприпасов"
 AutoFill.Hint="Первый клик пополняет патроны для всего оружия. Второй клик покупает взрывчатку и гранаты."
@@ -897,8 +938,8 @@ ShowLeftGunAmmo.Caption="Left Pistol Ammo"
 ShowLeftGunAmmo.Hint="Если флажок установлен, ammo in left pistol is displayed separately when dual-weilding."
 ShowSpeed.Caption="Показать скорость"
 ShowSpeed.Hint="Включает отображение скорости вашего передвижения на HUD"
-SpecButton.Caption="Зритель"
-SpecButton.Hint="Нажмите, чтобы начать голосование за перемещение выбранного игрока в зрители по 'Причине'."
+SpecButton.Caption="В Набл."
+SpecButton.Hint="Нажмите, чтобы начать голосование за перемещение выбранного игрока в наблюдатели по 'Причине'."
 StatusButton.Caption="Статус сервера"
 StatusButton.Hint="Вывести настройки ScrN сервера в консоль"
 SteamGroupButton.Caption="Группа..."
@@ -924,8 +965,18 @@ WeaponsBG.Caption="Оружие"
 ZedsButton.Caption="Зеды"
 ZedsButton.Hint="Вывести текущую коллекцию монстров"
 
+[ScrnTestGame]
+GameName="ScrN Test Game"
+Description="Модификация ScrN Floor для тестовых карт"
+
 [ScrnThompsonDrum]
 ItemName="RS Томми-ган SE"
+
+[ScrnThompsonDrumAmmo]
+ItemName=".45 ACP"
+
+[ScrnThompsonDrumAmmoPickup]
+PickupMessage=".45 ACP"
 
 [ScrnThompsonDrumPickup]
 ItemName="RS Томми-ган SE"
@@ -943,15 +994,15 @@ PickupMessage="Зажигательные патроны 45. ACP"
 
 [ScrnThompsonIncPickup]
 ItemName="Зажигательный Томми-ган SE"
-ItemShortName="Томми-ган Inc. SE"
-PickupMessage="Вы получили зажигательный Томми-ган"
+ItemShortName="Заж. Томми-ган SE"
+PickupMessage="Вы получили Зажигательный Томми-ган"
 
 [ScrnTrenchgun]
-ItemName="Траншейный дробовик 'Дыхание дракона' SE"
+ItemName="Траншейный Дробовик 'Дыхание дракона' SE"
 
 [ScrnTrenchgunPickup]
-ItemName="Траншейный дробовик SE"
-ItemShortName="Траншейный дробовик SE"
+ItemName="Траншейный Дробовик SE"
+ItemShortName="Траншейный Дробовик SE"
 
 [ScrnUnicode]
 Dosh="£"
@@ -1023,11 +1074,11 @@ ItemName="Lever Action Rifle SE"
 ItemShortName="LAR SE"
 
 [ScrnZEDMKIIPickup]
-ItemName="Zed Eradication Device MKIISE"
-ItemShortName="ZED GUN MKIISE"
+ItemName="Уничтожитель ЗЕДов MKIISE"
+ItemShortName="ЗЕД-ган MKIISE"
 
 [ScrnZEDMKIIWeapon]
-ItemName="ZED GUN MKIISE"
+ItemName="ЗЕД-ган MKIISE"
 
 [ScrnZedVoting]
 HelpInfo=("%pZED %y<zed_vote> %gON%w|%rOFF %w Добавить|Удалить зедов из игры. %bMVOTE ZED HELP %w для получения дополнительной информации.")
@@ -1049,10 +1100,10 @@ Description="2020 год. Пока эпидемия образцов все ещ
 strInfectedItems="Нельзя поднимать зараженные предметы"
 
 [StinkyClot]
-MenuName="Stinky Clot"
+MenuName="Вонючий Клот"
 
 [StinkyClotZed]
-MenuName="Evil Stinky Clot"
+MenuName="Злой Вонючий Клот"
 
 [StinkyController]
 BlameStr="%p обвинен в размещении базы в глючном месте!"
@@ -1118,7 +1169,7 @@ strWaves="волн"
 strTeam="Команда:"
 strNotTeamMember="Выберите команду..."
 WaitingForMorePlayers="Ожидайте пока присоединиться больше игроков..."
-strPlayerIsSpectator="Вы зритель."
+strPlayerIsSpectator="Вы наблюдатель."
 TeamNames[0]="British"
 TeamNames[1]="Steampunk"
 strHDmg="Система повреждений: "
