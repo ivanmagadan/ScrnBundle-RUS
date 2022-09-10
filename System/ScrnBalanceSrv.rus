@@ -48,7 +48,6 @@ titleBaseLost="FAILED TO FOLLOW THE GUARDIAN"
 hintWelcome=" Добро пожаловать в FTG! Watch this place for useful hints. "
 hintFirstWave="Первая волна - обычная KF-волна. Убейте всех зедов и не умрите :)"
 hintGotoBase="Get to your Base and protect The Guardian!"
-hintGetGnome="Take the Guardian from your trader to set up a Base"
 hintBaseLostTrader="You lost your Guardian and now you are dead!"
 
 [ScrnAA12AutoShotgun]
@@ -151,10 +150,10 @@ Description="Если вы нашли Булл-пап на карте, то он
 ItemName="Булл-пап Майка"
 
 [ScrnBullpupAmmo]
-ItemName="5.56x45мм NATO"
+ItemName="5.56x45мм НАТО"
 
 [ScrnBullpupAmmoPickup]
-PickupMessage="5.56x45мм NATO"
+PickupMessage="5.56x45мм НАТО"
 
 [ScrnBullpupPickup]
 ItemName="Булл-пап Майка"
@@ -272,6 +271,12 @@ MaleSuicide="%o выстрелил себе в ногу."
 [ScrnDeagle]
 ItemName="Дезерт Игл SE"
 
+[ScrnDeagleAmmo]
+ItemName=".50 AE"
+
+[ScrnDeagleAmmoPickup]
+PickupMessage=".50 AE"
+
 [ScrnDeaglePickup]
 ItemName="Дезерт Игл SE"
 ItemShortName="Дезерт Игл SE"
@@ -287,7 +292,7 @@ ItemName="Пара .44 Магнумов Laser"
 [ScrnDual44MagnumLaserPickup]
 ItemName="Пара .44 Магнумов Laser"
 ItemShortName="Пара .44 L"
-PickupMessage="Вы получили Пару 'Магнумов .44' с лазерным прицелом"
+PickupMessage="Вы получили Пару '.44 Магнумов' с лазерным прицелом"
 
 [ScrnDual44MagnumPickup]
 ItemName="Пара .44 Магнумов SE"
@@ -331,13 +336,13 @@ ItemName="Пара 9мм SE"
 ItemShortName="Пара 9мм SE"
 
 [ScrnFNFALAmmo]
-ItemName="7.62x51мм NATO AP"
+ItemName="7.62x51мм НАТО AP"
 
 [ScrnFNFALAmmoPickup]
-PickupMessage="7.62x51мм NATO AP"
+PickupMessage="7.62x51мм НАТО AP"
 
 [ScrnFNFAL_ACOG_AssaultRifle]
-Description="Классическая боевая винтовка НАТО. Снаряжен бронебойными патронами NATO 7,62x51 мм. Имеет режим ведения огня фиксированными очередями по 2 пули."
+Description="Классическая боевая винтовка НАТО. Снаряжен бронебойными патронами 7,62x51мм НАТО. Имеет режим ведения огня фиксированными очередями по 2 пули."
 ItemName="FNFAL AP"
 
 [ScrnFNFAL_ACOG_Pickup]
@@ -559,13 +564,13 @@ ItemShortName="M4-203 SE"
 SecondaryAmmoShortName="-- гранаты M203"
 
 [ScrnM4Ammo]
-ItemName="5.56x45мм NATO AP"
+ItemName="5.56x45мм НАТО AP"
 
 [ScrnM4AmmoPickup]
-PickupMessage="5.56x45мм NATO AP"
+PickupMessage="5.56x45мм НАТО AP"
 
 [ScrnM4AssaultRifle]
-Description="Карабин M4 с коллиматорным прицелом M68 CCO. Снабжен бронебойными патронами калибра 5,56х45 мм NATO."
+Description="Карабин M4 с коллиматорным прицелом M68 CCO. Снабжен бронебойными патронами калибра 5,56х45мм НАТО."
 ItemName="M4 AP"
 
 [ScrnM4Pickup]
@@ -631,6 +636,12 @@ ItemName="MAC-10 SE"
 ItemName="MAC-10 SE"
 ItemShortName="MAC-10 SE"
 
+[ScrnMK23Ammo]
+ItemName=".45 ACP"
+
+[ScrnMK23AmmoPickup]
+PickupMessage=".45 ACP"
+
 [ScrnMK23Pickup]
 ItemName="MK23 SE"
 ItemShortName="MK23 SE"
@@ -672,6 +683,12 @@ ItemName="Мачете SE"
 [ScrnMachetePickup]
 ItemName="Мачете SE"
 ItemShortName="Мачете SE"
+
+[ScrnMagnum44Ammo]
+ItemName=".44 Магнум"
+
+[ScrnMagnum44AmmoPickup]
+PickupMessage=".44 Магнум"
 
 [ScrnMagnum44Pickup]
 ItemName=".44 Магнум SE"
@@ -733,6 +750,7 @@ strLockDisabled="Блокировка оружия отключена на се�
 strAlreadySpectating="Уже наблюдатель. Введите READY, если хотите присоединиться к игре."
 strNoPerkChanges="Смена перка во время игры не доступна"
 strPerkLocked="Перк заблокирован"
+strPerkNotAvailable="Перк недоступен"
 strSpecFavoriteAssigned="View target marked as favorite"
 strSpecNoFavorites="No favorite view targets! Press '4' to assign favorite."
 strPlayingSong="Сейчас играет: "
@@ -752,10 +770,10 @@ SwitchMessage[1]="Нет патронов"
 EarnedString="Вы были повышены до %v %l-го уровня!"
 
 [ScrnSCARMK17Ammo]
-ItemName="5.56x45мм NATO"
+ItemName="7.62x51мм НАТО"
 
 [ScrnSCARMK17AmmoPickup]
-PickupMessage="5.56x45мм NATO"
+PickupMessage="7.62x51мм НАТО"
 
 [ScrnSCARMK17AssaultRifle]
 ItemName="SCARMK17 SE"
@@ -1263,7 +1281,7 @@ strBlame="%p обвиняется в прикосновении к фекали�
 
 [TurboGame]
 GameName="Turbo Floor"
-Description="Same KF but faster. Much Faster. And more ZED Time."
+Description="Тот же KF, но быстрее. Намного быстрее. И больше замедлений времени."
 
 [VirusDamage]
 DeathString="%o умер от вируса."
