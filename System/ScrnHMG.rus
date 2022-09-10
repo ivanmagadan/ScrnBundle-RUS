@@ -3,10 +3,10 @@ Description="Steyr AUG (Armee Universal Gewehr - армейская универ
 ItemName="Steyr AUG A1 SE"
 
 [AUG_A1ARAmmo]
-ItemName="5.56мм NATO"
+ItemName="5.56мм НАТО"
 
 [AUG_A1ARAmmoPickup]
-PickupMessage="5.56мм NATO"
+PickupMessage="5.56мм НАТО"
 
 [AUG_A1ARPickup]
 ItemName="Steyr AUG A1 SE"
@@ -88,10 +88,10 @@ FriendlyName="ScrN Heavy Machine Gunner"
 Description="Перк Тяжелый Пулеметчик. Когда размер имеет значение..."
 
 [M249Ammo]
-ItemName="Патроны 5.56x45мм NATO"
+ItemName="Патроны 5.56x45мм НАТО"
 
 [M249AmmoPickup]
-PickupMessage="Патроны 5.56x45мм NATO"
+PickupMessage="Патроны 5.56x45мм НАТО"
 
 [M249Pickup]
 ItemName="M249 SAW SE"
