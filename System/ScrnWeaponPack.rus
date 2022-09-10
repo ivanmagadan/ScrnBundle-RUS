@@ -27,10 +27,10 @@ Description="Модифицированная 'Horzine' винтовка CZ-805 
 ItemName="CZ-805M Мед./Штурмовая винтовка SE"
 
 [CZ805MAmmo]
-ItemName="5.56x45мм NATO"
+ItemName="5.56x45мм НАТО"
 
 [CZ805MAmmoPickup]
-PickupMessage="5.56x45мм NATO"
+PickupMessage="5.56x45мм НАТО"
 
 [CZ805MPickup]
 ItemName="CZ-805M SE"
@@ -38,8 +38,8 @@ ItemShortName="CZ-805M SE"
 PickupMessage="Вы получили CZ-805M"
 
 [Colt]
-Description="Colt Python - это револьвер двойного действия под патрон .357 Magnum, построенный на большой I-образной раме Кольта. Питоны известны своей точностью, плавным нажатием на спусковой крючок и плотной блокировкой цилиндра."
-ItemName="Colt Python SE"
+Description="Кольт Питон - это револьвер двойного действия под патрон .357 Магнум, построенный на большой I-образной раме Кольта. Питоны известны своей точностью, плавным нажатием на спусковой крючок и плотной блокировкой цилиндра."
+ItemName="Кольт Питон SE"
 
 [ColtAmmo]
 ItemName="Пули .357"
@@ -48,9 +48,9 @@ ItemName="Пули .357"
 PickupMessage="Боеприпасы .357"
 
 [ColtPickup]
-ItemName="Colt Python SE"
-ItemShortName="Colt Python SE"
-PickupMessage="Вы получили револьвер Colt Python"
+ItemName="Кольт Питон SE"
+ItemShortName="Кольт Питон SE"
+PickupMessage="Вы получили револьвер Кольт Питон"
 
 [DamTypeAK12AssaultRifle]
 DeathString="Игрок %k убил игрока %o (AK-12)."
@@ -107,14 +107,14 @@ DeathString="Игрок %k убил игрока %o (Вал)."
 DeathString="Игрок %k убил игрока %o (Винторез)."
 
 [HK417AR]
-Description="Heckler&Koch HK417 — это снайперская винтовка. Использует бронебойные патроны 7,62x51мм NATO AP (Armor-Piercing)."
+Description="Heckler&Koch HK417 — это марксманская винтовка. Использует бронебойные патроны 7,62x51мм НАТО."
 ItemName="HK417 AP"
 
 [HK417Ammo]
-ItemName="7.62x51мм NATO AP"
+ItemName="7.62x51мм НАТО AP"
 
 [HK417AmmoPickup]
-PickupMessage="7.62x51мм NATO AP"
+PickupMessage="7.62x51мм НАТО AP"
 
 [HK417Pickup]
 ItemName="HK417 AP"
@@ -229,7 +229,7 @@ PickupMessage="Вы получили РПГ-7"
 
 [RPGSwitchMessage]
 SwitchMessage[0]="Оптический прицел отсоединен"
-SwitchMessage[1]="Оптический прицел прикреплен"
+SwitchMessage[1]="Оптический прицел присоединен"
 
 [SVD]
 Description="Снайперская винтовка Драгунова представляет собой полуавтоматическую снайперскую винтовку/марксманскую винтовку под патроны 7H1, разработанную в Советском Союзе."
