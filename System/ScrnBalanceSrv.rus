@@ -6,25 +6,25 @@ GroupInfo=((Caption="ВСЕ"),(Caption="Карты"),(Caption="Основной 
 ProgressName="Достижения"
 
 [AchMaps]
-ProgressName="Достижения (карты)"
+ProgressName="Достижения (Карты)"
 
 [AchObjMaps]
-ProgressName="Достижения (карты режима задач)"
+ProgressName="Достижения (Карты Режима Задач)"
 
 [BaronsGame]
-strNewBaron="%p становится бароном этой волны! Защитите его от Gorefasts!"
+strNewBaron="%p - Барон Волны! Защитите его от Берсерков!"
 strBaronDead="БАРОН МЕРТВ. ИГРА ОКОНЧЕНА!"
 KFHints=("Every wave a random player is picked to be the Baron of the Wave.","All Gorefasts are blindly following Baron.","Baron dies = Game Over.","ScrN: Combat Shotgun is made much better. Give it a try","ScrN: Shotguns, except Combat and Boomstick, penetrate fat bodies worse than small enemies","ScrN: M99 cannot stun Scrake with a body-shot. Crossbow has no fire speed bonus as in the original game before v1035","ScrN: M14EBR has different laser sights.","ScrN: Hand grenades can be 'cooked'. Enable/disable that on 'Scrn Features' page in the Main Menu.","ScrN: Gunslinger has bonuses both for single and dual pistols. But real Cowboys use only dualies.","ScrN: Gunslinger becomes a Cowboy while using dual pistols without wearing heavy armor. Cowboy moves and shoots much faster. On the other hand, he dies faster too.","ScrN: Berserker, while holding non-melee weapons, moves slower than other perks.","ScrN: Chainsaw makes more damage but consumes fuel. Also, the alternate attack stuns Scrakes.","ScrN: Support Spec. may use Chainsaw. Remember Evil Dead? Try the Chainsaw+Boomstick loadout.","ScrN: Medics have regular frag nades. Do not blow yourself up!","ScrN: Medic, while holding a syringe, runs same fast as while holding a knife.","ScrN: Medics can heal much faster than other perks. If you aren't a Medic, don't screw up the healing process with your lame injection.","ScrN: Medic gets XP for shooting zeds with Medic Guns. But do not forget to heal your teammates!","ScrN: Medic nades are for healing only. Zeds are not taking damage neither fear them.","ScrN: Combat Medic is more 'combat' than 'medic'","ScrN: FN-FAL has armor-piercing bullets and 2-round fixed burst mode.","ScrN: MK23 has no bullet penetration but double size of magazine, comparing to .44 Magnum","ScrN: Your experience and perk bonus levels may be different. If they are, you see two perk icons on the HUD.","ScrN: If you see two perk icons on the HUD, the left one shows your experience level, the right - actual level of perk bonuses that you gain.","ScrN: Husk Gun's secondary fire acts as Napalm Thrower.","ScrN: Flares deal the incremental burn Damage over Time (iDoT). The more you shoot the more damage zeds take from burning.","ScrN: Nailgun can nail enemies to walls... nail them alive! Crucify your ZED!","ScrN Console Command: MVOTE - access to ScrN Voting. Type MVOTE HELP for more info.","Social Isolation: The Virus gets spread by a close contact. Keep distance!","Social Isolation: Infected players should keep a distance from other infected as well. Increased Virus concentration in the air leads to severe symptoms.","Social Isolation: Epidemic safety rules prohibit picking up items of infected players, even if you are already infected.","Social Isolation: The Trader keeps her shop clean. Players get charged for coughing in the shop area - to cover the disinfection costs.","Social Isolation: Rumors say that Toilet Paper can protect you from the Virus. At least you will die with a clean butt.","Social Isolation: 'I can feel it coming in the air tonight, oh Lord!' Yes, it is the Virus in the air. And it is gonna kill you!","Social Isolation: The shop is a high-risk area for spreading the Virus. Keep distance and wait in line for shopping.")
 GameName="Baron's Game"
-Description="Every wave a random player is picked to be the Baron of the Wave. He gets blamed and all Gorefasts will chase him. If Baron dies, team gets wiped."
+Description="Каждую волну случайный игрок выбирается на роль Барона Волны. Его обвиняют, и все Берсерки будут преследовать его. Если Барон умрет, команда будет уничтожена."
 
 [DamTypeEnemyBase]
-DeathString="Игрок %o был убит Гномом-Хранителем"
+DeathString="%o убит Гномом-Хранителем"
 FemaleSuicide="%o убита Гномом-Хранителем"
 MaleSuicide="%o убит Гномом-Хранителем"
 
 [DamTypeSudDeath]
-DeathString="Игрок %o был наказан внезапной смертью"
+DeathString="%o наказан внезапной смертью"
 FemaleSuicide="%o наказана внезапной смертью"
 MaleSuicide="%o наказан внезапной смертью"
 
@@ -34,21 +34,21 @@ WaveBasedSongs=((CombatSong="EGT-Entryway",CalmSong="EGT-ThisLove"),(CombatSong=
 
 [FscGame]
 GameName="FTG Survival Competition"
-Description="FTG+TSC: Follow The Guardian + Team Survival Competition combined into one game."
+Description="FTG+TSC: Follow The Guardian + Team Survival Competition объединены в одну игру."
 
 [FtgGame]
 GameName="Follow the Guardian"
-Description="Non-competitive TSC version for single team."
+Description="Внесоревновательная версия TSC для одиночной команды."
 
 [FtgHUD]
 titleStinkyClot="ВОНЮЧИЙ КЛОТ"
-hintStinkyClot="OMG это вонючий клот! Вы не можете убить их, но это действительно противно."
-titleWelcome="FOLLOW THE GUARDIAN"
-titleBaseLost="FAILED TO FOLLOW THE GUARDIAN"
-hintWelcome=" Добро пожаловать в FTG! Watch this place for useful hints. "
+hintStinkyClot="OMG это Вонючий Клот! Вы не можете убить их, но эти вещи действительно противны."
+titleWelcome="СЛЕДУЙТЕ ЗА ХРАНИТЕЛЕМ"
+titleBaseLost="НЕ УДАЛОСЬ ПРОСЛЕДОВАТЬ ЗА ХРАНИТЕЛЕМ"
+hintWelcome=" Добро пожаловать в FTG! Смотрите это место для полезных советов. "
 hintFirstWave="Первая волна - обычная KF-волна. Убейте всех зедов и не умрите :)"
-hintGotoBase="Get to your Base and protect The Guardian!"
-hintBaseLostTrader="You lost your Guardian and now you are dead!"
+hintGotoBase="Доберитесь до своей Базы и защитите Хранителя!"
+hintBaseLostTrader="Вы потеряли своего Хранителя и теперь вы мертвы!"
 
 [ScrnAA12AutoShotgun]
 Description="Усовершенствованный полностью автоматический дробовик. Наносит меньше урона за пулю, но превосходное проникновение и скорострельность делают его лучшим выбором, чтобы убить все ... пока у вас остались боеприпасы"
@@ -89,14 +89,14 @@ ItemShortName="Топор SE"
 strBonusLevel="Ваш эффективный уровень бонусов перка [%s]"
 strStatus="Ваш уровень перка: Визуальный=%v, Эффективный=[%b]. Диапазон перков на сервере [%n..%x]."
 strStatus2="Альт. механизм горения=%a. MaxZombiesOnce=%m."
-strBetaOnly="Доступно только во время бета-тестирования (bBeta = True)"
+strBetaOnly="Доступно только во время Бета-тестирования (bBeta = True)"
 strXPInitial="^G$Начальная статистика Перка:"
 strXPProgress="^G$Прогресс Перка:"
 strXPBonus="^G$Бонус опыта за победу: ^c$"
 strAchEarn="%p открыл Достижение: %a"
 strAutoKickOffPerk="Вы были автоматически выкинуты с сервера за игру без перка. Введите RECONNECT в консоли, чтобы снова присоединиться к серверу и выбрать перк."
 FriendlyName="ScrN Balance"
-Description="Полная переработка KF1, чтобы сделать ее современной и лучшей игрой в мире, при этом сохраняя корни оригинала."
+Description="Полная переработка KF1, чтобы сделать ее современной и лучшей игрой в мире, сохраняя при этом корни оригинала."
 
 [ScrnBalanceVoting]
 strCantEndTrade="Нельзя завершить торговлю в данный момент"
