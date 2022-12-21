@@ -93,6 +93,9 @@ strBetaOnly="Доступно только во время Бета-тестир
 strXPInitial="^G$Начальная статистика Перка:"
 strXPProgress="^G$Прогресс Перка:"
 strXPBonus="^G$Бонус опыта за победу: ^c$"
+strOnlyAdmin="Требуются права АДМИНИСТРАТОРА"
+strOnlyScrnGT="Доступно только в ScrnGameType!"
+strOnlyNotInTourney="Недоступно в режиме ТУРНИРА"
 strAchEarn="%p открыл Достижение: %a"
 strAutoKickOffPerk="Вы были автоматически выкинуты с сервера за игру без перка. Введите RECONNECT в консоли, чтобы снова присоединиться к серверу и выбрать перк."
 FriendlyName="ScrN Balance"
@@ -1131,16 +1134,18 @@ strUseMessage="Нажмите "USE" чтобы взять Хранителя б�
 strUsedMessage="Вы взяли Хранителя базы"
 strITookTheGnome="я взял Хранителя нашей базы"
 
+[TSCClanVoting]
+HelpInfo=("%pCLAN %y<options> %w Clan votes. Type %bMVOTE CLAN HELP %wfor more details.")
+GroupInfo=("%pCLAN %gGAME %r<clan1> %b<clan2> %w Start a clan1 vs. clan2 game","%pCLAN %gCREATE %y<clan_acronym> <clan_name> %w Creates a new clan","%pCLAN %gADD %y<player_name> [<clan>] %w Add the player to the clan","%pCLAN %gREMOVE %y<player_name> [<clan>] %w Remove the player to the clan","%pCLAN %gCAPTAIN %y<player_name> [<clan>] %w Make the player a clan captain","%pCLAN %gLEAVE %w Leave the current clan")
+
 [TSCDamageType]
 DeathString="Игрок %o был убит игрой"
 FemaleSuicide="%o убита игрой"
 MaleSuicide="%o убит игрой"
 
 [TSCGame]
-RedTeamHumanName="British"
-BlueTeamHumanName="Steampunk"
 strBudgetCut="Бюджет команд был урезан"
-KFHints=("Each team has its own Trader. A team can not get the same Trader two times in a row.","When the Trader opens her doors, she drops the Base Guardian nearby. Take it to your Base!","Pick up the Base Guardian next to the Trader, bring it where you want your Base to be, and press the SETUPBASE or CROUCH button.","The Base can be established only once per wave. Once set up, it can not be moved.","If nobody stays at a Base, then the Guardian gets frustrated and disappears. No Guardian = No Base.","Base Guardian has two cool features: it protects you from the Friendly Fire and damages enemy squad members.","Base Guardian hurts enemy players within the range of the Base no matter of the Friendly Fire setting.","Base Guardian can be stunned with nades or 700+ cumulative damage.","Base Guardian is invulnerable while waking up or for the first 10 seconds of a wave.","The Base can be established during the Trader Time only. So hurry up!","The other squad cannot stay at your Base.","You can play without a Base too, but who will protect you from the Friendly Fire then?","Setting up a Base in a strategic map point is the key to success.","You cannot set up your own Base at the Enemy Base. However, the Bases may intersect.","While carrying Base Guardian, you can pass it to another player by pressing the same key as throwing a weapon.","Best camping spots in the standard KF game are not necessarily the best spots in TSC.","The team gets wiped if ANY its member dies during the SUDDEN DEATH wave.","Wiping the enemy squad doesn't grant you a win. You still have to survive till the end of the wave.","TSC isn't Versus or Team Deathmatch game. You don't have to fight the enemy team. Leave that job to ZEDs.","You can wait until ZEDs wipe out the enemy squad or help them. Help who? ZEDs or the other squad? The choice is up to you...","There are 4 Human Damage rules in TSC: OFF, No Friendly Fire, Normal, and PvP. Type MVOTE TEAM HDMG for the info.","When Human Damage is OFF, you can not damage the other squad's members. The Base Guardian can, though.","Human Damage is OFF during the first wave, Trader Time, and when there are less than 10 zeds left in a wave.","Human Damage is ON during waves (except the first one). Staying at your own Base protects you from it.","You can switch team during the Trader Time. Type SWITCHTEAM in the console or bind it to a key.","Switching the team during the game kills you first. Then restarts you as another squad member.","You cannot switch a team during a wave.","Medics, and only medics, can see the health and armor of enemy players.","TSC, same as KF, is not about winning or losing. It is all about surviving.","TSC doesn't force you to play against the other squad. You can cooperate and survive together. But nobody said that the other team thinks the same...","During the Trader Time, if the other squad has 2+ players less than yours, you can switch to it on-the-fly (without dying).","Social Isolation: Rumors say that Toilet Paper can protect you from the Virus. At least you will die with a clean butt.","Social Isolation: 'I can feel it coming in the air tonight, oh Lord!' Yes, it is the Virus in the air. And it is gonna kill you!","Social Isolation: The shop is a high-risk area for spreading the Virus. Keep distance and wait in line for shopping.")
+KFHints=("Each team has its own Trader. A team can not get the same Trader two times in a row.","When the Trader opens her doors, she drops the Base Guardian nearby. Take it to your Base!","Pick up the Base Guardian next to the Trader, bring it where you want your Base to be, and press the SETUPBASE or CROUCH button.","The Base can be established only once per wave. Once set up, it can not be moved.","If nobody stays at the Base, the Guardian gets frustrated and disappears. No Guardian = No Base.","Base Guardian has two cool features: it protects you from the Friendly Fire and damages enemy squad members.","Base Guardian hurts enemy players within the range of the Base no matter of the Friendly Fire setting.","Base Guardian can be stunned with nades or 500+ cumulative damage.","Base Guardian is invulnerable while waking up or for the first 10 seconds of a wave.","The Base can be established during the Trader Time only. So hurry up!","The other squad cannot stay at your Base.","You can play without the Base too, but who will protect you from the Friendly Fire then?","Setting up the Base in a strategic map point is the key to success.","You cannot set up your own Base at the Enemy Base. However, the Bases may intersect.","While carrying Base Guardian, you can pass it to another player by pressing the same key as throwing a weapon.","Best camping spots in the standard KF game are not necessarily the best spots in TSC.","The team gets wiped if ANY its member dies during the SUDDEN DEATH wave.","Wiping the enemy squad doesn't grant you a win. You still have to survive till the end of the wave.","TSC isn't Versus or Team Deathmatch game. You don't have to fight the enemy team. Leave that job to ZEDs.","You can wait until ZEDs wipe out the enemy squad or help them. Help who? ZEDs or the other squad? The choice is up to you...","There are 4 Human Damage rules in TSC: OFF, No Friendly Fire, Normal, and PvP. Type MVOTE TEAM HDMG for the info.","When Human Damage is OFF, you can not damage the other squad's members. The Base Guardian can, though.","Human Damage is OFF during the first wave, Trader Time, and when there are less than 10 zeds left in the wave.","Human Damage is ON during waves (except the first one). Staying at your own Base protects you from it.","You can switch team during the Trader Time. Type SWITCHTEAM in the console or bind it to a key.","Switching the team during the game kills you first. Then restarts you as an another squad member.","You cannot switch a team during a wave.","Medics, and only medics, can see the health and armor of enemy players.","TSC, same as KF, is not about winning or losing. It is all about surviving.","TSC doesn't force you to play against the other squad. You can cooperate and survive together. But nobody said that the other team thinks the same...","During the Trader Time, if the other squad has 2+ players less than yours, you can switch to it on-the-fly (without dying).","Social Isolation: Rumors say that Toilet Paper can protect you from the Virus. At least you will die with a clean butt.","Social Isolation: 'I can feel it coming in the air tonight, oh Lord!' Yes, it is the Virus in the air. And it is gonna kill you!","Social Isolation: The shop is a high-risk area for spreading the Virus. Keep distance and wait in line for shopping.")
 GameName="Team Survival Competition"
 Description="Two Teams, One Floor. Killing Floor. There are two teams competing in surviving specimen invasion on the same map and at the same time. Both teams can cooperate, fight against each other or just stay each in own corner of the map - choice is up to you..."
 
@@ -1150,6 +1155,7 @@ strOurBase="Наша база: "
 strGnome="Страж: "
 strCarrier="Курьер: "
 strEnemyBase="База противника: "
+strStunned="ОШЕЛОМЛЕН: "
 titleWelcome="TEAM SURVIVAL COMPETITION"
 titleSuddenDeath="ВНЕЗАПНАЯ СМЕРТЬ"
 titleSetupBase="СОЗДАНИЕ БАЗЫ"
@@ -1158,7 +1164,7 @@ titlePvP="ИГРОК против ИГРОКА"
 titleStunned="СТРАЖ ОГЛУШЕН"
 hintWelcome=" Добро пожаловать в TSC! Смотрите сюда для полезных подсказок. "
 hintFirstWave="Вы не можете повредить других игроков во время первой волны. Сфокусируйтесь на мобах!"
-hintPrepareToFight="Приготовьтесь к вторжению МОБОВ!"
+hintPrepareToFight="Приготовьтесь к вторжению ЗЕДОВ!"
 hintSuddenDeath="Одна смерть уничтожает ваш отряд"
 hintSuddenDeathTrader="Никто из вашей команды не должен умереть, иначе вы будете уничтожены"
 hintGotoBase="Доберитесь до своей базы, чтобы быть защищенным от дружественного огня"
@@ -1188,21 +1194,19 @@ strTeam="Команда:"
 strNotTeamMember="Выберите команду..."
 WaitingForMorePlayers="Ожидайте пока присоединиться больше игроков..."
 strPlayerIsSpectator="Вы наблюдатель."
-TeamNames[0]="British"
-TeamNames[1]="Steampunk"
-strHDmg="Система повреждений: "
-HDmgNames=("ВЫКЛ","Огонь по своим: ВЫКЛ","PvP + Огонь по своим: ВЫКЛ","Нормальная","PvP","От всех")
+strHDmg="Урон от игроков: "
+HDmgNames=("ВЫКЛ","Без Огня по Своим","PvP, Без Огня по Своим","Нормальный","PvP","От Всех")
 HDmgInfo=("Игроки не могут повредить друг друга.","Товарищи по команде не могут повредить друг друга.","Игроки могут повредить только врагов.","Полная защита в собственной базе.","База защищает только от дружественного огня.","База не защищает не от каких повреждений.")
-DifficultyString="Ур.сложности:"
-ADBG.Caption="Информация о сервере"
-BGPerk.Caption="Инфо игрока"
-BGPerkEffects.Caption="Информация о игре"
+DifficultyString="Сложность:"
+ADBG.Caption="Информация о Сервере"
+BGPerk.Caption="Информация о Игроке"
+BGPerkEffects.Caption="Информация о Игре"
 BlueButton.Caption="Присоединиться"
 BlueButton.Hint="Нажмите, чтобы присоединиться к отряду Steampunk, или Готов/Не готов, если уже присоединились"
 CurrentMapL.Caption="LAlalala Map"
 DifficultyL.Caption="Сложность"
 HumanDamageInfoL.Caption="Полная защита в собственной базе."
-HumanDamageL.Caption="Повреждения от игроков: Обычные"
+HumanDamageL.Caption="Урон от игроков: Нормальный"
 PlayerTeam.Caption="Выберите команду"
 RedButton.Caption="Присоединиться"
 RedButton.Hint="Нажмите, чтобы присоединиться к Британцам, или Готов/Не готов, если уже присоединились"
@@ -1212,12 +1216,13 @@ WaveL.Caption="1/4"
 strEnemyShop="Вы не можете закупаться в магазине противника!"
 strWaveEnding="Волна закончится через"
 strSeconds="секунд"
-strEnemyDmgEnabled="Повреждения от противника: ВКЛ"
-strHDmgEnabled="Повреждения от игроков: ВКЛ"
-strHDmgDisabled="Повреждения от игроков: ВЫКЛ"
+strEnemyDmgEnabled="Урон от Врагов: ВКЛ"
+strHDmgEnabled="Урон от Игроков: ВКЛ"
+strHDmgDisabled="Урон от Игроков: ВЫКЛ"
+strStunProtectionDisabled="Base Stun Protection OFF"
 strOvertime="Дополнительная волна"
 strSuddenDeath="ВНЕЗАПНАЯ СМЕРТЬ"
-strGetBackToBase="ВЕРНИТЕСЬ НА БАЗУ! Или проиграете."
+strGetBackToBase="ВЕРНИТЕСЬ НА БАЗУ!"
 strGetBackToBaseOrDie="ВЕРНИТЕСЬ НА БАЗУ ИЛИ УМРЕТЕ!"
 strGetOutFromBase="Вы на ВРАЖЕСКОЙ БАЗЕ! Убирайтесь отсюда!"
 strPendingShuffle="Команды будут перемешаны в конце волны"
@@ -1238,22 +1243,24 @@ strBaseWakingUp[0]="Хранитель British просыпается"
 strBaseWakingUp[1]="Хранитель Steampunk просыпается"
 strBaseWakeUp[0]="Хранитель British проснулся"
 strBaseWakeUp[1]="Хранитель Steampunk проснулся"
-strTeamNames[0]="British"
-strTeamNames[1]="Steampunk"
 
 [TSCScoreBoard]
-HDmgNames=("Повреждения: ВЫКЛ","Огонь по своим: ВЫКЛ","PvP + Огонь по своим: ВЫКЛ","Нормальные","Режим PvP","Повреждения от всех")
+HDmgNames=("Без Урона от Игроков","Без Огня по Своим","PvP + Без Огня по Своим","Нормальные","Режим PvP","От Всех")
 KillsAssSeparator="+"
 HealthyString="HP"
 OutText="МЕРТВ"
 NotReadyText="N/RDY"
+
+[TSCTeam]
+ColorNames[0]="British"
+ColorNames[1]="Steampunk"
 
 [TSCVotingOptions]
 HDmgHelp=("Система повреждений (от игрока игроку).","mvote %pTEAM %gHDMG %yPVP%w|%yNORMAL%w|%yNOFF%w|%yOFF","Текущая система: %g","%yOFF %w Полностью отключает повреждения от игроков. Игроки не смогут повредить друг друга.","%yNOFF %w Огонь по своим: ВЫКЛ. Игроки не смогут повредить товарищей по команде даже за пределами Базы.","%yNORMAL %w Настройки по умолчанию. Игроки не будут получать повреждений от других игроков находясь на собственной базе.","%yPVP %w Режим PvP. База будет защищать только от дружественного огня. Повреждение от противника можно получить в любом месте.")
 HDmgValues=("OFF","NOFF","NOFF_PVP","NORMAL","PVP","ALL")
 strCaptain="Капитан команды"
 strCarrier="Носитель Гнома"
-strHumanDamage="Система повреждений"
+strHumanDamage="Урон от Игроков"
 strInvite="Приглашение"
 HelpInfo=("%pTEAM %y<опция> %w Командное голосование. %bMVOTE TEAM HELP %w Получить дополнительную информацию.")
 GroupInfo=("%pTEAM %gHDMG %yPVP%w|%yNORMAL%w|%yNOFF%w|%yOFF %w Изменить систему повреждений","%pTEAM %gSHUFFLE %w Перемешать команды путем случайного перемещения игроков между собой","%pTEAM %gABORTSHUFFLE %w Отменить перемешивание команд","%pTEAM %gLOCK %w Заблокировать команду, предотвратить вход новых игроков","%pTEAM %gUNLOCK %w Разблокировать команду","%pTEAM %gINVITE %y<ник игрока> %w Разрешить игроку присоединиться к команде","%pTEAM %bCAPTAIN %y<ник игрока> %w Выбрать Капитана своей команды","%pTEAM %bCARRIER %y<ник игрока> %w Выбрать Носителя. Если выбран, то Хранителя (Гнома) сможет взять только Капитан и Носитель","%pTEAM %gREADY%w|%gUNREADY %w делает вашу команду готовой/не готовой к игре")
