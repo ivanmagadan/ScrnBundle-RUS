@@ -1102,7 +1102,7 @@ ItemShortName="ЗЕД-ган MKIISE"
 ItemName="ЗЕД-ган MKIISE"
 
 [ScrnZedVoting]
-HelpInfo=("%pZED %y<zed_vote> %gON%w|%rOFF %w Добавить|Удалить зедов из игры. %bMVOTE ZED HELP %w для получения дополнительной информации.")
+HelpInfo=("%pZED %y<zed_vote> %gON%w|%rOFF %w Добавить|Удалить зедов из игры. Введите %bMVOTE ZED HELP %wдля получения дополнительной информации.")
 GroupInfo=("%pZED %y<zed_vote> %gON%w|%rOFF %w Добавить или удалить зедов из игры. Требуется перезагрузка карты.","%wZed votes:")
 
 [SocAch]
@@ -1110,7 +1110,7 @@ GroupInfo=((Caption="ВСЕ"),(Caption="Социальная изоляция"))
 ProgressName="Достижения социальной изоляции"
 
 [SocDistanceMsg]
-Title="ДЕРЖИ ДИСТАНЦИЮ"
+Title="СОХРАНЯЙТЕ ДИСТАНЦИЮ"
 Messages=("Вы слишком близко к другим игрокам!","Отойдите, чтобы предотвратить распространение вируса.")
 
 [SocIsoMut]
@@ -1130,16 +1130,16 @@ MenuName="Злой Вонючий Клот"
 BlameStr="%p обвинен в размещении базы в глючном месте!"
 
 [TSCBaseGuardian]
-strUseMessage="Нажмите "USE" чтобы взять Хранителя базы"
-strUsedMessage="Вы взяли Хранителя базы"
-strITookTheGnome="я взял Хранителя нашей базы"
+strUseMessage="Нажмите USE, чтобы взять Стража Базы"
+strUsedMessage="Вы взяли Стража Базы"
+strITookTheGnome="Я взял нашего Стража Базы"
 
 [TSCClanVoting]
-HelpInfo=("%pCLAN %y<options> %w Clan votes. Type %bMVOTE CLAN HELP %wfor more details.")
-GroupInfo=("%pCLAN %gGAME %r<clan1> %b<clan2> %w Start a clan1 vs. clan2 game","%pCLAN %gCREATE %y<clan_acronym> <clan_name> %w Creates a new clan","%pCLAN %gADD %y<player_name> [<clan>] %w Add the player to the clan","%pCLAN %gREMOVE %y<player_name> [<clan>] %w Remove the player to the clan","%pCLAN %gCAPTAIN %y<player_name> [<clan>] %w Make the player a clan captain","%pCLAN %gLEAVE %w Leave the current clan")
+HelpInfo=("%pCLAN %y<опции> %w Клановое голосование. Введите %bMVOTE CLAN HELP %wдля получения дополнительной информации.")
+GroupInfo=("%pCLAN %gGAME %r<клан1> %b<клан2> %w Начать игру клан1 против клана2","%pCLAN %gCREATE %y<акроним_клана> <название_клана> %w Создает новый клан","%pCLAN %gADD %y<имя_игрока> [<клан>] %w Добавить игрока в клан","%pCLAN %gREMOVE %y<имя_игрока> [<клан>] %w Удалить игрока из клана","%pCLAN %gCAPTAIN %y<имя_игрока> [<клан>] %w Сделать игрока капитаном клана","%pCLAN %gLEAVE %w Выйти из текущего клана")
 
 [TSCDamageType]
-DeathString="Игрок %o был убит игрой"
+DeathString="%o убит игрой"
 FemaleSuicide="%o убита игрой"
 MaleSuicide="%o убит игрой"
 
@@ -1153,8 +1153,8 @@ Description="Two Teams, One Floor. Killing Floor. There are two teams competing 
 strBase="База: "
 strOurBase="Наша база: "
 strGnome="Страж: "
-strCarrier="Курьер: "
-strEnemyBase="База противника: "
+strCarrier="Переносчик: "
+strEnemyBase="Вражеская База: "
 strStunned="ОШЕЛОМЛЕН: "
 titleWelcome="TEAM SURVIVAL COMPETITION"
 titleSuddenDeath="ВНЕЗАПНАЯ СМЕРТЬ"
@@ -1163,20 +1163,20 @@ titleBaseLost="БАЗА ПОТЕРЯНА"
 titlePvP="ИГРОК против ИГРОКА"
 titleStunned="СТРАЖ ОГЛУШЕН"
 hintWelcome=" Добро пожаловать в TSC! Смотрите сюда для полезных подсказок. "
-hintFirstWave="Вы не можете повредить других игроков во время первой волны. Сфокусируйтесь на мобах!"
+hintFirstWave="Вы не можете навредить другим игрокам во время первой волны. Сосредоточьтесь на зедах!"
 hintPrepareToFight="Приготовьтесь к вторжению ЗЕДОВ!"
 hintSuddenDeath="Одна смерть уничтожает ваш отряд"
 hintSuddenDeathTrader="Никто из вашей команды не должен умереть, иначе вы будете уничтожены"
-hintGotoBase="Доберитесь до своей базы, чтобы быть защищенным от дружественного огня"
-hintEnemyBase="Убирайтесь с базы противника, пока Гном не убил вас!"
+hintGotoBase="Доберитесь до своей Базы для защиты от Дружественного Огня"
+hintEnemyBase="Убирайся с Вражеской Базы, пока Страж не убил тебя!"
 hintShopping="Вы можете купить оружие и другие вещи у Торговца"
-hintFollowCarrier="Следуйте за своим носителем Гнома на новую базу"
-hintGetGnome="Возьмите Гнома у своего торговца, чтобы создать базу"
-hintSetupBase="Доберитесь до места, где вы хотите создать базу и нажмите %KEY%"
-hintSetupEnemyBase="Нельзя использовать Гнома на вражеской базе!"
-hintBaseLostTrader="Вы оставили своего Гнома одного слишком надолго и он ушел. Теперь вам придется пережить волну без базы"
-hintPvP="Команда противников может повредить вас даже в вашей базе!"
-hintStunned="Страж оглушен и не может защитить вас не от каких повреждений"
+hintFollowCarrier="Следуйте за своим Переносчиком Стража на новую Базу"
+hintGetGnome="Возьмите Стража у своего Торговца, чтобы установить Базу"
+hintSetupBase="Доберитесь до места, где вы хотите установить Базу и нажмите %KEY%"
+hintSetupEnemyBase="Нельзя использовать Стража на Вражеской Базе!"
+hintBaseLostTrader="Вы оставили своего Стража одного слишком надолго и он ушел. Теперь вам предстоит пережить волну без Базы"
+hintPvP="Вражеская команда может навредить вам даже на вашей Базе!"
+hintStunned="Страж Базы оглушен и не может защитить вас от Урона от Игроков"
 
 [TSCLobbyFooter]
 ReadyButton.Caption="Готов"
@@ -1194,8 +1194,8 @@ strTeam="Команда:"
 strNotTeamMember="Выберите команду..."
 WaitingForMorePlayers="Ожидайте пока присоединиться больше игроков..."
 strPlayerIsSpectator="Вы наблюдатель."
-strHDmg="Урон от игроков: "
-HDmgNames=("ВЫКЛ","Без Огня по Своим","PvP, Без Огня по Своим","Нормальный","PvP","От Всех")
+strHDmg="Урон от Игроков: "
+HDmgNames=("ВЫКЛ","Без Дружественного Огня","PvP, Без Дружественного Огня","Нормальный","PvP","От Всех")
 HDmgInfo=("Игроки не могут повредить друг друга.","Товарищи по команде не могут повредить друг друга.","Игроки могут повредить только врагов.","Полная защита в собственной базе.","База защищает только от дружественного огня.","База не защищает не от каких повреждений.")
 DifficultyString="Сложность:"
 ADBG.Caption="Информация о Сервере"
@@ -1205,11 +1205,11 @@ BlueButton.Caption="Присоединиться"
 BlueButton.Hint="Нажмите, чтобы присоединиться к отряду Steampunk, или Готов/Не готов, если уже присоединились"
 CurrentMapL.Caption="LAlalala Map"
 DifficultyL.Caption="Сложность"
-HumanDamageInfoL.Caption="Полная защита в собственной базе."
-HumanDamageL.Caption="Урон от игроков: Нормальный"
+HumanDamageInfoL.Caption="Полная защита в собственной Базе."
+HumanDamageL.Caption="Урон от Игроков: Нормальный"
 PlayerTeam.Caption="Выберите команду"
 RedButton.Caption="Присоединиться"
-RedButton.Hint="Нажмите, чтобы присоединиться к Британцам, или Готов/Не готов, если уже присоединились"
+RedButton.Hint="Нажмите, чтобы присоединиться к отряду British, или Готов/Не готов, если уже присоединились"
 WaveL.Caption="1/4"
 
 [TSCMessages]
@@ -1237,15 +1237,15 @@ strBaseLost[0]="База British потеряна"
 strBaseLost[1]="База Steampunk потеряна"
 strTeamWiped[0]="Отряд British УНИЧТОЖЕН!"
 strTeamWiped[1]="Отряд Steampunk УНИЧТОЖЕН!"
-strBaseStunned[0]="Хранитель British оглушен"
-strBaseStunned[1]="Хранитель Steampunk оглушен"
-strBaseWakingUp[0]="Хранитель British просыпается"
-strBaseWakingUp[1]="Хранитель Steampunk просыпается"
-strBaseWakeUp[0]="Хранитель British проснулся"
-strBaseWakeUp[1]="Хранитель Steampunk проснулся"
+strBaseStunned[0]="Страж British оглушен"
+strBaseStunned[1]="Страж Steampunk оглушен"
+strBaseWakingUp[0]="Страж British просыпается"
+strBaseWakingUp[1]="Страж Steampunk просыпается"
+strBaseWakeUp[0]="Страж British проснулся"
+strBaseWakeUp[1]="Страж Steampunk проснулся"
 
 [TSCScoreBoard]
-HDmgNames=("Без Урона от Игроков","Без Огня по Своим","PvP + Без Огня по Своим","Нормальные","Режим PvP","От Всех")
+HDmgNames=("Без Урона от Игроков","Без Дружественного Огня","PvP + Без Дружественного Огня","Нормальные","Режим PvP","От Всех")
 KillsAssSeparator="+"
 HealthyString="HP"
 OutText="МЕРТВ"
@@ -1256,14 +1256,14 @@ ColorNames[0]="British"
 ColorNames[1]="Steampunk"
 
 [TSCVotingOptions]
-HDmgHelp=("Система повреждений (от игрока игроку).","mvote %pTEAM %gHDMG %yPVP%w|%yNORMAL%w|%yNOFF%w|%yOFF","Текущая система: %g","%yOFF %w Полностью отключает повреждения от игроков. Игроки не смогут повредить друг друга.","%yNOFF %w Огонь по своим: ВЫКЛ. Игроки не смогут повредить товарищей по команде даже за пределами Базы.","%yNORMAL %w Настройки по умолчанию. Игроки не будут получать повреждений от других игроков находясь на собственной базе.","%yPVP %w Режим PvP. База будет защищать только от дружественного огня. Повреждение от противника можно получить в любом месте.")
+HDmgHelp=("Правила для Урона от Игроков.","mvote %pTEAM %gHDMG %yPVP%w|%yNORMAL%w|%yNOFF%w|%yOFF","Текущее Правило: %g","%yOFF %w Полностью отключен Урон от Игроков. Игроки не могут навредить друг другу.","%yNOFF %w Без Дружественного Огня. Игроки не могут навредить товарищам по команде даже за пределами Базы.","%yNORMAL %w Настройки по умолчанию. Игроки невосприимчивы к Урону от других Игроков, пока остаются на своей Базе.","%yPVP %w Режим PvP. База защищает только от Дружественного Огня. Вражеский урон всегда на месте.")
 HDmgValues=("OFF","NOFF","NOFF_PVP","NORMAL","PVP","ALL")
-strCaptain="Капитан команды"
-strCarrier="Носитель Гнома"
+strCaptain="Капитан Команды"
+strCarrier="Переносчик Стража"
 strHumanDamage="Урон от Игроков"
 strInvite="Приглашение"
-HelpInfo=("%pTEAM %y<опция> %w Командное голосование. %bMVOTE TEAM HELP %w Получить дополнительную информацию.")
-GroupInfo=("%pTEAM %gHDMG %yPVP%w|%yNORMAL%w|%yNOFF%w|%yOFF %w Изменить систему повреждений","%pTEAM %gSHUFFLE %w Перемешать команды путем случайного перемещения игроков между собой","%pTEAM %gABORTSHUFFLE %w Отменить перемешивание команд","%pTEAM %gLOCK %w Заблокировать команду, предотвратить вход новых игроков","%pTEAM %gUNLOCK %w Разблокировать команду","%pTEAM %gINVITE %y<ник игрока> %w Разрешить игроку присоединиться к команде","%pTEAM %bCAPTAIN %y<ник игрока> %w Выбрать Капитана своей команды","%pTEAM %bCARRIER %y<ник игрока> %w Выбрать Носителя. Если выбран, то Хранителя (Гнома) сможет взять только Капитан и Носитель","%pTEAM %gREADY%w|%gUNREADY %w делает вашу команду готовой/не готовой к игре")
+HelpInfo=("%pTEAM %y<опции> %w Командное голосование. Введите %bMVOTE TEAM HELP %wдля получения дополнительной информации.")
+GroupInfo=("%pTEAM %gHDMG %yPVP%w|%yNORMAL%w|%yNOFF%w|%yOFF %w Установите Правила для Урона от Игроков","%pTEAM %gSHUFFLE %w Перемешать команды путем случайного перемещения игроков между собой","%pTEAM %gABORTSHUFFLE %w Отменить перемешивание команд","%pTEAM %gLOCK %w Заблокировать команду, предотвратить вход новых игроков","%pTEAM %gUNLOCK %w Разблокировать команду","%pTEAM %gINVITE %y<ник игрока> %w Разрешить игроку присоединиться к команде","%pTEAM %bCAPTAIN %y<ник игрока> %w Выбрать Капитана своей команды","%pTEAM %bCARRIER %y<ник игрока> %w Выбрать Носителя. Если выбран, то Хранителя (Гнома) сможет взять только Капитан и Носитель","%pTEAM %gREADY%w|%gUNREADY %w делает вашу команду готовой/не готовой к игре")
 
 [TheGuardian]
 strBlame="%p обвиняется в неудачной установке базы"
