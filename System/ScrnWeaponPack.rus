@@ -27,10 +27,10 @@ Description="Модифицированная 'Horzine' винтовка CZ-805 
 ItemName="CZ-805M Мед./Штурмовая винтовка SE"
 
 [CZ805MAmmo]
-ItemName="5.56x45мм НАТО"
+ItemName="5.56x45мм NATO"
 
 [CZ805MAmmoPickup]
-PickupMessage="5.56x45мм НАТО"
+PickupMessage="5.56x45мм NATO"
 
 [CZ805MPickup]
 ItemName="CZ-805M SE"
@@ -107,14 +107,14 @@ DeathString="Игрок %k убил игрока %o (Вал)."
 DeathString="Игрок %k убил игрока %o (Винторез)."
 
 [HK417AR]
-Description="Heckler&Koch HK417 — это марксманская винтовка. Использует бронебойные патроны 7,62x51мм НАТО."
+Description="Heckler&Koch HK417 — это марксманская винтовка. Использует бронебойные (Armor-Piercing) патроны 7,62x51мм NATO."
 ItemName="HK417 AP"
 
 [HK417Ammo]
-ItemName="7.62x51мм НАТО AP"
+ItemName="7.62x51мм NATO AP"
 
 [HK417AmmoPickup]
-PickupMessage="7.62x51мм НАТО AP"
+PickupMessage="7.62x51мм NATO AP"
 
 [HK417Pickup]
 ItemName="HK417 AP"
@@ -267,7 +267,7 @@ ProgressName="Достижения (оружие ScrN)"
 
 [SWPMut]
 FriendlyName="ScrN Weapon Pack"
-Description="Adds weapon-specific achievements for ScrN Weapon Pack"
+Description="Добавляет специфичные-оружейные достижения для ScrN Weapon Pack."
 
 [Saiga12c]
 Description="Боевой дробовик 12-калибра, визуально разработанный по образу автоматов Калашникова. Имеет огромный урон, но низкую пробивную способность."
