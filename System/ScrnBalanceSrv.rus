@@ -153,10 +153,10 @@ Description="Если вы нашли Булл-пап на карте, то он
 ItemName="Булл-пап Майка"
 
 [ScrnBullpupAmmo]
-ItemName="5.56x45мм НАТО"
+ItemName="5.56x45мм NATO"
 
 [ScrnBullpupAmmoPickup]
-PickupMessage="5.56x45мм НАТО"
+PickupMessage="5.56x45мм NATO"
 
 [ScrnBullpupPickup]
 ItemName="Булл-пап Майка"
@@ -339,13 +339,13 @@ ItemName="Пара 9мм SE"
 ItemShortName="Пара 9мм SE"
 
 [ScrnFNFALAmmo]
-ItemName="7.62x51мм НАТО AP"
+ItemName="7.62x51мм NATO AP"
 
 [ScrnFNFALAmmoPickup]
-PickupMessage="7.62x51мм НАТО AP"
+PickupMessage="7.62x51мм NATO AP"
 
 [ScrnFNFAL_ACOG_AssaultRifle]
-Description="Классическая боевая винтовка НАТО. Снаряжен бронебойными патронами 7,62x51мм НАТО. Имеет режим ведения огня фиксированными очередями по 2 пули."
+Description="Классическая боевая винтовка НАТО. Снаряжен бронебойными (Armor-Piercing) патронами 7,62x51мм NATO. Имеет режим ведения огня фиксированными очередями по 2 пули."
 ItemName="FNFAL AP"
 
 [ScrnFNFAL_ACOG_Pickup]
@@ -385,7 +385,7 @@ ItemShortName="Граната SE"
 strSecondsPerShot="сек/выстрел"
 StrReloadsInDPM=", вкл. %r перезарядок"
 strMeters="м"
-Weight="Вес: %i единиц"
+Weight="Вес: %i ед."
 AmmoBar.Hint="Общее количество боеприпасов, которое можно носить для этого оружия"
 AmmoCap.Caption="Всего:"
 AmmoCap.Hint="Общее количество боеприпасов, которое можно носить для этого оружия"
@@ -567,13 +567,13 @@ ItemShortName="M4-203 SE"
 SecondaryAmmoShortName="-- гранаты M203"
 
 [ScrnM4Ammo]
-ItemName="5.56x45мм НАТО AP"
+ItemName="5.56x45мм NATO AP"
 
 [ScrnM4AmmoPickup]
-PickupMessage="5.56x45мм НАТО AP"
+PickupMessage="5.56x45мм NATO AP"
 
 [ScrnM4AssaultRifle]
-Description="Карабин M4 с коллиматорным прицелом M68 CCO. Снабжен бронебойными патронами калибра 5,56х45мм НАТО."
+Description="Карабин M4 с коллиматорным прицелом M68 CCO. Снабжен бронебойными (Armor-Piercing) патронами калибра 5,56х45мм NATO."
 ItemName="M4 AP"
 
 [ScrnM4Pickup]
@@ -1084,7 +1084,7 @@ Requirements[0]="Убейте %x врагов выстрелами в голов
 [ScrnVetSupportSpec]
 SkillInfo="PERK SKILLS:|Пробивная способность дробовиков выше на 60%|40% сопротивления урону с бензопилой в руках|Переносимый вес больше на 10 единиц|Скорость работы сварочным аппаратом выше на 150%|Сварщих может видеть статус дверей с 30м"
 CustomLevelInfo="PERK BONUSES (LEVEL %L):|Урон от Дробовиков/Бензопилы выше на %x|Максимальный боезапас больше на %a|Макс. число гранат увеличено на %g|%$ скидка на Дробовики"
-VeterancyName="Специалист Поддержки"
+VeterancyName="Спец. Поддержки"
 Requirements[0]="Нанесите %x ед. урона Дробовиками"
 
 [ScrnWinchester]
