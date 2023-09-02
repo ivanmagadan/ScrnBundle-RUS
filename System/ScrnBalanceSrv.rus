@@ -2,12 +2,12 @@
 Object=(Class=class,MetaClass=Xinterface.GUIUserKeyBinding,Name=ScrnBalanceSrv.ScrnKeyBinding)
 
 [Ach]
-DisplayName0="Curious"
-Description0="Survive on %c community-made maps"
-DisplayName1="Wanderer"
-Description1="Survive on %c community-made maps"
-DisplayName2="Explorer"
-Description2="Survive on %c community-made maps"
+DisplayName0="Любопытный"
+Description0="Выживите на %c картах, созданных сообществом"
+DisplayName1="Странник"
+Description1="Выживите на %c картах, созданных сообществом"
+DisplayName2="Исследователь"
+Description2="Выживите на %c картах, созданных сообществом"
 DisplayName3="Piece of Cake"
 Description3="Survive on %c community-made maps in any ScrN Balance game"
 DisplayName4="Pound Cake"
