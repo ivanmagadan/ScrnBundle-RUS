@@ -105,6 +105,9 @@ MenuName="Сильный Шериф"
 [HardPatX]
 MenuName="Сильный Санта"
 
+[HuskC]
+MenuName="Танцующий Робот"
+
 [HuskG]
 MenuName="Grittier Husk"
 
@@ -118,7 +121,7 @@ MenuName="Снежный Хаск"
 MenuName="Джейсон"
 
 [ScrakeC]
-MenuName="Человек Обезьяна"
+MenuName="Человек-Обезьяна"
 
 [ScrakeG]
 MenuName="Grittier Scrake"
