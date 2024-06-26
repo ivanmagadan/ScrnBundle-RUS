@@ -558,6 +558,9 @@ WaveBasedSongs=((CombatSong="EGT-Entryway",CalmSong="EGT-ThisLove"),(CombatSong=
 GameName="FTG Survival Competition"
 Description="FTG+TSC: Follow The Guardian + Team Survival Competition объединены в одну игру."
 
+[FtgBaseGuardian]
+strBlame="%p blamed for base setup failure"
+
 [FtgGame]
 GameName="Follow the Guardian"
 Description="Внесоревновательная версия TSC для одиночной команды."
@@ -581,12 +584,13 @@ ItemName="Дробовик AA12 SE"
 ItemShortName="Дробовик AA12 SE"
 
 [ScrnAK47Ammo]
-ItemName="7.62x33мм"
+ItemName="7.62x39мм"
 
 [ScrnAK47AmmoPickup]
-PickupMessage="7.62x33мм"
+PickupMessage="7.62x39мм"
 
 [ScrnAK47AssaultRifle]
+Description="Самая популярная штурмовая винтовка в мире. Предназначена для патрона калибра 7.62x39мм."
 ItemName="АК-47 SE"
 
 [ScrnAK47Pickup]
@@ -608,18 +612,6 @@ ItemName="Топор SE"
 ItemShortName="Топор SE"
 
 [ScrnBalance]
-strBonusLevel="Ваш эффективный уровень бонусов перка [%s]"
-strStatus="Ваш уровень перка: Визуальный=%v, Эффективный=[%b]. Диапазон перков на сервере [%n..%x]."
-strStatus2="Альт. механизм горения=%a. MaxZombiesOnce=%m."
-strBetaOnly="Доступно только во время Бета-тестирования (bBeta = True)"
-strXPInitial="^G$Начальная статистика Перка:"
-strXPProgress="^G$Прогресс Перка:"
-strXPBonus="^G$Бонус опыта за победу: ^c$"
-strOnlyAdmin="Требуются права АДМИНИСТРАТОРА"
-strOnlyScrnGT="Доступно только в ScrnGameType!"
-strOnlyNotInTourney="Недоступно в режиме ТУРНИРА"
-strAchEarn="%p открыл Достижение: %a"
-strAutoKickOffPerk="Вы были автоматически выкинуты с сервера за игру без перка. Введите RECONNECT в консоли, чтобы снова присоединиться к серверу и выбрать перк."
 FriendlyName="ScrN Balance"
 Description="Полная переработка KF1, чтобы сделать ее современной и лучшей игрой в мире, сохраняя при этом корни оригинала."
 
@@ -954,11 +946,25 @@ KFHints=("ScrN: You can interrupt reloading by dropping the weapon on the ground
 GameName="ScrN Floor"
 Description="ScrN Edition of Killing Floor game mode (KFGameType)."
 
+[ScrnGuiBuyMenu]
+strSellOffperkWeapons="Sell Off-Perk"
+strSellAllWeapons="Продать ВСЕ"
+strSellOffperkWeaponsHint="Продает все дополнительное оружие, за исключением стартового снаряжения, Мачете и Самодельных Бомб [Ctrl+F9]"
+strSellAllWeaponsHint="Продает все, кроме стартового снаряжения [Ctrl+Shift+F9]"
+strChangePerk="Сменить Перк..."
+strCancel="Отмена"
+ChangePerkB.Caption="Сменить Перк..."
+ChangePerkB.Hint="Toggle perk selection menu [F9]"
+SearchL.Caption="[F3] Поиск:"
+SellAllB.Caption="Продать ВСЕ"
+SellAllB.Hint="Продает все, кроме стартового снаряжения"
+
 [ScrnHUD]
 HudStyles=("Classic HUD, old icons","Classic HUD, new icons","Cool HUD (center)","Cool HUD (left)")
 BarStyles=("Classic Bars","Modern Bars","Modern Extended","Cool Bars")
 strFollowing="НАБЛЮДЕНИЕ ЗА:"
 strTrader="Торговец: "
+strMax="МАКС."
 strBonusLevel="^Уровень бонуса^"
 strPendingItems="Ожидание предметов магазина с сервера: "
 
@@ -981,6 +987,11 @@ ItemShortName="Пушка Хаска SE"
 [ScrnInvasionLoginMenu]
 Panels=((Caption="Новости",Hint="Обзор новостей сервера"),(Caption="MOTD",Hint="Сообщение дня"),(Caption="Сервер Инфо",Hint="Текущая ротация карт и настройки игры"),(Caption="Связь",Hint="Управление связью с другими игроками"),(Caption="Статистика",Hint="Обзор вашей текущей статистики на сервере"),(Caption="Достижения",Hint="ScrN Достижения на стороне сервера"),(Caption="Функции ScrN",Hint="Функции ScrN Balance, настройки и информация"))
 TeamSwitchButton.Caption="Сменить Команду"
+
+[ScrnKFTab_Perks]
+Done.Caption="[ESC] Вернуться в Магазин"
+SaveButton.Caption="Выбрать перк"
+SaveButton.Hint="Использовать выбранный Перк"
 
 [ScrnKSGPickup]
 ItemName="KSG SE"
@@ -1014,7 +1025,7 @@ ItemShortName="Schneidzekk SE"
 
 [ScrnLAW]
 Description="Легкое противотанковое оружие (Light Anti-tank Weapon). Создано, чтобы пробивать бронетехнику... но не может убить даже Мясника! Может быть, потому что он не носит броню, которую можно пробить ^^"
-ItemName="L.A.W. SE"
+ItemName="LAW SE"
 
 [ScrnLAWAmmo]
 ItemName="Ракеты для L.A.W."
@@ -1023,8 +1034,8 @@ ItemName="Ракеты для L.A.W."
 PickupMessage="Ракеты для L.A.W."
 
 [ScrnLAWPickup]
-ItemName="L.A.W. SE"
-ItemShortName="L.A.W. SE"
+ItemName="LAW SE"
+ItemShortName="LAW SE"
 
 [ScrnLightVestPickup]
 ItemName="Бронекуртка"
@@ -1277,7 +1288,6 @@ ProgressName="Убийств пистолетами"
 [ScrnPlayerController]
 strLocked="Подбор Оружия ЗАБЛОКИРОВАН"
 strUnlocked="Подбор Оружия РАЗБЛОКИРОВАН"
-strLockDisabled="Блокировка оружия отключена на сервере"
 strAlreadySpectating="Уже наблюдатель. Введите READY, если хотите присоединиться к игре."
 strNoPerkChanges="Смена перка во время игры не доступна"
 strPerkLocked="Перк заблокирован"
@@ -1339,6 +1349,7 @@ KillsAssSeparator=" + "
 strPingMax="N/A"
 SpectatorsText="Наблюдатели"
 SuicideTimeText="Suicide in"
+TotalText="Всего:"
 TeamScoreString="Бумажник команды:"
 HealthText="HP"
 PointsText="ДЕНЬГИ"
@@ -1399,15 +1410,18 @@ OnlyLockedCheckBox.Hint="Показывать только закрытые до
 [ScrnTab_BuyMenu]
 strSelectedItemRequirements="Требования для разблокирования выбранного предмета"
 strIntoScrnLocked="Вы должны выполнить вышеуказанные требования для разблокирования выбранного предмета. Если у нескольких требований одинаковая первая цифра в квадратных скобках [X], то вам необходимо только одно из них. Нажмите F3, чтобы увидеть описание предмета."
-SaleButtonCaption="Продать Оружие"
+SaleButtonCaption="Продать"
 strSale0="Пожертвовать"
 strNoSale="Не продается"
+PurchaseButtonCaption="Купить"
 InfoText[0]="Добро пожаловать в мой магазин, работающий на ScrN Balance!   Горячие клавиши:|F1/F2: перейти к инвентарю/списку продаж|ENTER/BACKPACE: купить/продать предмет. F7/F8: автозаполнение брони/боеприпасов|0-9: Быстрый выбор группы / купить X обойм.|PAGE UP/DOWN: выбрать пред./след. группу. LEFT/RIGHT: закрыть/открыть текущую группу.|UP/DOWN: выбрать пред./след. предмет в текущей группе."
 AutoFillString="[F8] Пополнить боезапас"
 AutoFill.Caption="[F8] Автозаполнение боеприпасов"
 AutoFill.Hint="Первый клик пополняет патроны для всего оружия. Второй клик покупает взрывчатку и гранаты."
 Exit.Caption="[ESC] Выйти из магазина"
 Exit.Hint="Закрыть меню торговли."
+FillL.Caption="Fill"
+MagL.Caption="Mag"
 PurchaseB.Caption="Покупка оружия"
 PurchaseB.Hint="Купить выбранное оружие [ENTER]"
 Refresh.Caption="[F5] Обновить"
@@ -1450,6 +1464,10 @@ BoringButton.Hint="Увеличить скорость появления зед
 ControlsButton.Caption="ScrN Key Bindings"
 ControlsButton.Hint="ScrN-specific key binding setup"
 Custom3DScopeSens.Hint="Отрегулировать шкалу чувствительности мыши при использовании 3D-прицелов (значение в FOV, 24 для обычного поведения)"
+DiffVoteButton.Caption="Изменить сложность"
+DiffVoteButton.Hint="Проголосуйте за изменение сложности игры"
+DifficultyList.Caption="Сложность:"
+DifficultyList.Hint="Выберите сложность для голосования"
 EndTradeButton.Caption="Завершить торговлю"
 EndTradeButton.Hint="Пропустить время торговца и начать следующую волну."
 GunSkinButton.Caption="Скин Оружия"
@@ -1570,7 +1588,7 @@ VeterancyName="Берсеркер"
 Requirements[0]="Нанесите %x ед. урона оружием ближнего боя"
 
 [ScrnVetCombatMedic]
-SkillInfo="PERK SKILLS:|Скорость лечения выше на 35%|На 50% быстрее перезарядка Шприца|Скорость перемещения выше на 20%|Магазин Оружия Медика больше на 100%|Атака Катаной/Мачете на 75% быстрее|Во время замедления скорость перемещения быстрее"
+SkillInfo="PERK SKILLS:|Скорость лечения выше на 35%|На 50% быстрее перезарядка Шприца|Скорость перемещения выше на 20%|Магазин Оружия Медика больше на 100%|На 100% быстрее атака легким оружием ближнего боя|Двойной урон во время замедления"
 CustomLevelInfo="PERK BONUSES (LEVEL %L):|На %x больше урона Оружием Медика|Максимальный боезапас Оружия Медика больше на %a|Броня эффективнее на %v|Увеличение длительности замедления времени в %z раз(а)|%$ скидка на Оружие Медика/Броню/Катану"
 VeterancyName="Боевой Медик"
 Requirements[0]="Нанесите %x ед. урона Оружием Медика"
@@ -1612,7 +1630,7 @@ VeterancyName="Снайпер"
 Requirements[0]="Убейте %x врагов выстрелами в голову из Пистолетов/Снайперских Винтовок"
 
 [ScrnVetSupportSpec]
-SkillInfo="PERK SKILLS:|Пробивная способность дробовиков выше на 60%|40% сопротивления урону с бензопилой в руках|Переносимый вес больше на 10 ед.|Скорость работы сварочным аппаратом выше на 150%|Сварщих может видеть статус дверей с 30м"
+SkillInfo="PERK SKILLS:|Пробивная способность дробовиков выше на 60%|40% сопротивления урону с бензопилой в руках|Переносимый вес больше на 9 ед.|Скорость работы сварочным аппаратом выше на 150%|Сварщих может видеть статус дверей с 30м"
 CustomLevelInfo="PERK BONUSES (LEVEL %L):|Урон от Дробовиков/Бензопилы выше на %x|Максимальный боезапас больше на %a|+%g ед. дополнительных гранат|%$ скидка на Дробовики"
 VeterancyName="Спец. Поддержки"
 Requirements[0]="Нанесите %x ед. урона Дробовиками"
@@ -1793,17 +1811,8 @@ ColorNames[0]="British"
 ColorNames[1]="Steampunk"
 
 [TSCVotingOptions]
-HDmgHelp=("Правила для Урона от Игроков.","mvote %pTEAM %gHDMG %yPVP%w|%yNORMAL%w|%yNOFF%w|%yOFF","Текущее Правило: %g","%yOFF %w Полностью отключен Урон от Игроков. Игроки не могут навредить друг другу.","%yNOFF %w Без Дружественного Огня. Игроки не могут навредить товарищам по команде даже за пределами Базы.","%yNORMAL %w Настройки по умолчанию. Игроки невосприимчивы к Урону от других Игроков, пока остаются на своей Базе.","%yPVP %w Режим PvP. База защищает только от Дружественного Огня. Вражеский урон всегда на месте.")
-HDmgValues=("OFF","NOFF","NOFF_PVP","NORMAL","PVP","ALL")
-strCaptain="Капитан Команды"
-strCarrier="Переносчик Стража"
-strHumanDamage="Урон от Игроков"
-strInvite="Приглашение"
 HelpInfo=("%pTEAM %y<опции> %w Командное голосование. Введите %bMVOTE TEAM HELP %wдля получения дополнительной информации.")
 GroupInfo=("%pTEAM %gHDMG %yPVP%w|%yNORMAL%w|%yNOFF%w|%yOFF %w Установите Правила для Урона от Игроков","%pTEAM %gSHUFFLE %w Перемешать команды путем случайного перемещения игроков между собой","%pTEAM %gABORTSHUFFLE %w Отменить перемешивание команд","%pTEAM %gLOCK %w Заблокировать команду, предотвратить вход новых игроков","%pTEAM %gUNLOCK %w Разблокировать команду","%pTEAM %gINVITE %y<ник игрока> %w Разрешить игроку присоединиться к команде","%pTEAM %bCAPTAIN %y<ник игрока> %w Выбрать Капитана своей команды","%pTEAM %bCARRIER %y<ник игрока> %w Выбрать Носителя. Если выбран, то Хранителя (Гнома) сможет взять только Капитан и Носитель","%pTEAM %gREADY%w|%gUNREADY %w делает вашу команду готовой/не готовой к игре")
-
-[TheGuardian]
-strBlame="%p обвиняется в неудачной установке базы"
 
 [ToiletPaper]
 Description="Туалетная бумага. По слухам, это каким-то образом помогает пережить вирусную эпидемию. Кто знает? По крайней мере, ты умрешь с чистой задницей."
