@@ -1,3 +1,22 @@
+[CryoHarpoonAmmo]
+ItemName="Криогарпуны"
+
+[CryoHarpoonAmmoPickup]
+PickupMessage="Криогарпуны"
+
+[CryoHarpoonBomber]
+Description="Стреляет гарпунами, наполненными жидким азотом и T.N.T. Замораживающее и Взрывное комбо в одном патроне! Имеет регулируемое время взрыва. Дополнительный урон в голову."
+ItemName="Криогарпун-Бомбардировщик"
+
+[CryoHarpoonMessage]
+SwitchMessage[0]="Короткий Фитиль"
+SwitchMessage[1]="Длинный Фитиль"
+
+[CryoHarpoonPickup]
+ItemName="Криогарпун-Бомбардировщик"
+ItemShortName="Криогарпун"
+PickupMessage="Вы получили Криогарпунный Гранатомет"
+
 [CryoThrower]
 Description="Листовой вентилятор, модифицированный для распыления жидкого азота."
 ItemName="HTec Криомет"
@@ -12,6 +31,9 @@ PickupMessage="ML жидкого азота"
 ItemName="HTec Криомет"
 ItemShortName="HTec Криомет"
 PickupMessage="Вы получили Криомет"
+
+[DamTypeCryoHarpoonImpact]
+DeathString="Игрок %k убил игрока %o (Гарпун)."
 
 [DamTypeFreezerBase]
 DeathString="Игрок %o был заморожен игроком %k."
